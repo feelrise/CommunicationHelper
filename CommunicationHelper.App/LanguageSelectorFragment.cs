@@ -4,6 +4,7 @@ using Android.App;
 using Android.OS;
 using Android.Views;
 using Android.Widget;
+using CommunicationHelper.Core;
 using Fragment = Android.Support.V4.App.Fragment;
 
 namespace CommunicationHelper.App

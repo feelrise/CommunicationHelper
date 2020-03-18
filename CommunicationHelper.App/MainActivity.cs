@@ -8,6 +8,7 @@ using Android.Support.Design.Widget;
 using Android.Support.V7.App;
 using Android.Views;
 using Android.Widget;
+using CommunicationHelper.Core;
 using Xamarin.Essentials;
 using AlertDialog = Android.Support.V7.App.AlertDialog;
 using Locale = Java.Util.Locale;

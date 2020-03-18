@@ -1,14 +1,15 @@
 ﻿using System;
 using Android.Content;
 using Android.Preferences;
+using CommunicationHelper.Core.Abstract;
 using Java.Lang;
 using Boolean = System.Boolean;
 using Object = System.Object;
 using String = System.String;
 using Float = System.Single;
-namespace CommunicationHelper.App
+namespace CommunicationHelper.Core
 {
-    public class SharedPreferencesManager
+    public class SharedPreferencesManager : ISharedPreferencesManager
     {
         private readonly ISharedPreferences _sharedPreferences;
         private readonly ISharedPreferencesEditor _preferencesEditor;

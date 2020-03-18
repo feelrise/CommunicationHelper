@@ -1,11 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using CommunicationHelper.Core.Abstract;
 using Java.Util;
 
-namespace CommunicationHelper.App
+namespace CommunicationHelper.Core
 {
-    public class LocaleProvider
+    public class LocaleProvider : ILocaleProvider
     {
         private readonly Dictionary<String, Locale> _allLocales = new Dictionary<String, Locale>();
 
