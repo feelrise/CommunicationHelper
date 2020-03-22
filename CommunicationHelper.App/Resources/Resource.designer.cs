@@ -26,6 +26,1613 @@ namespace CommunicationHelper.App
 		
 		public static void UpdateIdValues()
 		{
+			global::BluetoothService.Resource.Animation.abc_fade_in = global::CommunicationHelper.App.Resource.Animation.abc_fade_in;
+			global::BluetoothService.Resource.Animation.abc_fade_out = global::CommunicationHelper.App.Resource.Animation.abc_fade_out;
+			global::BluetoothService.Resource.Animation.abc_grow_fade_in_from_bottom = global::CommunicationHelper.App.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::BluetoothService.Resource.Animation.abc_popup_enter = global::CommunicationHelper.App.Resource.Animation.abc_popup_enter;
+			global::BluetoothService.Resource.Animation.abc_popup_exit = global::CommunicationHelper.App.Resource.Animation.abc_popup_exit;
+			global::BluetoothService.Resource.Animation.abc_shrink_fade_out_from_bottom = global::CommunicationHelper.App.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::BluetoothService.Resource.Animation.abc_slide_in_bottom = global::CommunicationHelper.App.Resource.Animation.abc_slide_in_bottom;
+			global::BluetoothService.Resource.Animation.abc_slide_in_top = global::CommunicationHelper.App.Resource.Animation.abc_slide_in_top;
+			global::BluetoothService.Resource.Animation.abc_slide_out_bottom = global::CommunicationHelper.App.Resource.Animation.abc_slide_out_bottom;
+			global::BluetoothService.Resource.Animation.abc_slide_out_top = global::CommunicationHelper.App.Resource.Animation.abc_slide_out_top;
+			global::BluetoothService.Resource.Animation.abc_tooltip_enter = global::CommunicationHelper.App.Resource.Animation.abc_tooltip_enter;
+			global::BluetoothService.Resource.Animation.abc_tooltip_exit = global::CommunicationHelper.App.Resource.Animation.abc_tooltip_exit;
+			global::BluetoothService.Resource.Attribute.actionBarDivider = global::CommunicationHelper.App.Resource.Attribute.actionBarDivider;
+			global::BluetoothService.Resource.Attribute.actionBarItemBackground = global::CommunicationHelper.App.Resource.Attribute.actionBarItemBackground;
+			global::BluetoothService.Resource.Attribute.actionBarPopupTheme = global::CommunicationHelper.App.Resource.Attribute.actionBarPopupTheme;
+			global::BluetoothService.Resource.Attribute.actionBarSize = global::CommunicationHelper.App.Resource.Attribute.actionBarSize;
+			global::BluetoothService.Resource.Attribute.actionBarSplitStyle = global::CommunicationHelper.App.Resource.Attribute.actionBarSplitStyle;
+			global::BluetoothService.Resource.Attribute.actionBarStyle = global::CommunicationHelper.App.Resource.Attribute.actionBarStyle;
+			global::BluetoothService.Resource.Attribute.actionBarTabBarStyle = global::CommunicationHelper.App.Resource.Attribute.actionBarTabBarStyle;
+			global::BluetoothService.Resource.Attribute.actionBarTabStyle = global::CommunicationHelper.App.Resource.Attribute.actionBarTabStyle;
+			global::BluetoothService.Resource.Attribute.actionBarTabTextStyle = global::CommunicationHelper.App.Resource.Attribute.actionBarTabTextStyle;
+			global::BluetoothService.Resource.Attribute.actionBarTheme = global::CommunicationHelper.App.Resource.Attribute.actionBarTheme;
+			global::BluetoothService.Resource.Attribute.actionBarWidgetTheme = global::CommunicationHelper.App.Resource.Attribute.actionBarWidgetTheme;
+			global::BluetoothService.Resource.Attribute.actionButtonStyle = global::CommunicationHelper.App.Resource.Attribute.actionButtonStyle;
+			global::BluetoothService.Resource.Attribute.actionDropDownStyle = global::CommunicationHelper.App.Resource.Attribute.actionDropDownStyle;
+			global::BluetoothService.Resource.Attribute.actionLayout = global::CommunicationHelper.App.Resource.Attribute.actionLayout;
+			global::BluetoothService.Resource.Attribute.actionMenuTextAppearance = global::CommunicationHelper.App.Resource.Attribute.actionMenuTextAppearance;
+			global::BluetoothService.Resource.Attribute.actionMenuTextColor = global::CommunicationHelper.App.Resource.Attribute.actionMenuTextColor;
+			global::BluetoothService.Resource.Attribute.actionModeBackground = global::CommunicationHelper.App.Resource.Attribute.actionModeBackground;
+			global::BluetoothService.Resource.Attribute.actionModeCloseButtonStyle = global::CommunicationHelper.App.Resource.Attribute.actionModeCloseButtonStyle;
+			global::BluetoothService.Resource.Attribute.actionModeCloseDrawable = global::CommunicationHelper.App.Resource.Attribute.actionModeCloseDrawable;
+			global::BluetoothService.Resource.Attribute.actionModeCopyDrawable = global::CommunicationHelper.App.Resource.Attribute.actionModeCopyDrawable;
+			global::BluetoothService.Resource.Attribute.actionModeCutDrawable = global::CommunicationHelper.App.Resource.Attribute.actionModeCutDrawable;
+			global::BluetoothService.Resource.Attribute.actionModeFindDrawable = global::CommunicationHelper.App.Resource.Attribute.actionModeFindDrawable;
+			global::BluetoothService.Resource.Attribute.actionModePasteDrawable = global::CommunicationHelper.App.Resource.Attribute.actionModePasteDrawable;
+			global::BluetoothService.Resource.Attribute.actionModePopupWindowStyle = global::CommunicationHelper.App.Resource.Attribute.actionModePopupWindowStyle;
+			global::BluetoothService.Resource.Attribute.actionModeSelectAllDrawable = global::CommunicationHelper.App.Resource.Attribute.actionModeSelectAllDrawable;
+			global::BluetoothService.Resource.Attribute.actionModeShareDrawable = global::CommunicationHelper.App.Resource.Attribute.actionModeShareDrawable;
+			global::BluetoothService.Resource.Attribute.actionModeSplitBackground = global::CommunicationHelper.App.Resource.Attribute.actionModeSplitBackground;
+			global::BluetoothService.Resource.Attribute.actionModeStyle = global::CommunicationHelper.App.Resource.Attribute.actionModeStyle;
+			global::BluetoothService.Resource.Attribute.actionModeWebSearchDrawable = global::CommunicationHelper.App.Resource.Attribute.actionModeWebSearchDrawable;
+			global::BluetoothService.Resource.Attribute.actionOverflowButtonStyle = global::CommunicationHelper.App.Resource.Attribute.actionOverflowButtonStyle;
+			global::BluetoothService.Resource.Attribute.actionOverflowMenuStyle = global::CommunicationHelper.App.Resource.Attribute.actionOverflowMenuStyle;
+			global::BluetoothService.Resource.Attribute.actionProviderClass = global::CommunicationHelper.App.Resource.Attribute.actionProviderClass;
+			global::BluetoothService.Resource.Attribute.actionViewClass = global::CommunicationHelper.App.Resource.Attribute.actionViewClass;
+			global::BluetoothService.Resource.Attribute.activityChooserViewStyle = global::CommunicationHelper.App.Resource.Attribute.activityChooserViewStyle;
+			global::BluetoothService.Resource.Attribute.alertDialogButtonGroupStyle = global::CommunicationHelper.App.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::BluetoothService.Resource.Attribute.alertDialogCenterButtons = global::CommunicationHelper.App.Resource.Attribute.alertDialogCenterButtons;
+			global::BluetoothService.Resource.Attribute.alertDialogStyle = global::CommunicationHelper.App.Resource.Attribute.alertDialogStyle;
+			global::BluetoothService.Resource.Attribute.alertDialogTheme = global::CommunicationHelper.App.Resource.Attribute.alertDialogTheme;
+			global::BluetoothService.Resource.Attribute.allowStacking = global::CommunicationHelper.App.Resource.Attribute.allowStacking;
+			global::BluetoothService.Resource.Attribute.alpha = global::CommunicationHelper.App.Resource.Attribute.alpha;
+			global::BluetoothService.Resource.Attribute.alphabeticModifiers = global::CommunicationHelper.App.Resource.Attribute.alphabeticModifiers;
+			global::BluetoothService.Resource.Attribute.arrowHeadLength = global::CommunicationHelper.App.Resource.Attribute.arrowHeadLength;
+			global::BluetoothService.Resource.Attribute.arrowShaftLength = global::CommunicationHelper.App.Resource.Attribute.arrowShaftLength;
+			global::BluetoothService.Resource.Attribute.autoCompleteTextViewStyle = global::CommunicationHelper.App.Resource.Attribute.autoCompleteTextViewStyle;
+			global::BluetoothService.Resource.Attribute.autoSizeMaxTextSize = global::CommunicationHelper.App.Resource.Attribute.autoSizeMaxTextSize;
+			global::BluetoothService.Resource.Attribute.autoSizeMinTextSize = global::CommunicationHelper.App.Resource.Attribute.autoSizeMinTextSize;
+			global::BluetoothService.Resource.Attribute.autoSizePresetSizes = global::CommunicationHelper.App.Resource.Attribute.autoSizePresetSizes;
+			global::BluetoothService.Resource.Attribute.autoSizeStepGranularity = global::CommunicationHelper.App.Resource.Attribute.autoSizeStepGranularity;
+			global::BluetoothService.Resource.Attribute.autoSizeTextType = global::CommunicationHelper.App.Resource.Attribute.autoSizeTextType;
+			global::BluetoothService.Resource.Attribute.background = global::CommunicationHelper.App.Resource.Attribute.background;
+			global::BluetoothService.Resource.Attribute.backgroundSplit = global::CommunicationHelper.App.Resource.Attribute.backgroundSplit;
+			global::BluetoothService.Resource.Attribute.backgroundStacked = global::CommunicationHelper.App.Resource.Attribute.backgroundStacked;
+			global::BluetoothService.Resource.Attribute.backgroundTint = global::CommunicationHelper.App.Resource.Attribute.backgroundTint;
+			global::BluetoothService.Resource.Attribute.backgroundTintMode = global::CommunicationHelper.App.Resource.Attribute.backgroundTintMode;
+			global::BluetoothService.Resource.Attribute.barLength = global::CommunicationHelper.App.Resource.Attribute.barLength;
+			global::BluetoothService.Resource.Attribute.borderlessButtonStyle = global::CommunicationHelper.App.Resource.Attribute.borderlessButtonStyle;
+			global::BluetoothService.Resource.Attribute.buttonBarButtonStyle = global::CommunicationHelper.App.Resource.Attribute.buttonBarButtonStyle;
+			global::BluetoothService.Resource.Attribute.buttonBarNegativeButtonStyle = global::CommunicationHelper.App.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::BluetoothService.Resource.Attribute.buttonBarNeutralButtonStyle = global::CommunicationHelper.App.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::BluetoothService.Resource.Attribute.buttonBarPositiveButtonStyle = global::CommunicationHelper.App.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::BluetoothService.Resource.Attribute.buttonBarStyle = global::CommunicationHelper.App.Resource.Attribute.buttonBarStyle;
+			global::BluetoothService.Resource.Attribute.buttonGravity = global::CommunicationHelper.App.Resource.Attribute.buttonGravity;
+			global::BluetoothService.Resource.Attribute.buttonIconDimen = global::CommunicationHelper.App.Resource.Attribute.buttonIconDimen;
+			global::BluetoothService.Resource.Attribute.buttonPanelSideLayout = global::CommunicationHelper.App.Resource.Attribute.buttonPanelSideLayout;
+			global::BluetoothService.Resource.Attribute.buttonStyle = global::CommunicationHelper.App.Resource.Attribute.buttonStyle;
+			global::BluetoothService.Resource.Attribute.buttonStyleSmall = global::CommunicationHelper.App.Resource.Attribute.buttonStyleSmall;
+			global::BluetoothService.Resource.Attribute.buttonTint = global::CommunicationHelper.App.Resource.Attribute.buttonTint;
+			global::BluetoothService.Resource.Attribute.buttonTintMode = global::CommunicationHelper.App.Resource.Attribute.buttonTintMode;
+			global::BluetoothService.Resource.Attribute.checkboxStyle = global::CommunicationHelper.App.Resource.Attribute.checkboxStyle;
+			global::BluetoothService.Resource.Attribute.checkedTextViewStyle = global::CommunicationHelper.App.Resource.Attribute.checkedTextViewStyle;
+			global::BluetoothService.Resource.Attribute.closeIcon = global::CommunicationHelper.App.Resource.Attribute.closeIcon;
+			global::BluetoothService.Resource.Attribute.closeItemLayout = global::CommunicationHelper.App.Resource.Attribute.closeItemLayout;
+			global::BluetoothService.Resource.Attribute.collapseContentDescription = global::CommunicationHelper.App.Resource.Attribute.collapseContentDescription;
+			global::BluetoothService.Resource.Attribute.collapseIcon = global::CommunicationHelper.App.Resource.Attribute.collapseIcon;
+			global::BluetoothService.Resource.Attribute.color = global::CommunicationHelper.App.Resource.Attribute.color;
+			global::BluetoothService.Resource.Attribute.colorAccent = global::CommunicationHelper.App.Resource.Attribute.colorAccent;
+			global::BluetoothService.Resource.Attribute.colorBackgroundFloating = global::CommunicationHelper.App.Resource.Attribute.colorBackgroundFloating;
+			global::BluetoothService.Resource.Attribute.colorButtonNormal = global::CommunicationHelper.App.Resource.Attribute.colorButtonNormal;
+			global::BluetoothService.Resource.Attribute.colorControlActivated = global::CommunicationHelper.App.Resource.Attribute.colorControlActivated;
+			global::BluetoothService.Resource.Attribute.colorControlHighlight = global::CommunicationHelper.App.Resource.Attribute.colorControlHighlight;
+			global::BluetoothService.Resource.Attribute.colorControlNormal = global::CommunicationHelper.App.Resource.Attribute.colorControlNormal;
+			global::BluetoothService.Resource.Attribute.colorError = global::CommunicationHelper.App.Resource.Attribute.colorError;
+			global::BluetoothService.Resource.Attribute.colorPrimary = global::CommunicationHelper.App.Resource.Attribute.colorPrimary;
+			global::BluetoothService.Resource.Attribute.colorPrimaryDark = global::CommunicationHelper.App.Resource.Attribute.colorPrimaryDark;
+			global::BluetoothService.Resource.Attribute.colorSwitchThumbNormal = global::CommunicationHelper.App.Resource.Attribute.colorSwitchThumbNormal;
+			global::BluetoothService.Resource.Attribute.commitIcon = global::CommunicationHelper.App.Resource.Attribute.commitIcon;
+			global::BluetoothService.Resource.Attribute.contentDescription = global::CommunicationHelper.App.Resource.Attribute.contentDescription;
+			global::BluetoothService.Resource.Attribute.contentInsetEnd = global::CommunicationHelper.App.Resource.Attribute.contentInsetEnd;
+			global::BluetoothService.Resource.Attribute.contentInsetEndWithActions = global::CommunicationHelper.App.Resource.Attribute.contentInsetEndWithActions;
+			global::BluetoothService.Resource.Attribute.contentInsetLeft = global::CommunicationHelper.App.Resource.Attribute.contentInsetLeft;
+			global::BluetoothService.Resource.Attribute.contentInsetRight = global::CommunicationHelper.App.Resource.Attribute.contentInsetRight;
+			global::BluetoothService.Resource.Attribute.contentInsetStart = global::CommunicationHelper.App.Resource.Attribute.contentInsetStart;
+			global::BluetoothService.Resource.Attribute.contentInsetStartWithNavigation = global::CommunicationHelper.App.Resource.Attribute.contentInsetStartWithNavigation;
+			global::BluetoothService.Resource.Attribute.controlBackground = global::CommunicationHelper.App.Resource.Attribute.controlBackground;
+			global::BluetoothService.Resource.Attribute.coordinatorLayoutStyle = global::CommunicationHelper.App.Resource.Attribute.coordinatorLayoutStyle;
+			global::BluetoothService.Resource.Attribute.customNavigationLayout = global::CommunicationHelper.App.Resource.Attribute.customNavigationLayout;
+			global::BluetoothService.Resource.Attribute.defaultQueryHint = global::CommunicationHelper.App.Resource.Attribute.defaultQueryHint;
+			global::BluetoothService.Resource.Attribute.dialogCornerRadius = global::CommunicationHelper.App.Resource.Attribute.dialogCornerRadius;
+			global::BluetoothService.Resource.Attribute.dialogPreferredPadding = global::CommunicationHelper.App.Resource.Attribute.dialogPreferredPadding;
+			global::BluetoothService.Resource.Attribute.dialogTheme = global::CommunicationHelper.App.Resource.Attribute.dialogTheme;
+			global::BluetoothService.Resource.Attribute.displayOptions = global::CommunicationHelper.App.Resource.Attribute.displayOptions;
+			global::BluetoothService.Resource.Attribute.divider = global::CommunicationHelper.App.Resource.Attribute.divider;
+			global::BluetoothService.Resource.Attribute.dividerHorizontal = global::CommunicationHelper.App.Resource.Attribute.dividerHorizontal;
+			global::BluetoothService.Resource.Attribute.dividerPadding = global::CommunicationHelper.App.Resource.Attribute.dividerPadding;
+			global::BluetoothService.Resource.Attribute.dividerVertical = global::CommunicationHelper.App.Resource.Attribute.dividerVertical;
+			global::BluetoothService.Resource.Attribute.drawableSize = global::CommunicationHelper.App.Resource.Attribute.drawableSize;
+			global::BluetoothService.Resource.Attribute.drawerArrowStyle = global::CommunicationHelper.App.Resource.Attribute.drawerArrowStyle;
+			global::BluetoothService.Resource.Attribute.dropdownListPreferredItemHeight = global::CommunicationHelper.App.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::BluetoothService.Resource.Attribute.dropDownListViewStyle = global::CommunicationHelper.App.Resource.Attribute.dropDownListViewStyle;
+			global::BluetoothService.Resource.Attribute.editTextBackground = global::CommunicationHelper.App.Resource.Attribute.editTextBackground;
+			global::BluetoothService.Resource.Attribute.editTextColor = global::CommunicationHelper.App.Resource.Attribute.editTextColor;
+			global::BluetoothService.Resource.Attribute.editTextStyle = global::CommunicationHelper.App.Resource.Attribute.editTextStyle;
+			global::BluetoothService.Resource.Attribute.elevation = global::CommunicationHelper.App.Resource.Attribute.elevation;
+			global::BluetoothService.Resource.Attribute.expandActivityOverflowButtonDrawable = global::CommunicationHelper.App.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::BluetoothService.Resource.Attribute.firstBaselineToTopHeight = global::CommunicationHelper.App.Resource.Attribute.firstBaselineToTopHeight;
+			global::BluetoothService.Resource.Attribute.font = global::CommunicationHelper.App.Resource.Attribute.font;
+			global::BluetoothService.Resource.Attribute.fontFamily = global::CommunicationHelper.App.Resource.Attribute.fontFamily;
+			global::BluetoothService.Resource.Attribute.fontProviderAuthority = global::CommunicationHelper.App.Resource.Attribute.fontProviderAuthority;
+			global::BluetoothService.Resource.Attribute.fontProviderCerts = global::CommunicationHelper.App.Resource.Attribute.fontProviderCerts;
+			global::BluetoothService.Resource.Attribute.fontProviderFetchStrategy = global::CommunicationHelper.App.Resource.Attribute.fontProviderFetchStrategy;
+			global::BluetoothService.Resource.Attribute.fontProviderFetchTimeout = global::CommunicationHelper.App.Resource.Attribute.fontProviderFetchTimeout;
+			global::BluetoothService.Resource.Attribute.fontProviderPackage = global::CommunicationHelper.App.Resource.Attribute.fontProviderPackage;
+			global::BluetoothService.Resource.Attribute.fontProviderQuery = global::CommunicationHelper.App.Resource.Attribute.fontProviderQuery;
+			global::BluetoothService.Resource.Attribute.fontStyle = global::CommunicationHelper.App.Resource.Attribute.fontStyle;
+			global::BluetoothService.Resource.Attribute.fontVariationSettings = global::CommunicationHelper.App.Resource.Attribute.fontVariationSettings;
+			global::BluetoothService.Resource.Attribute.fontWeight = global::CommunicationHelper.App.Resource.Attribute.fontWeight;
+			global::BluetoothService.Resource.Attribute.gapBetweenBars = global::CommunicationHelper.App.Resource.Attribute.gapBetweenBars;
+			global::BluetoothService.Resource.Attribute.goIcon = global::CommunicationHelper.App.Resource.Attribute.goIcon;
+			global::BluetoothService.Resource.Attribute.height = global::CommunicationHelper.App.Resource.Attribute.height;
+			global::BluetoothService.Resource.Attribute.hideOnContentScroll = global::CommunicationHelper.App.Resource.Attribute.hideOnContentScroll;
+			global::BluetoothService.Resource.Attribute.homeAsUpIndicator = global::CommunicationHelper.App.Resource.Attribute.homeAsUpIndicator;
+			global::BluetoothService.Resource.Attribute.homeLayout = global::CommunicationHelper.App.Resource.Attribute.homeLayout;
+			global::BluetoothService.Resource.Attribute.icon = global::CommunicationHelper.App.Resource.Attribute.icon;
+			global::BluetoothService.Resource.Attribute.iconifiedByDefault = global::CommunicationHelper.App.Resource.Attribute.iconifiedByDefault;
+			global::BluetoothService.Resource.Attribute.iconTint = global::CommunicationHelper.App.Resource.Attribute.iconTint;
+			global::BluetoothService.Resource.Attribute.iconTintMode = global::CommunicationHelper.App.Resource.Attribute.iconTintMode;
+			global::BluetoothService.Resource.Attribute.imageButtonStyle = global::CommunicationHelper.App.Resource.Attribute.imageButtonStyle;
+			global::BluetoothService.Resource.Attribute.indeterminateProgressStyle = global::CommunicationHelper.App.Resource.Attribute.indeterminateProgressStyle;
+			global::BluetoothService.Resource.Attribute.initialActivityCount = global::CommunicationHelper.App.Resource.Attribute.initialActivityCount;
+			global::BluetoothService.Resource.Attribute.isLightTheme = global::CommunicationHelper.App.Resource.Attribute.isLightTheme;
+			global::BluetoothService.Resource.Attribute.itemPadding = global::CommunicationHelper.App.Resource.Attribute.itemPadding;
+			global::BluetoothService.Resource.Attribute.keylines = global::CommunicationHelper.App.Resource.Attribute.keylines;
+			global::BluetoothService.Resource.Attribute.lastBaselineToBottomHeight = global::CommunicationHelper.App.Resource.Attribute.lastBaselineToBottomHeight;
+			global::BluetoothService.Resource.Attribute.layout = global::CommunicationHelper.App.Resource.Attribute.layout;
+			global::BluetoothService.Resource.Attribute.layout_anchor = global::CommunicationHelper.App.Resource.Attribute.layout_anchor;
+			global::BluetoothService.Resource.Attribute.layout_anchorGravity = global::CommunicationHelper.App.Resource.Attribute.layout_anchorGravity;
+			global::BluetoothService.Resource.Attribute.layout_behavior = global::CommunicationHelper.App.Resource.Attribute.layout_behavior;
+			global::BluetoothService.Resource.Attribute.layout_dodgeInsetEdges = global::CommunicationHelper.App.Resource.Attribute.layout_dodgeInsetEdges;
+			global::BluetoothService.Resource.Attribute.layout_insetEdge = global::CommunicationHelper.App.Resource.Attribute.layout_insetEdge;
+			global::BluetoothService.Resource.Attribute.layout_keyline = global::CommunicationHelper.App.Resource.Attribute.layout_keyline;
+			global::BluetoothService.Resource.Attribute.lineHeight = global::CommunicationHelper.App.Resource.Attribute.lineHeight;
+			global::BluetoothService.Resource.Attribute.listChoiceBackgroundIndicator = global::CommunicationHelper.App.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::BluetoothService.Resource.Attribute.listDividerAlertDialog = global::CommunicationHelper.App.Resource.Attribute.listDividerAlertDialog;
+			global::BluetoothService.Resource.Attribute.listItemLayout = global::CommunicationHelper.App.Resource.Attribute.listItemLayout;
+			global::BluetoothService.Resource.Attribute.listLayout = global::CommunicationHelper.App.Resource.Attribute.listLayout;
+			global::BluetoothService.Resource.Attribute.listMenuViewStyle = global::CommunicationHelper.App.Resource.Attribute.listMenuViewStyle;
+			global::BluetoothService.Resource.Attribute.listPopupWindowStyle = global::CommunicationHelper.App.Resource.Attribute.listPopupWindowStyle;
+			global::BluetoothService.Resource.Attribute.listPreferredItemHeight = global::CommunicationHelper.App.Resource.Attribute.listPreferredItemHeight;
+			global::BluetoothService.Resource.Attribute.listPreferredItemHeightLarge = global::CommunicationHelper.App.Resource.Attribute.listPreferredItemHeightLarge;
+			global::BluetoothService.Resource.Attribute.listPreferredItemHeightSmall = global::CommunicationHelper.App.Resource.Attribute.listPreferredItemHeightSmall;
+			global::BluetoothService.Resource.Attribute.listPreferredItemPaddingLeft = global::CommunicationHelper.App.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::BluetoothService.Resource.Attribute.listPreferredItemPaddingRight = global::CommunicationHelper.App.Resource.Attribute.listPreferredItemPaddingRight;
+			global::BluetoothService.Resource.Attribute.logo = global::CommunicationHelper.App.Resource.Attribute.logo;
+			global::BluetoothService.Resource.Attribute.logoDescription = global::CommunicationHelper.App.Resource.Attribute.logoDescription;
+			global::BluetoothService.Resource.Attribute.maxButtonHeight = global::CommunicationHelper.App.Resource.Attribute.maxButtonHeight;
+			global::BluetoothService.Resource.Attribute.measureWithLargestChild = global::CommunicationHelper.App.Resource.Attribute.measureWithLargestChild;
+			global::BluetoothService.Resource.Attribute.multiChoiceItemLayout = global::CommunicationHelper.App.Resource.Attribute.multiChoiceItemLayout;
+			global::BluetoothService.Resource.Attribute.navigationContentDescription = global::CommunicationHelper.App.Resource.Attribute.navigationContentDescription;
+			global::BluetoothService.Resource.Attribute.navigationIcon = global::CommunicationHelper.App.Resource.Attribute.navigationIcon;
+			global::BluetoothService.Resource.Attribute.navigationMode = global::CommunicationHelper.App.Resource.Attribute.navigationMode;
+			global::BluetoothService.Resource.Attribute.numericModifiers = global::CommunicationHelper.App.Resource.Attribute.numericModifiers;
+			global::BluetoothService.Resource.Attribute.overlapAnchor = global::CommunicationHelper.App.Resource.Attribute.overlapAnchor;
+			global::BluetoothService.Resource.Attribute.paddingBottomNoButtons = global::CommunicationHelper.App.Resource.Attribute.paddingBottomNoButtons;
+			global::BluetoothService.Resource.Attribute.paddingEnd = global::CommunicationHelper.App.Resource.Attribute.paddingEnd;
+			global::BluetoothService.Resource.Attribute.paddingStart = global::CommunicationHelper.App.Resource.Attribute.paddingStart;
+			global::BluetoothService.Resource.Attribute.paddingTopNoTitle = global::CommunicationHelper.App.Resource.Attribute.paddingTopNoTitle;
+			global::BluetoothService.Resource.Attribute.panelBackground = global::CommunicationHelper.App.Resource.Attribute.panelBackground;
+			global::BluetoothService.Resource.Attribute.panelMenuListTheme = global::CommunicationHelper.App.Resource.Attribute.panelMenuListTheme;
+			global::BluetoothService.Resource.Attribute.panelMenuListWidth = global::CommunicationHelper.App.Resource.Attribute.panelMenuListWidth;
+			global::BluetoothService.Resource.Attribute.popupMenuStyle = global::CommunicationHelper.App.Resource.Attribute.popupMenuStyle;
+			global::BluetoothService.Resource.Attribute.popupTheme = global::CommunicationHelper.App.Resource.Attribute.popupTheme;
+			global::BluetoothService.Resource.Attribute.popupWindowStyle = global::CommunicationHelper.App.Resource.Attribute.popupWindowStyle;
+			global::BluetoothService.Resource.Attribute.preserveIconSpacing = global::CommunicationHelper.App.Resource.Attribute.preserveIconSpacing;
+			global::BluetoothService.Resource.Attribute.progressBarPadding = global::CommunicationHelper.App.Resource.Attribute.progressBarPadding;
+			global::BluetoothService.Resource.Attribute.progressBarStyle = global::CommunicationHelper.App.Resource.Attribute.progressBarStyle;
+			global::BluetoothService.Resource.Attribute.queryBackground = global::CommunicationHelper.App.Resource.Attribute.queryBackground;
+			global::BluetoothService.Resource.Attribute.queryHint = global::CommunicationHelper.App.Resource.Attribute.queryHint;
+			global::BluetoothService.Resource.Attribute.radioButtonStyle = global::CommunicationHelper.App.Resource.Attribute.radioButtonStyle;
+			global::BluetoothService.Resource.Attribute.ratingBarStyle = global::CommunicationHelper.App.Resource.Attribute.ratingBarStyle;
+			global::BluetoothService.Resource.Attribute.ratingBarStyleIndicator = global::CommunicationHelper.App.Resource.Attribute.ratingBarStyleIndicator;
+			global::BluetoothService.Resource.Attribute.ratingBarStyleSmall = global::CommunicationHelper.App.Resource.Attribute.ratingBarStyleSmall;
+			global::BluetoothService.Resource.Attribute.searchHintIcon = global::CommunicationHelper.App.Resource.Attribute.searchHintIcon;
+			global::BluetoothService.Resource.Attribute.searchIcon = global::CommunicationHelper.App.Resource.Attribute.searchIcon;
+			global::BluetoothService.Resource.Attribute.searchViewStyle = global::CommunicationHelper.App.Resource.Attribute.searchViewStyle;
+			global::BluetoothService.Resource.Attribute.seekBarStyle = global::CommunicationHelper.App.Resource.Attribute.seekBarStyle;
+			global::BluetoothService.Resource.Attribute.selectableItemBackground = global::CommunicationHelper.App.Resource.Attribute.selectableItemBackground;
+			global::BluetoothService.Resource.Attribute.selectableItemBackgroundBorderless = global::CommunicationHelper.App.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::BluetoothService.Resource.Attribute.showAsAction = global::CommunicationHelper.App.Resource.Attribute.showAsAction;
+			global::BluetoothService.Resource.Attribute.showDividers = global::CommunicationHelper.App.Resource.Attribute.showDividers;
+			global::BluetoothService.Resource.Attribute.showText = global::CommunicationHelper.App.Resource.Attribute.showText;
+			global::BluetoothService.Resource.Attribute.showTitle = global::CommunicationHelper.App.Resource.Attribute.showTitle;
+			global::BluetoothService.Resource.Attribute.singleChoiceItemLayout = global::CommunicationHelper.App.Resource.Attribute.singleChoiceItemLayout;
+			global::BluetoothService.Resource.Attribute.spinBars = global::CommunicationHelper.App.Resource.Attribute.spinBars;
+			global::BluetoothService.Resource.Attribute.spinnerDropDownItemStyle = global::CommunicationHelper.App.Resource.Attribute.spinnerDropDownItemStyle;
+			global::BluetoothService.Resource.Attribute.spinnerStyle = global::CommunicationHelper.App.Resource.Attribute.spinnerStyle;
+			global::BluetoothService.Resource.Attribute.splitTrack = global::CommunicationHelper.App.Resource.Attribute.splitTrack;
+			global::BluetoothService.Resource.Attribute.srcCompat = global::CommunicationHelper.App.Resource.Attribute.srcCompat;
+			global::BluetoothService.Resource.Attribute.state_above_anchor = global::CommunicationHelper.App.Resource.Attribute.state_above_anchor;
+			global::BluetoothService.Resource.Attribute.statusBarBackground = global::CommunicationHelper.App.Resource.Attribute.statusBarBackground;
+			global::BluetoothService.Resource.Attribute.subMenuArrow = global::CommunicationHelper.App.Resource.Attribute.subMenuArrow;
+			global::BluetoothService.Resource.Attribute.submitBackground = global::CommunicationHelper.App.Resource.Attribute.submitBackground;
+			global::BluetoothService.Resource.Attribute.subtitle = global::CommunicationHelper.App.Resource.Attribute.subtitle;
+			global::BluetoothService.Resource.Attribute.subtitleTextAppearance = global::CommunicationHelper.App.Resource.Attribute.subtitleTextAppearance;
+			global::BluetoothService.Resource.Attribute.subtitleTextColor = global::CommunicationHelper.App.Resource.Attribute.subtitleTextColor;
+			global::BluetoothService.Resource.Attribute.subtitleTextStyle = global::CommunicationHelper.App.Resource.Attribute.subtitleTextStyle;
+			global::BluetoothService.Resource.Attribute.suggestionRowLayout = global::CommunicationHelper.App.Resource.Attribute.suggestionRowLayout;
+			global::BluetoothService.Resource.Attribute.switchMinWidth = global::CommunicationHelper.App.Resource.Attribute.switchMinWidth;
+			global::BluetoothService.Resource.Attribute.switchPadding = global::CommunicationHelper.App.Resource.Attribute.switchPadding;
+			global::BluetoothService.Resource.Attribute.switchStyle = global::CommunicationHelper.App.Resource.Attribute.switchStyle;
+			global::BluetoothService.Resource.Attribute.switchTextAppearance = global::CommunicationHelper.App.Resource.Attribute.switchTextAppearance;
+			global::BluetoothService.Resource.Attribute.textAllCaps = global::CommunicationHelper.App.Resource.Attribute.textAllCaps;
+			global::BluetoothService.Resource.Attribute.textAppearanceLargePopupMenu = global::CommunicationHelper.App.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::BluetoothService.Resource.Attribute.textAppearanceListItem = global::CommunicationHelper.App.Resource.Attribute.textAppearanceListItem;
+			global::BluetoothService.Resource.Attribute.textAppearanceListItemSecondary = global::CommunicationHelper.App.Resource.Attribute.textAppearanceListItemSecondary;
+			global::BluetoothService.Resource.Attribute.textAppearanceListItemSmall = global::CommunicationHelper.App.Resource.Attribute.textAppearanceListItemSmall;
+			global::BluetoothService.Resource.Attribute.textAppearancePopupMenuHeader = global::CommunicationHelper.App.Resource.Attribute.textAppearancePopupMenuHeader;
+			global::BluetoothService.Resource.Attribute.textAppearanceSearchResultSubtitle = global::CommunicationHelper.App.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::BluetoothService.Resource.Attribute.textAppearanceSearchResultTitle = global::CommunicationHelper.App.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::BluetoothService.Resource.Attribute.textAppearanceSmallPopupMenu = global::CommunicationHelper.App.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::BluetoothService.Resource.Attribute.textColorAlertDialogListItem = global::CommunicationHelper.App.Resource.Attribute.textColorAlertDialogListItem;
+			global::BluetoothService.Resource.Attribute.textColorSearchUrl = global::CommunicationHelper.App.Resource.Attribute.textColorSearchUrl;
+			global::BluetoothService.Resource.Attribute.theme = global::CommunicationHelper.App.Resource.Attribute.theme;
+			global::BluetoothService.Resource.Attribute.thickness = global::CommunicationHelper.App.Resource.Attribute.thickness;
+			global::BluetoothService.Resource.Attribute.thumbTextPadding = global::CommunicationHelper.App.Resource.Attribute.thumbTextPadding;
+			global::BluetoothService.Resource.Attribute.thumbTint = global::CommunicationHelper.App.Resource.Attribute.thumbTint;
+			global::BluetoothService.Resource.Attribute.thumbTintMode = global::CommunicationHelper.App.Resource.Attribute.thumbTintMode;
+			global::BluetoothService.Resource.Attribute.tickMark = global::CommunicationHelper.App.Resource.Attribute.tickMark;
+			global::BluetoothService.Resource.Attribute.tickMarkTint = global::CommunicationHelper.App.Resource.Attribute.tickMarkTint;
+			global::BluetoothService.Resource.Attribute.tickMarkTintMode = global::CommunicationHelper.App.Resource.Attribute.tickMarkTintMode;
+			global::BluetoothService.Resource.Attribute.tint = global::CommunicationHelper.App.Resource.Attribute.tint;
+			global::BluetoothService.Resource.Attribute.tintMode = global::CommunicationHelper.App.Resource.Attribute.tintMode;
+			global::BluetoothService.Resource.Attribute.title = global::CommunicationHelper.App.Resource.Attribute.title;
+			global::BluetoothService.Resource.Attribute.titleMargin = global::CommunicationHelper.App.Resource.Attribute.titleMargin;
+			global::BluetoothService.Resource.Attribute.titleMarginBottom = global::CommunicationHelper.App.Resource.Attribute.titleMarginBottom;
+			global::BluetoothService.Resource.Attribute.titleMarginEnd = global::CommunicationHelper.App.Resource.Attribute.titleMarginEnd;
+			global::BluetoothService.Resource.Attribute.titleMargins = global::CommunicationHelper.App.Resource.Attribute.titleMargins;
+			global::BluetoothService.Resource.Attribute.titleMarginStart = global::CommunicationHelper.App.Resource.Attribute.titleMarginStart;
+			global::BluetoothService.Resource.Attribute.titleMarginTop = global::CommunicationHelper.App.Resource.Attribute.titleMarginTop;
+			global::BluetoothService.Resource.Attribute.titleTextAppearance = global::CommunicationHelper.App.Resource.Attribute.titleTextAppearance;
+			global::BluetoothService.Resource.Attribute.titleTextColor = global::CommunicationHelper.App.Resource.Attribute.titleTextColor;
+			global::BluetoothService.Resource.Attribute.titleTextStyle = global::CommunicationHelper.App.Resource.Attribute.titleTextStyle;
+			global::BluetoothService.Resource.Attribute.toolbarNavigationButtonStyle = global::CommunicationHelper.App.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::BluetoothService.Resource.Attribute.toolbarStyle = global::CommunicationHelper.App.Resource.Attribute.toolbarStyle;
+			global::BluetoothService.Resource.Attribute.tooltipForegroundColor = global::CommunicationHelper.App.Resource.Attribute.tooltipForegroundColor;
+			global::BluetoothService.Resource.Attribute.tooltipFrameBackground = global::CommunicationHelper.App.Resource.Attribute.tooltipFrameBackground;
+			global::BluetoothService.Resource.Attribute.tooltipText = global::CommunicationHelper.App.Resource.Attribute.tooltipText;
+			global::BluetoothService.Resource.Attribute.track = global::CommunicationHelper.App.Resource.Attribute.track;
+			global::BluetoothService.Resource.Attribute.trackTint = global::CommunicationHelper.App.Resource.Attribute.trackTint;
+			global::BluetoothService.Resource.Attribute.trackTintMode = global::CommunicationHelper.App.Resource.Attribute.trackTintMode;
+			global::BluetoothService.Resource.Attribute.ttcIndex = global::CommunicationHelper.App.Resource.Attribute.ttcIndex;
+			global::BluetoothService.Resource.Attribute.viewInflaterClass = global::CommunicationHelper.App.Resource.Attribute.viewInflaterClass;
+			global::BluetoothService.Resource.Attribute.voiceIcon = global::CommunicationHelper.App.Resource.Attribute.voiceIcon;
+			global::BluetoothService.Resource.Attribute.windowActionBar = global::CommunicationHelper.App.Resource.Attribute.windowActionBar;
+			global::BluetoothService.Resource.Attribute.windowActionBarOverlay = global::CommunicationHelper.App.Resource.Attribute.windowActionBarOverlay;
+			global::BluetoothService.Resource.Attribute.windowActionModeOverlay = global::CommunicationHelper.App.Resource.Attribute.windowActionModeOverlay;
+			global::BluetoothService.Resource.Attribute.windowFixedHeightMajor = global::CommunicationHelper.App.Resource.Attribute.windowFixedHeightMajor;
+			global::BluetoothService.Resource.Attribute.windowFixedHeightMinor = global::CommunicationHelper.App.Resource.Attribute.windowFixedHeightMinor;
+			global::BluetoothService.Resource.Attribute.windowFixedWidthMajor = global::CommunicationHelper.App.Resource.Attribute.windowFixedWidthMajor;
+			global::BluetoothService.Resource.Attribute.windowFixedWidthMinor = global::CommunicationHelper.App.Resource.Attribute.windowFixedWidthMinor;
+			global::BluetoothService.Resource.Attribute.windowMinWidthMajor = global::CommunicationHelper.App.Resource.Attribute.windowMinWidthMajor;
+			global::BluetoothService.Resource.Attribute.windowMinWidthMinor = global::CommunicationHelper.App.Resource.Attribute.windowMinWidthMinor;
+			global::BluetoothService.Resource.Attribute.windowNoTitle = global::CommunicationHelper.App.Resource.Attribute.windowNoTitle;
+			global::BluetoothService.Resource.Boolean.abc_action_bar_embed_tabs = global::CommunicationHelper.App.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::BluetoothService.Resource.Boolean.abc_allow_stacked_button_bar = global::CommunicationHelper.App.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::BluetoothService.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::CommunicationHelper.App.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::BluetoothService.Resource.Color.abc_background_cache_hint_selector_material_dark = global::CommunicationHelper.App.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::BluetoothService.Resource.Color.abc_background_cache_hint_selector_material_light = global::CommunicationHelper.App.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::BluetoothService.Resource.Color.abc_btn_colored_borderless_text_material = global::CommunicationHelper.App.Resource.Color.abc_btn_colored_borderless_text_material;
+			global::BluetoothService.Resource.Color.abc_btn_colored_text_material = global::CommunicationHelper.App.Resource.Color.abc_btn_colored_text_material;
+			global::BluetoothService.Resource.Color.abc_color_highlight_material = global::CommunicationHelper.App.Resource.Color.abc_color_highlight_material;
+			global::BluetoothService.Resource.Color.abc_hint_foreground_material_dark = global::CommunicationHelper.App.Resource.Color.abc_hint_foreground_material_dark;
+			global::BluetoothService.Resource.Color.abc_hint_foreground_material_light = global::CommunicationHelper.App.Resource.Color.abc_hint_foreground_material_light;
+			global::BluetoothService.Resource.Color.abc_input_method_navigation_guard = global::CommunicationHelper.App.Resource.Color.abc_input_method_navigation_guard;
+			global::BluetoothService.Resource.Color.abc_primary_text_disable_only_material_dark = global::CommunicationHelper.App.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::BluetoothService.Resource.Color.abc_primary_text_disable_only_material_light = global::CommunicationHelper.App.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::BluetoothService.Resource.Color.abc_primary_text_material_dark = global::CommunicationHelper.App.Resource.Color.abc_primary_text_material_dark;
+			global::BluetoothService.Resource.Color.abc_primary_text_material_light = global::CommunicationHelper.App.Resource.Color.abc_primary_text_material_light;
+			global::BluetoothService.Resource.Color.abc_search_url_text = global::CommunicationHelper.App.Resource.Color.abc_search_url_text;
+			global::BluetoothService.Resource.Color.abc_search_url_text_normal = global::CommunicationHelper.App.Resource.Color.abc_search_url_text_normal;
+			global::BluetoothService.Resource.Color.abc_search_url_text_pressed = global::CommunicationHelper.App.Resource.Color.abc_search_url_text_pressed;
+			global::BluetoothService.Resource.Color.abc_search_url_text_selected = global::CommunicationHelper.App.Resource.Color.abc_search_url_text_selected;
+			global::BluetoothService.Resource.Color.abc_secondary_text_material_dark = global::CommunicationHelper.App.Resource.Color.abc_secondary_text_material_dark;
+			global::BluetoothService.Resource.Color.abc_secondary_text_material_light = global::CommunicationHelper.App.Resource.Color.abc_secondary_text_material_light;
+			global::BluetoothService.Resource.Color.abc_tint_btn_checkable = global::CommunicationHelper.App.Resource.Color.abc_tint_btn_checkable;
+			global::BluetoothService.Resource.Color.abc_tint_default = global::CommunicationHelper.App.Resource.Color.abc_tint_default;
+			global::BluetoothService.Resource.Color.abc_tint_edittext = global::CommunicationHelper.App.Resource.Color.abc_tint_edittext;
+			global::BluetoothService.Resource.Color.abc_tint_seek_thumb = global::CommunicationHelper.App.Resource.Color.abc_tint_seek_thumb;
+			global::BluetoothService.Resource.Color.abc_tint_spinner = global::CommunicationHelper.App.Resource.Color.abc_tint_spinner;
+			global::BluetoothService.Resource.Color.abc_tint_switch_track = global::CommunicationHelper.App.Resource.Color.abc_tint_switch_track;
+			global::BluetoothService.Resource.Color.accent_material_dark = global::CommunicationHelper.App.Resource.Color.accent_material_dark;
+			global::BluetoothService.Resource.Color.accent_material_light = global::CommunicationHelper.App.Resource.Color.accent_material_light;
+			global::BluetoothService.Resource.Color.background_floating_material_dark = global::CommunicationHelper.App.Resource.Color.background_floating_material_dark;
+			global::BluetoothService.Resource.Color.background_floating_material_light = global::CommunicationHelper.App.Resource.Color.background_floating_material_light;
+			global::BluetoothService.Resource.Color.background_material_dark = global::CommunicationHelper.App.Resource.Color.background_material_dark;
+			global::BluetoothService.Resource.Color.background_material_light = global::CommunicationHelper.App.Resource.Color.background_material_light;
+			global::BluetoothService.Resource.Color.bright_foreground_disabled_material_dark = global::CommunicationHelper.App.Resource.Color.bright_foreground_disabled_material_dark;
+			global::BluetoothService.Resource.Color.bright_foreground_disabled_material_light = global::CommunicationHelper.App.Resource.Color.bright_foreground_disabled_material_light;
+			global::BluetoothService.Resource.Color.bright_foreground_inverse_material_dark = global::CommunicationHelper.App.Resource.Color.bright_foreground_inverse_material_dark;
+			global::BluetoothService.Resource.Color.bright_foreground_inverse_material_light = global::CommunicationHelper.App.Resource.Color.bright_foreground_inverse_material_light;
+			global::BluetoothService.Resource.Color.bright_foreground_material_dark = global::CommunicationHelper.App.Resource.Color.bright_foreground_material_dark;
+			global::BluetoothService.Resource.Color.bright_foreground_material_light = global::CommunicationHelper.App.Resource.Color.bright_foreground_material_light;
+			global::BluetoothService.Resource.Color.button_material_dark = global::CommunicationHelper.App.Resource.Color.button_material_dark;
+			global::BluetoothService.Resource.Color.button_material_light = global::CommunicationHelper.App.Resource.Color.button_material_light;
+			global::BluetoothService.Resource.Color.dim_foreground_disabled_material_dark = global::CommunicationHelper.App.Resource.Color.dim_foreground_disabled_material_dark;
+			global::BluetoothService.Resource.Color.dim_foreground_disabled_material_light = global::CommunicationHelper.App.Resource.Color.dim_foreground_disabled_material_light;
+			global::BluetoothService.Resource.Color.dim_foreground_material_dark = global::CommunicationHelper.App.Resource.Color.dim_foreground_material_dark;
+			global::BluetoothService.Resource.Color.dim_foreground_material_light = global::CommunicationHelper.App.Resource.Color.dim_foreground_material_light;
+			global::BluetoothService.Resource.Color.error_color_material_dark = global::CommunicationHelper.App.Resource.Color.error_color_material_dark;
+			global::BluetoothService.Resource.Color.error_color_material_light = global::CommunicationHelper.App.Resource.Color.error_color_material_light;
+			global::BluetoothService.Resource.Color.foreground_material_dark = global::CommunicationHelper.App.Resource.Color.foreground_material_dark;
+			global::BluetoothService.Resource.Color.foreground_material_light = global::CommunicationHelper.App.Resource.Color.foreground_material_light;
+			global::BluetoothService.Resource.Color.highlighted_text_material_dark = global::CommunicationHelper.App.Resource.Color.highlighted_text_material_dark;
+			global::BluetoothService.Resource.Color.highlighted_text_material_light = global::CommunicationHelper.App.Resource.Color.highlighted_text_material_light;
+			global::BluetoothService.Resource.Color.material_blue_grey_800 = global::CommunicationHelper.App.Resource.Color.material_blue_grey_800;
+			global::BluetoothService.Resource.Color.material_blue_grey_900 = global::CommunicationHelper.App.Resource.Color.material_blue_grey_900;
+			global::BluetoothService.Resource.Color.material_blue_grey_950 = global::CommunicationHelper.App.Resource.Color.material_blue_grey_950;
+			global::BluetoothService.Resource.Color.material_deep_teal_200 = global::CommunicationHelper.App.Resource.Color.material_deep_teal_200;
+			global::BluetoothService.Resource.Color.material_deep_teal_500 = global::CommunicationHelper.App.Resource.Color.material_deep_teal_500;
+			global::BluetoothService.Resource.Color.material_grey_100 = global::CommunicationHelper.App.Resource.Color.material_grey_100;
+			global::BluetoothService.Resource.Color.material_grey_300 = global::CommunicationHelper.App.Resource.Color.material_grey_300;
+			global::BluetoothService.Resource.Color.material_grey_50 = global::CommunicationHelper.App.Resource.Color.material_grey_50;
+			global::BluetoothService.Resource.Color.material_grey_600 = global::CommunicationHelper.App.Resource.Color.material_grey_600;
+			global::BluetoothService.Resource.Color.material_grey_800 = global::CommunicationHelper.App.Resource.Color.material_grey_800;
+			global::BluetoothService.Resource.Color.material_grey_850 = global::CommunicationHelper.App.Resource.Color.material_grey_850;
+			global::BluetoothService.Resource.Color.material_grey_900 = global::CommunicationHelper.App.Resource.Color.material_grey_900;
+			global::BluetoothService.Resource.Color.notification_action_color_filter = global::CommunicationHelper.App.Resource.Color.notification_action_color_filter;
+			global::BluetoothService.Resource.Color.notification_icon_bg_color = global::CommunicationHelper.App.Resource.Color.notification_icon_bg_color;
+			global::BluetoothService.Resource.Color.primary_dark_material_dark = global::CommunicationHelper.App.Resource.Color.primary_dark_material_dark;
+			global::BluetoothService.Resource.Color.primary_dark_material_light = global::CommunicationHelper.App.Resource.Color.primary_dark_material_light;
+			global::BluetoothService.Resource.Color.primary_material_dark = global::CommunicationHelper.App.Resource.Color.primary_material_dark;
+			global::BluetoothService.Resource.Color.primary_material_light = global::CommunicationHelper.App.Resource.Color.primary_material_light;
+			global::BluetoothService.Resource.Color.primary_text_default_material_dark = global::CommunicationHelper.App.Resource.Color.primary_text_default_material_dark;
+			global::BluetoothService.Resource.Color.primary_text_default_material_light = global::CommunicationHelper.App.Resource.Color.primary_text_default_material_light;
+			global::BluetoothService.Resource.Color.primary_text_disabled_material_dark = global::CommunicationHelper.App.Resource.Color.primary_text_disabled_material_dark;
+			global::BluetoothService.Resource.Color.primary_text_disabled_material_light = global::CommunicationHelper.App.Resource.Color.primary_text_disabled_material_light;
+			global::BluetoothService.Resource.Color.ripple_material_dark = global::CommunicationHelper.App.Resource.Color.ripple_material_dark;
+			global::BluetoothService.Resource.Color.ripple_material_light = global::CommunicationHelper.App.Resource.Color.ripple_material_light;
+			global::BluetoothService.Resource.Color.secondary_text_default_material_dark = global::CommunicationHelper.App.Resource.Color.secondary_text_default_material_dark;
+			global::BluetoothService.Resource.Color.secondary_text_default_material_light = global::CommunicationHelper.App.Resource.Color.secondary_text_default_material_light;
+			global::BluetoothService.Resource.Color.secondary_text_disabled_material_dark = global::CommunicationHelper.App.Resource.Color.secondary_text_disabled_material_dark;
+			global::BluetoothService.Resource.Color.secondary_text_disabled_material_light = global::CommunicationHelper.App.Resource.Color.secondary_text_disabled_material_light;
+			global::BluetoothService.Resource.Color.switch_thumb_disabled_material_dark = global::CommunicationHelper.App.Resource.Color.switch_thumb_disabled_material_dark;
+			global::BluetoothService.Resource.Color.switch_thumb_disabled_material_light = global::CommunicationHelper.App.Resource.Color.switch_thumb_disabled_material_light;
+			global::BluetoothService.Resource.Color.switch_thumb_material_dark = global::CommunicationHelper.App.Resource.Color.switch_thumb_material_dark;
+			global::BluetoothService.Resource.Color.switch_thumb_material_light = global::CommunicationHelper.App.Resource.Color.switch_thumb_material_light;
+			global::BluetoothService.Resource.Color.switch_thumb_normal_material_dark = global::CommunicationHelper.App.Resource.Color.switch_thumb_normal_material_dark;
+			global::BluetoothService.Resource.Color.switch_thumb_normal_material_light = global::CommunicationHelper.App.Resource.Color.switch_thumb_normal_material_light;
+			global::BluetoothService.Resource.Color.tooltip_background_dark = global::CommunicationHelper.App.Resource.Color.tooltip_background_dark;
+			global::BluetoothService.Resource.Color.tooltip_background_light = global::CommunicationHelper.App.Resource.Color.tooltip_background_light;
+			global::BluetoothService.Resource.Dimension.abc_action_bar_content_inset_material = global::CommunicationHelper.App.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::BluetoothService.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::CommunicationHelper.App.Resource.Dimension.abc_action_bar_content_inset_with_nav;
+			global::BluetoothService.Resource.Dimension.abc_action_bar_default_height_material = global::CommunicationHelper.App.Resource.Dimension.abc_action_bar_default_height_material;
+			global::BluetoothService.Resource.Dimension.abc_action_bar_default_padding_end_material = global::CommunicationHelper.App.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::BluetoothService.Resource.Dimension.abc_action_bar_default_padding_start_material = global::CommunicationHelper.App.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::BluetoothService.Resource.Dimension.abc_action_bar_elevation_material = global::CommunicationHelper.App.Resource.Dimension.abc_action_bar_elevation_material;
+			global::BluetoothService.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::CommunicationHelper.App.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::BluetoothService.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::CommunicationHelper.App.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::BluetoothService.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::CommunicationHelper.App.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::BluetoothService.Resource.Dimension.abc_action_bar_stacked_max_height = global::CommunicationHelper.App.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::BluetoothService.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::CommunicationHelper.App.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::BluetoothService.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::CommunicationHelper.App.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::BluetoothService.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::CommunicationHelper.App.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::BluetoothService.Resource.Dimension.abc_action_button_min_height_material = global::CommunicationHelper.App.Resource.Dimension.abc_action_button_min_height_material;
+			global::BluetoothService.Resource.Dimension.abc_action_button_min_width_material = global::CommunicationHelper.App.Resource.Dimension.abc_action_button_min_width_material;
+			global::BluetoothService.Resource.Dimension.abc_action_button_min_width_overflow_material = global::CommunicationHelper.App.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::BluetoothService.Resource.Dimension.abc_alert_dialog_button_bar_height = global::CommunicationHelper.App.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::BluetoothService.Resource.Dimension.abc_alert_dialog_button_dimen = global::CommunicationHelper.App.Resource.Dimension.abc_alert_dialog_button_dimen;
+			global::BluetoothService.Resource.Dimension.abc_button_inset_horizontal_material = global::CommunicationHelper.App.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::BluetoothService.Resource.Dimension.abc_button_inset_vertical_material = global::CommunicationHelper.App.Resource.Dimension.abc_button_inset_vertical_material;
+			global::BluetoothService.Resource.Dimension.abc_button_padding_horizontal_material = global::CommunicationHelper.App.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::BluetoothService.Resource.Dimension.abc_button_padding_vertical_material = global::CommunicationHelper.App.Resource.Dimension.abc_button_padding_vertical_material;
+			global::BluetoothService.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::CommunicationHelper.App.Resource.Dimension.abc_cascading_menus_min_smallest_width;
+			global::BluetoothService.Resource.Dimension.abc_config_prefDialogWidth = global::CommunicationHelper.App.Resource.Dimension.abc_config_prefDialogWidth;
+			global::BluetoothService.Resource.Dimension.abc_control_corner_material = global::CommunicationHelper.App.Resource.Dimension.abc_control_corner_material;
+			global::BluetoothService.Resource.Dimension.abc_control_inset_material = global::CommunicationHelper.App.Resource.Dimension.abc_control_inset_material;
+			global::BluetoothService.Resource.Dimension.abc_control_padding_material = global::CommunicationHelper.App.Resource.Dimension.abc_control_padding_material;
+			global::BluetoothService.Resource.Dimension.abc_dialog_corner_radius_material = global::CommunicationHelper.App.Resource.Dimension.abc_dialog_corner_radius_material;
+			global::BluetoothService.Resource.Dimension.abc_dialog_fixed_height_major = global::CommunicationHelper.App.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::BluetoothService.Resource.Dimension.abc_dialog_fixed_height_minor = global::CommunicationHelper.App.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::BluetoothService.Resource.Dimension.abc_dialog_fixed_width_major = global::CommunicationHelper.App.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::BluetoothService.Resource.Dimension.abc_dialog_fixed_width_minor = global::CommunicationHelper.App.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::BluetoothService.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::CommunicationHelper.App.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
+			global::BluetoothService.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::CommunicationHelper.App.Resource.Dimension.abc_dialog_list_padding_top_no_title;
+			global::BluetoothService.Resource.Dimension.abc_dialog_min_width_major = global::CommunicationHelper.App.Resource.Dimension.abc_dialog_min_width_major;
+			global::BluetoothService.Resource.Dimension.abc_dialog_min_width_minor = global::CommunicationHelper.App.Resource.Dimension.abc_dialog_min_width_minor;
+			global::BluetoothService.Resource.Dimension.abc_dialog_padding_material = global::CommunicationHelper.App.Resource.Dimension.abc_dialog_padding_material;
+			global::BluetoothService.Resource.Dimension.abc_dialog_padding_top_material = global::CommunicationHelper.App.Resource.Dimension.abc_dialog_padding_top_material;
+			global::BluetoothService.Resource.Dimension.abc_dialog_title_divider_material = global::CommunicationHelper.App.Resource.Dimension.abc_dialog_title_divider_material;
+			global::BluetoothService.Resource.Dimension.abc_disabled_alpha_material_dark = global::CommunicationHelper.App.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::BluetoothService.Resource.Dimension.abc_disabled_alpha_material_light = global::CommunicationHelper.App.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::BluetoothService.Resource.Dimension.abc_dropdownitem_icon_width = global::CommunicationHelper.App.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::BluetoothService.Resource.Dimension.abc_dropdownitem_text_padding_left = global::CommunicationHelper.App.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::BluetoothService.Resource.Dimension.abc_dropdownitem_text_padding_right = global::CommunicationHelper.App.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::BluetoothService.Resource.Dimension.abc_edit_text_inset_bottom_material = global::CommunicationHelper.App.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::BluetoothService.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::CommunicationHelper.App.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::BluetoothService.Resource.Dimension.abc_edit_text_inset_top_material = global::CommunicationHelper.App.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::BluetoothService.Resource.Dimension.abc_floating_window_z = global::CommunicationHelper.App.Resource.Dimension.abc_floating_window_z;
+			global::BluetoothService.Resource.Dimension.abc_list_item_padding_horizontal_material = global::CommunicationHelper.App.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::BluetoothService.Resource.Dimension.abc_panel_menu_list_width = global::CommunicationHelper.App.Resource.Dimension.abc_panel_menu_list_width;
+			global::BluetoothService.Resource.Dimension.abc_progress_bar_height_material = global::CommunicationHelper.App.Resource.Dimension.abc_progress_bar_height_material;
+			global::BluetoothService.Resource.Dimension.abc_search_view_preferred_height = global::CommunicationHelper.App.Resource.Dimension.abc_search_view_preferred_height;
+			global::BluetoothService.Resource.Dimension.abc_search_view_preferred_width = global::CommunicationHelper.App.Resource.Dimension.abc_search_view_preferred_width;
+			global::BluetoothService.Resource.Dimension.abc_seekbar_track_background_height_material = global::CommunicationHelper.App.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::BluetoothService.Resource.Dimension.abc_seekbar_track_progress_height_material = global::CommunicationHelper.App.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::BluetoothService.Resource.Dimension.abc_select_dialog_padding_start_material = global::CommunicationHelper.App.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::BluetoothService.Resource.Dimension.abc_switch_padding = global::CommunicationHelper.App.Resource.Dimension.abc_switch_padding;
+			global::BluetoothService.Resource.Dimension.abc_text_size_body_1_material = global::CommunicationHelper.App.Resource.Dimension.abc_text_size_body_1_material;
+			global::BluetoothService.Resource.Dimension.abc_text_size_body_2_material = global::CommunicationHelper.App.Resource.Dimension.abc_text_size_body_2_material;
+			global::BluetoothService.Resource.Dimension.abc_text_size_button_material = global::CommunicationHelper.App.Resource.Dimension.abc_text_size_button_material;
+			global::BluetoothService.Resource.Dimension.abc_text_size_caption_material = global::CommunicationHelper.App.Resource.Dimension.abc_text_size_caption_material;
+			global::BluetoothService.Resource.Dimension.abc_text_size_display_1_material = global::CommunicationHelper.App.Resource.Dimension.abc_text_size_display_1_material;
+			global::BluetoothService.Resource.Dimension.abc_text_size_display_2_material = global::CommunicationHelper.App.Resource.Dimension.abc_text_size_display_2_material;
+			global::BluetoothService.Resource.Dimension.abc_text_size_display_3_material = global::CommunicationHelper.App.Resource.Dimension.abc_text_size_display_3_material;
+			global::BluetoothService.Resource.Dimension.abc_text_size_display_4_material = global::CommunicationHelper.App.Resource.Dimension.abc_text_size_display_4_material;
+			global::BluetoothService.Resource.Dimension.abc_text_size_headline_material = global::CommunicationHelper.App.Resource.Dimension.abc_text_size_headline_material;
+			global::BluetoothService.Resource.Dimension.abc_text_size_large_material = global::CommunicationHelper.App.Resource.Dimension.abc_text_size_large_material;
+			global::BluetoothService.Resource.Dimension.abc_text_size_medium_material = global::CommunicationHelper.App.Resource.Dimension.abc_text_size_medium_material;
+			global::BluetoothService.Resource.Dimension.abc_text_size_menu_header_material = global::CommunicationHelper.App.Resource.Dimension.abc_text_size_menu_header_material;
+			global::BluetoothService.Resource.Dimension.abc_text_size_menu_material = global::CommunicationHelper.App.Resource.Dimension.abc_text_size_menu_material;
+			global::BluetoothService.Resource.Dimension.abc_text_size_small_material = global::CommunicationHelper.App.Resource.Dimension.abc_text_size_small_material;
+			global::BluetoothService.Resource.Dimension.abc_text_size_subhead_material = global::CommunicationHelper.App.Resource.Dimension.abc_text_size_subhead_material;
+			global::BluetoothService.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::CommunicationHelper.App.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::BluetoothService.Resource.Dimension.abc_text_size_title_material = global::CommunicationHelper.App.Resource.Dimension.abc_text_size_title_material;
+			global::BluetoothService.Resource.Dimension.abc_text_size_title_material_toolbar = global::CommunicationHelper.App.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::BluetoothService.Resource.Dimension.compat_button_inset_horizontal_material = global::CommunicationHelper.App.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::BluetoothService.Resource.Dimension.compat_button_inset_vertical_material = global::CommunicationHelper.App.Resource.Dimension.compat_button_inset_vertical_material;
+			global::BluetoothService.Resource.Dimension.compat_button_padding_horizontal_material = global::CommunicationHelper.App.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::BluetoothService.Resource.Dimension.compat_button_padding_vertical_material = global::CommunicationHelper.App.Resource.Dimension.compat_button_padding_vertical_material;
+			global::BluetoothService.Resource.Dimension.compat_control_corner_material = global::CommunicationHelper.App.Resource.Dimension.compat_control_corner_material;
+			global::BluetoothService.Resource.Dimension.compat_notification_large_icon_max_height = global::CommunicationHelper.App.Resource.Dimension.compat_notification_large_icon_max_height;
+			global::BluetoothService.Resource.Dimension.compat_notification_large_icon_max_width = global::CommunicationHelper.App.Resource.Dimension.compat_notification_large_icon_max_width;
+			global::BluetoothService.Resource.Dimension.disabled_alpha_material_dark = global::CommunicationHelper.App.Resource.Dimension.disabled_alpha_material_dark;
+			global::BluetoothService.Resource.Dimension.disabled_alpha_material_light = global::CommunicationHelper.App.Resource.Dimension.disabled_alpha_material_light;
+			global::BluetoothService.Resource.Dimension.highlight_alpha_material_colored = global::CommunicationHelper.App.Resource.Dimension.highlight_alpha_material_colored;
+			global::BluetoothService.Resource.Dimension.highlight_alpha_material_dark = global::CommunicationHelper.App.Resource.Dimension.highlight_alpha_material_dark;
+			global::BluetoothService.Resource.Dimension.highlight_alpha_material_light = global::CommunicationHelper.App.Resource.Dimension.highlight_alpha_material_light;
+			global::BluetoothService.Resource.Dimension.hint_alpha_material_dark = global::CommunicationHelper.App.Resource.Dimension.hint_alpha_material_dark;
+			global::BluetoothService.Resource.Dimension.hint_alpha_material_light = global::CommunicationHelper.App.Resource.Dimension.hint_alpha_material_light;
+			global::BluetoothService.Resource.Dimension.hint_pressed_alpha_material_dark = global::CommunicationHelper.App.Resource.Dimension.hint_pressed_alpha_material_dark;
+			global::BluetoothService.Resource.Dimension.hint_pressed_alpha_material_light = global::CommunicationHelper.App.Resource.Dimension.hint_pressed_alpha_material_light;
+			global::BluetoothService.Resource.Dimension.notification_action_icon_size = global::CommunicationHelper.App.Resource.Dimension.notification_action_icon_size;
+			global::BluetoothService.Resource.Dimension.notification_action_text_size = global::CommunicationHelper.App.Resource.Dimension.notification_action_text_size;
+			global::BluetoothService.Resource.Dimension.notification_big_circle_margin = global::CommunicationHelper.App.Resource.Dimension.notification_big_circle_margin;
+			global::BluetoothService.Resource.Dimension.notification_content_margin_start = global::CommunicationHelper.App.Resource.Dimension.notification_content_margin_start;
+			global::BluetoothService.Resource.Dimension.notification_large_icon_height = global::CommunicationHelper.App.Resource.Dimension.notification_large_icon_height;
+			global::BluetoothService.Resource.Dimension.notification_large_icon_width = global::CommunicationHelper.App.Resource.Dimension.notification_large_icon_width;
+			global::BluetoothService.Resource.Dimension.notification_main_column_padding_top = global::CommunicationHelper.App.Resource.Dimension.notification_main_column_padding_top;
+			global::BluetoothService.Resource.Dimension.notification_media_narrow_margin = global::CommunicationHelper.App.Resource.Dimension.notification_media_narrow_margin;
+			global::BluetoothService.Resource.Dimension.notification_right_icon_size = global::CommunicationHelper.App.Resource.Dimension.notification_right_icon_size;
+			global::BluetoothService.Resource.Dimension.notification_right_side_padding_top = global::CommunicationHelper.App.Resource.Dimension.notification_right_side_padding_top;
+			global::BluetoothService.Resource.Dimension.notification_small_icon_background_padding = global::CommunicationHelper.App.Resource.Dimension.notification_small_icon_background_padding;
+			global::BluetoothService.Resource.Dimension.notification_small_icon_size_as_large = global::CommunicationHelper.App.Resource.Dimension.notification_small_icon_size_as_large;
+			global::BluetoothService.Resource.Dimension.notification_subtext_size = global::CommunicationHelper.App.Resource.Dimension.notification_subtext_size;
+			global::BluetoothService.Resource.Dimension.notification_top_pad = global::CommunicationHelper.App.Resource.Dimension.notification_top_pad;
+			global::BluetoothService.Resource.Dimension.notification_top_pad_large_text = global::CommunicationHelper.App.Resource.Dimension.notification_top_pad_large_text;
+			global::BluetoothService.Resource.Dimension.tooltip_corner_radius = global::CommunicationHelper.App.Resource.Dimension.tooltip_corner_radius;
+			global::BluetoothService.Resource.Dimension.tooltip_horizontal_padding = global::CommunicationHelper.App.Resource.Dimension.tooltip_horizontal_padding;
+			global::BluetoothService.Resource.Dimension.tooltip_margin = global::CommunicationHelper.App.Resource.Dimension.tooltip_margin;
+			global::BluetoothService.Resource.Dimension.tooltip_precise_anchor_extra_offset = global::CommunicationHelper.App.Resource.Dimension.tooltip_precise_anchor_extra_offset;
+			global::BluetoothService.Resource.Dimension.tooltip_precise_anchor_threshold = global::CommunicationHelper.App.Resource.Dimension.tooltip_precise_anchor_threshold;
+			global::BluetoothService.Resource.Dimension.tooltip_vertical_padding = global::CommunicationHelper.App.Resource.Dimension.tooltip_vertical_padding;
+			global::BluetoothService.Resource.Dimension.tooltip_y_offset_non_touch = global::CommunicationHelper.App.Resource.Dimension.tooltip_y_offset_non_touch;
+			global::BluetoothService.Resource.Dimension.tooltip_y_offset_touch = global::CommunicationHelper.App.Resource.Dimension.tooltip_y_offset_touch;
+			global::BluetoothService.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::CommunicationHelper.App.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::BluetoothService.Resource.Drawable.abc_action_bar_item_background_material = global::CommunicationHelper.App.Resource.Drawable.abc_action_bar_item_background_material;
+			global::BluetoothService.Resource.Drawable.abc_btn_borderless_material = global::CommunicationHelper.App.Resource.Drawable.abc_btn_borderless_material;
+			global::BluetoothService.Resource.Drawable.abc_btn_check_material = global::CommunicationHelper.App.Resource.Drawable.abc_btn_check_material;
+			global::BluetoothService.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::CommunicationHelper.App.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::BluetoothService.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::CommunicationHelper.App.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::BluetoothService.Resource.Drawable.abc_btn_colored_material = global::CommunicationHelper.App.Resource.Drawable.abc_btn_colored_material;
+			global::BluetoothService.Resource.Drawable.abc_btn_default_mtrl_shape = global::CommunicationHelper.App.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::BluetoothService.Resource.Drawable.abc_btn_radio_material = global::CommunicationHelper.App.Resource.Drawable.abc_btn_radio_material;
+			global::BluetoothService.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::CommunicationHelper.App.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::BluetoothService.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::CommunicationHelper.App.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::BluetoothService.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::CommunicationHelper.App.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::BluetoothService.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::CommunicationHelper.App.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::BluetoothService.Resource.Drawable.abc_cab_background_internal_bg = global::CommunicationHelper.App.Resource.Drawable.abc_cab_background_internal_bg;
+			global::BluetoothService.Resource.Drawable.abc_cab_background_top_material = global::CommunicationHelper.App.Resource.Drawable.abc_cab_background_top_material;
+			global::BluetoothService.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::CommunicationHelper.App.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::BluetoothService.Resource.Drawable.abc_control_background_material = global::CommunicationHelper.App.Resource.Drawable.abc_control_background_material;
+			global::BluetoothService.Resource.Drawable.abc_dialog_material_background = global::CommunicationHelper.App.Resource.Drawable.abc_dialog_material_background;
+			global::BluetoothService.Resource.Drawable.abc_edit_text_material = global::CommunicationHelper.App.Resource.Drawable.abc_edit_text_material;
+			global::BluetoothService.Resource.Drawable.abc_ic_ab_back_material = global::CommunicationHelper.App.Resource.Drawable.abc_ic_ab_back_material;
+			global::BluetoothService.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::CommunicationHelper.App.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
+			global::BluetoothService.Resource.Drawable.abc_ic_clear_material = global::CommunicationHelper.App.Resource.Drawable.abc_ic_clear_material;
+			global::BluetoothService.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::CommunicationHelper.App.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::BluetoothService.Resource.Drawable.abc_ic_go_search_api_material = global::CommunicationHelper.App.Resource.Drawable.abc_ic_go_search_api_material;
+			global::BluetoothService.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::CommunicationHelper.App.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::BluetoothService.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::CommunicationHelper.App.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::BluetoothService.Resource.Drawable.abc_ic_menu_overflow_material = global::CommunicationHelper.App.Resource.Drawable.abc_ic_menu_overflow_material;
+			global::BluetoothService.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::CommunicationHelper.App.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::BluetoothService.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::CommunicationHelper.App.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::BluetoothService.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::CommunicationHelper.App.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::BluetoothService.Resource.Drawable.abc_ic_search_api_material = global::CommunicationHelper.App.Resource.Drawable.abc_ic_search_api_material;
+			global::BluetoothService.Resource.Drawable.abc_ic_star_black_16dp = global::CommunicationHelper.App.Resource.Drawable.abc_ic_star_black_16dp;
+			global::BluetoothService.Resource.Drawable.abc_ic_star_black_36dp = global::CommunicationHelper.App.Resource.Drawable.abc_ic_star_black_36dp;
+			global::BluetoothService.Resource.Drawable.abc_ic_star_black_48dp = global::CommunicationHelper.App.Resource.Drawable.abc_ic_star_black_48dp;
+			global::BluetoothService.Resource.Drawable.abc_ic_star_half_black_16dp = global::CommunicationHelper.App.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::BluetoothService.Resource.Drawable.abc_ic_star_half_black_36dp = global::CommunicationHelper.App.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::BluetoothService.Resource.Drawable.abc_ic_star_half_black_48dp = global::CommunicationHelper.App.Resource.Drawable.abc_ic_star_half_black_48dp;
+			global::BluetoothService.Resource.Drawable.abc_ic_voice_search_api_material = global::CommunicationHelper.App.Resource.Drawable.abc_ic_voice_search_api_material;
+			global::BluetoothService.Resource.Drawable.abc_item_background_holo_dark = global::CommunicationHelper.App.Resource.Drawable.abc_item_background_holo_dark;
+			global::BluetoothService.Resource.Drawable.abc_item_background_holo_light = global::CommunicationHelper.App.Resource.Drawable.abc_item_background_holo_light;
+			global::BluetoothService.Resource.Drawable.abc_list_divider_material = global::CommunicationHelper.App.Resource.Drawable.abc_list_divider_material;
+			global::BluetoothService.Resource.Drawable.abc_list_divider_mtrl_alpha = global::CommunicationHelper.App.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::BluetoothService.Resource.Drawable.abc_list_focused_holo = global::CommunicationHelper.App.Resource.Drawable.abc_list_focused_holo;
+			global::BluetoothService.Resource.Drawable.abc_list_longpressed_holo = global::CommunicationHelper.App.Resource.Drawable.abc_list_longpressed_holo;
+			global::BluetoothService.Resource.Drawable.abc_list_pressed_holo_dark = global::CommunicationHelper.App.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::BluetoothService.Resource.Drawable.abc_list_pressed_holo_light = global::CommunicationHelper.App.Resource.Drawable.abc_list_pressed_holo_light;
+			global::BluetoothService.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::CommunicationHelper.App.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::BluetoothService.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::CommunicationHelper.App.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::BluetoothService.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::CommunicationHelper.App.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::BluetoothService.Resource.Drawable.abc_list_selector_disabled_holo_light = global::CommunicationHelper.App.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::BluetoothService.Resource.Drawable.abc_list_selector_holo_dark = global::CommunicationHelper.App.Resource.Drawable.abc_list_selector_holo_dark;
+			global::BluetoothService.Resource.Drawable.abc_list_selector_holo_light = global::CommunicationHelper.App.Resource.Drawable.abc_list_selector_holo_light;
+			global::BluetoothService.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::CommunicationHelper.App.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::BluetoothService.Resource.Drawable.abc_popup_background_mtrl_mult = global::CommunicationHelper.App.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::BluetoothService.Resource.Drawable.abc_ratingbar_indicator_material = global::CommunicationHelper.App.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::BluetoothService.Resource.Drawable.abc_ratingbar_material = global::CommunicationHelper.App.Resource.Drawable.abc_ratingbar_material;
+			global::BluetoothService.Resource.Drawable.abc_ratingbar_small_material = global::CommunicationHelper.App.Resource.Drawable.abc_ratingbar_small_material;
+			global::BluetoothService.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::CommunicationHelper.App.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::BluetoothService.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::CommunicationHelper.App.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::BluetoothService.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::CommunicationHelper.App.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::BluetoothService.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::CommunicationHelper.App.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::BluetoothService.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::CommunicationHelper.App.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::BluetoothService.Resource.Drawable.abc_seekbar_thumb_material = global::CommunicationHelper.App.Resource.Drawable.abc_seekbar_thumb_material;
+			global::BluetoothService.Resource.Drawable.abc_seekbar_tick_mark_material = global::CommunicationHelper.App.Resource.Drawable.abc_seekbar_tick_mark_material;
+			global::BluetoothService.Resource.Drawable.abc_seekbar_track_material = global::CommunicationHelper.App.Resource.Drawable.abc_seekbar_track_material;
+			global::BluetoothService.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::CommunicationHelper.App.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::BluetoothService.Resource.Drawable.abc_spinner_textfield_background_material = global::CommunicationHelper.App.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::BluetoothService.Resource.Drawable.abc_switch_thumb_material = global::CommunicationHelper.App.Resource.Drawable.abc_switch_thumb_material;
+			global::BluetoothService.Resource.Drawable.abc_switch_track_mtrl_alpha = global::CommunicationHelper.App.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::BluetoothService.Resource.Drawable.abc_tab_indicator_material = global::CommunicationHelper.App.Resource.Drawable.abc_tab_indicator_material;
+			global::BluetoothService.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::CommunicationHelper.App.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::BluetoothService.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::CommunicationHelper.App.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::BluetoothService.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::CommunicationHelper.App.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::BluetoothService.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::CommunicationHelper.App.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::BluetoothService.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::CommunicationHelper.App.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::BluetoothService.Resource.Drawable.abc_textfield_search_material = global::CommunicationHelper.App.Resource.Drawable.abc_textfield_search_material;
+			global::BluetoothService.Resource.Drawable.abc_text_cursor_material = global::CommunicationHelper.App.Resource.Drawable.abc_text_cursor_material;
+			global::BluetoothService.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::CommunicationHelper.App.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
+			global::BluetoothService.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::CommunicationHelper.App.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
+			global::BluetoothService.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark = global::CommunicationHelper.App.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark;
+			global::BluetoothService.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::CommunicationHelper.App.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
+			global::BluetoothService.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::CommunicationHelper.App.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
+			global::BluetoothService.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::CommunicationHelper.App.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
+			global::BluetoothService.Resource.Drawable.abc_vector_test = global::CommunicationHelper.App.Resource.Drawable.abc_vector_test;
+			global::BluetoothService.Resource.Drawable.notification_action_background = global::CommunicationHelper.App.Resource.Drawable.notification_action_background;
+			global::BluetoothService.Resource.Drawable.notification_bg = global::CommunicationHelper.App.Resource.Drawable.notification_bg;
+			global::BluetoothService.Resource.Drawable.notification_bg_low = global::CommunicationHelper.App.Resource.Drawable.notification_bg_low;
+			global::BluetoothService.Resource.Drawable.notification_bg_low_normal = global::CommunicationHelper.App.Resource.Drawable.notification_bg_low_normal;
+			global::BluetoothService.Resource.Drawable.notification_bg_low_pressed = global::CommunicationHelper.App.Resource.Drawable.notification_bg_low_pressed;
+			global::BluetoothService.Resource.Drawable.notification_bg_normal = global::CommunicationHelper.App.Resource.Drawable.notification_bg_normal;
+			global::BluetoothService.Resource.Drawable.notification_bg_normal_pressed = global::CommunicationHelper.App.Resource.Drawable.notification_bg_normal_pressed;
+			global::BluetoothService.Resource.Drawable.notification_icon_background = global::CommunicationHelper.App.Resource.Drawable.notification_icon_background;
+			global::BluetoothService.Resource.Drawable.notification_template_icon_bg = global::CommunicationHelper.App.Resource.Drawable.notification_template_icon_bg;
+			global::BluetoothService.Resource.Drawable.notification_template_icon_low_bg = global::CommunicationHelper.App.Resource.Drawable.notification_template_icon_low_bg;
+			global::BluetoothService.Resource.Drawable.notification_tile_bg = global::CommunicationHelper.App.Resource.Drawable.notification_tile_bg;
+			global::BluetoothService.Resource.Drawable.notify_panel_notification_icon_bg = global::CommunicationHelper.App.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::BluetoothService.Resource.Drawable.tooltip_frame_dark = global::CommunicationHelper.App.Resource.Drawable.tooltip_frame_dark;
+			global::BluetoothService.Resource.Drawable.tooltip_frame_light = global::CommunicationHelper.App.Resource.Drawable.tooltip_frame_light;
+			global::BluetoothService.Resource.Id.actions = global::CommunicationHelper.App.Resource.Id.actions;
+			global::BluetoothService.Resource.Id.action_bar = global::CommunicationHelper.App.Resource.Id.action_bar;
+			global::BluetoothService.Resource.Id.action_bar_activity_content = global::CommunicationHelper.App.Resource.Id.action_bar_activity_content;
+			global::BluetoothService.Resource.Id.action_bar_container = global::CommunicationHelper.App.Resource.Id.action_bar_container;
+			global::BluetoothService.Resource.Id.action_bar_root = global::CommunicationHelper.App.Resource.Id.action_bar_root;
+			global::BluetoothService.Resource.Id.action_bar_spinner = global::CommunicationHelper.App.Resource.Id.action_bar_spinner;
+			global::BluetoothService.Resource.Id.action_bar_subtitle = global::CommunicationHelper.App.Resource.Id.action_bar_subtitle;
+			global::BluetoothService.Resource.Id.action_bar_title = global::CommunicationHelper.App.Resource.Id.action_bar_title;
+			global::BluetoothService.Resource.Id.action_container = global::CommunicationHelper.App.Resource.Id.action_container;
+			global::BluetoothService.Resource.Id.action_context_bar = global::CommunicationHelper.App.Resource.Id.action_context_bar;
+			global::BluetoothService.Resource.Id.action_divider = global::CommunicationHelper.App.Resource.Id.action_divider;
+			global::BluetoothService.Resource.Id.action_image = global::CommunicationHelper.App.Resource.Id.action_image;
+			global::BluetoothService.Resource.Id.action_menu_divider = global::CommunicationHelper.App.Resource.Id.action_menu_divider;
+			global::BluetoothService.Resource.Id.action_menu_presenter = global::CommunicationHelper.App.Resource.Id.action_menu_presenter;
+			global::BluetoothService.Resource.Id.action_mode_bar = global::CommunicationHelper.App.Resource.Id.action_mode_bar;
+			global::BluetoothService.Resource.Id.action_mode_bar_stub = global::CommunicationHelper.App.Resource.Id.action_mode_bar_stub;
+			global::BluetoothService.Resource.Id.action_mode_close_button = global::CommunicationHelper.App.Resource.Id.action_mode_close_button;
+			global::BluetoothService.Resource.Id.action_text = global::CommunicationHelper.App.Resource.Id.action_text;
+			global::BluetoothService.Resource.Id.activity_chooser_view_content = global::CommunicationHelper.App.Resource.Id.activity_chooser_view_content;
+			global::BluetoothService.Resource.Id.add = global::CommunicationHelper.App.Resource.Id.add;
+			global::BluetoothService.Resource.Id.alertTitle = global::CommunicationHelper.App.Resource.Id.alertTitle;
+			global::BluetoothService.Resource.Id.all = global::CommunicationHelper.App.Resource.Id.all;
+			global::BluetoothService.Resource.Id.ALT = global::CommunicationHelper.App.Resource.Id.ALT;
+			global::BluetoothService.Resource.Id.always = global::CommunicationHelper.App.Resource.Id.always;
+			global::BluetoothService.Resource.Id.async = global::CommunicationHelper.App.Resource.Id.async;
+			global::BluetoothService.Resource.Id.beginning = global::CommunicationHelper.App.Resource.Id.beginning;
+			global::BluetoothService.Resource.Id.blocking = global::CommunicationHelper.App.Resource.Id.blocking;
+			global::BluetoothService.Resource.Id.bottom = global::CommunicationHelper.App.Resource.Id.bottom;
+			global::BluetoothService.Resource.Id.buttonPanel = global::CommunicationHelper.App.Resource.Id.buttonPanel;
+			global::BluetoothService.Resource.Id.center = global::CommunicationHelper.App.Resource.Id.center;
+			global::BluetoothService.Resource.Id.center_horizontal = global::CommunicationHelper.App.Resource.Id.center_horizontal;
+			global::BluetoothService.Resource.Id.center_vertical = global::CommunicationHelper.App.Resource.Id.center_vertical;
+			global::BluetoothService.Resource.Id.checkbox = global::CommunicationHelper.App.Resource.Id.checkbox;
+			global::BluetoothService.Resource.Id.chronometer = global::CommunicationHelper.App.Resource.Id.chronometer;
+			global::BluetoothService.Resource.Id.clip_horizontal = global::CommunicationHelper.App.Resource.Id.clip_horizontal;
+			global::BluetoothService.Resource.Id.clip_vertical = global::CommunicationHelper.App.Resource.Id.clip_vertical;
+			global::BluetoothService.Resource.Id.collapseActionView = global::CommunicationHelper.App.Resource.Id.collapseActionView;
+			global::BluetoothService.Resource.Id.content = global::CommunicationHelper.App.Resource.Id.content;
+			global::BluetoothService.Resource.Id.contentPanel = global::CommunicationHelper.App.Resource.Id.contentPanel;
+			global::BluetoothService.Resource.Id.CTRL = global::CommunicationHelper.App.Resource.Id.CTRL;
+			global::BluetoothService.Resource.Id.custom = global::CommunicationHelper.App.Resource.Id.custom;
+			global::BluetoothService.Resource.Id.customPanel = global::CommunicationHelper.App.Resource.Id.customPanel;
+			global::BluetoothService.Resource.Id.decor_content_parent = global::CommunicationHelper.App.Resource.Id.decor_content_parent;
+			global::BluetoothService.Resource.Id.default_activity_button = global::CommunicationHelper.App.Resource.Id.default_activity_button;
+			global::BluetoothService.Resource.Id.disableHome = global::CommunicationHelper.App.Resource.Id.disableHome;
+			global::BluetoothService.Resource.Id.edit_query = global::CommunicationHelper.App.Resource.Id.edit_query;
+			global::BluetoothService.Resource.Id.end = global::CommunicationHelper.App.Resource.Id.end;
+			global::BluetoothService.Resource.Id.expanded_menu = global::CommunicationHelper.App.Resource.Id.expanded_menu;
+			global::BluetoothService.Resource.Id.expand_activities_button = global::CommunicationHelper.App.Resource.Id.expand_activities_button;
+			global::BluetoothService.Resource.Id.fill = global::CommunicationHelper.App.Resource.Id.fill;
+			global::BluetoothService.Resource.Id.fill_horizontal = global::CommunicationHelper.App.Resource.Id.fill_horizontal;
+			global::BluetoothService.Resource.Id.fill_vertical = global::CommunicationHelper.App.Resource.Id.fill_vertical;
+			global::BluetoothService.Resource.Id.forever = global::CommunicationHelper.App.Resource.Id.forever;
+			global::BluetoothService.Resource.Id.FUNCTION = global::CommunicationHelper.App.Resource.Id.FUNCTION;
+			global::BluetoothService.Resource.Id.group_divider = global::CommunicationHelper.App.Resource.Id.group_divider;
+			global::BluetoothService.Resource.Id.home = global::CommunicationHelper.App.Resource.Id.home;
+			global::BluetoothService.Resource.Id.homeAsUp = global::CommunicationHelper.App.Resource.Id.homeAsUp;
+			global::BluetoothService.Resource.Id.icon = global::CommunicationHelper.App.Resource.Id.icon;
+			global::BluetoothService.Resource.Id.icon_group = global::CommunicationHelper.App.Resource.Id.icon_group;
+			global::BluetoothService.Resource.Id.ifRoom = global::CommunicationHelper.App.Resource.Id.ifRoom;
+			global::BluetoothService.Resource.Id.image = global::CommunicationHelper.App.Resource.Id.image;
+			global::BluetoothService.Resource.Id.info = global::CommunicationHelper.App.Resource.Id.info;
+			global::BluetoothService.Resource.Id.italic = global::CommunicationHelper.App.Resource.Id.italic;
+			global::BluetoothService.Resource.Id.left = global::CommunicationHelper.App.Resource.Id.left;
+			global::BluetoothService.Resource.Id.line1 = global::CommunicationHelper.App.Resource.Id.line1;
+			global::BluetoothService.Resource.Id.line3 = global::CommunicationHelper.App.Resource.Id.line3;
+			global::BluetoothService.Resource.Id.listMode = global::CommunicationHelper.App.Resource.Id.listMode;
+			global::BluetoothService.Resource.Id.list_item = global::CommunicationHelper.App.Resource.Id.list_item;
+			global::BluetoothService.Resource.Id.message = global::CommunicationHelper.App.Resource.Id.message;
+			global::BluetoothService.Resource.Id.META = global::CommunicationHelper.App.Resource.Id.META;
+			global::BluetoothService.Resource.Id.middle = global::CommunicationHelper.App.Resource.Id.middle;
+			global::BluetoothService.Resource.Id.multiply = global::CommunicationHelper.App.Resource.Id.multiply;
+			global::BluetoothService.Resource.Id.never = global::CommunicationHelper.App.Resource.Id.never;
+			global::BluetoothService.Resource.Id.none = global::CommunicationHelper.App.Resource.Id.none;
+			global::BluetoothService.Resource.Id.normal = global::CommunicationHelper.App.Resource.Id.normal;
+			global::BluetoothService.Resource.Id.notification_background = global::CommunicationHelper.App.Resource.Id.notification_background;
+			global::BluetoothService.Resource.Id.notification_main_column = global::CommunicationHelper.App.Resource.Id.notification_main_column;
+			global::BluetoothService.Resource.Id.notification_main_column_container = global::CommunicationHelper.App.Resource.Id.notification_main_column_container;
+			global::BluetoothService.Resource.Id.parentPanel = global::CommunicationHelper.App.Resource.Id.parentPanel;
+			global::BluetoothService.Resource.Id.progress_circular = global::CommunicationHelper.App.Resource.Id.progress_circular;
+			global::BluetoothService.Resource.Id.progress_horizontal = global::CommunicationHelper.App.Resource.Id.progress_horizontal;
+			global::BluetoothService.Resource.Id.radio = global::CommunicationHelper.App.Resource.Id.radio;
+			global::BluetoothService.Resource.Id.right = global::CommunicationHelper.App.Resource.Id.right;
+			global::BluetoothService.Resource.Id.right_icon = global::CommunicationHelper.App.Resource.Id.right_icon;
+			global::BluetoothService.Resource.Id.right_side = global::CommunicationHelper.App.Resource.Id.right_side;
+			global::BluetoothService.Resource.Id.screen = global::CommunicationHelper.App.Resource.Id.screen;
+			global::BluetoothService.Resource.Id.scrollIndicatorDown = global::CommunicationHelper.App.Resource.Id.scrollIndicatorDown;
+			global::BluetoothService.Resource.Id.scrollIndicatorUp = global::CommunicationHelper.App.Resource.Id.scrollIndicatorUp;
+			global::BluetoothService.Resource.Id.scrollView = global::CommunicationHelper.App.Resource.Id.scrollView;
+			global::BluetoothService.Resource.Id.search_badge = global::CommunicationHelper.App.Resource.Id.search_badge;
+			global::BluetoothService.Resource.Id.search_bar = global::CommunicationHelper.App.Resource.Id.search_bar;
+			global::BluetoothService.Resource.Id.search_button = global::CommunicationHelper.App.Resource.Id.search_button;
+			global::BluetoothService.Resource.Id.search_close_btn = global::CommunicationHelper.App.Resource.Id.search_close_btn;
+			global::BluetoothService.Resource.Id.search_edit_frame = global::CommunicationHelper.App.Resource.Id.search_edit_frame;
+			global::BluetoothService.Resource.Id.search_go_btn = global::CommunicationHelper.App.Resource.Id.search_go_btn;
+			global::BluetoothService.Resource.Id.search_mag_icon = global::CommunicationHelper.App.Resource.Id.search_mag_icon;
+			global::BluetoothService.Resource.Id.search_plate = global::CommunicationHelper.App.Resource.Id.search_plate;
+			global::BluetoothService.Resource.Id.search_src_text = global::CommunicationHelper.App.Resource.Id.search_src_text;
+			global::BluetoothService.Resource.Id.search_voice_btn = global::CommunicationHelper.App.Resource.Id.search_voice_btn;
+			global::BluetoothService.Resource.Id.select_dialog_listview = global::CommunicationHelper.App.Resource.Id.select_dialog_listview;
+			global::BluetoothService.Resource.Id.SHIFT = global::CommunicationHelper.App.Resource.Id.SHIFT;
+			global::BluetoothService.Resource.Id.shortcut = global::CommunicationHelper.App.Resource.Id.shortcut;
+			global::BluetoothService.Resource.Id.showCustom = global::CommunicationHelper.App.Resource.Id.showCustom;
+			global::BluetoothService.Resource.Id.showHome = global::CommunicationHelper.App.Resource.Id.showHome;
+			global::BluetoothService.Resource.Id.showTitle = global::CommunicationHelper.App.Resource.Id.showTitle;
+			global::BluetoothService.Resource.Id.spacer = global::CommunicationHelper.App.Resource.Id.spacer;
+			global::BluetoothService.Resource.Id.split_action_bar = global::CommunicationHelper.App.Resource.Id.split_action_bar;
+			global::BluetoothService.Resource.Id.src_atop = global::CommunicationHelper.App.Resource.Id.src_atop;
+			global::BluetoothService.Resource.Id.src_in = global::CommunicationHelper.App.Resource.Id.src_in;
+			global::BluetoothService.Resource.Id.src_over = global::CommunicationHelper.App.Resource.Id.src_over;
+			global::BluetoothService.Resource.Id.start = global::CommunicationHelper.App.Resource.Id.start;
+			global::BluetoothService.Resource.Id.submenuarrow = global::CommunicationHelper.App.Resource.Id.submenuarrow;
+			global::BluetoothService.Resource.Id.submit_area = global::CommunicationHelper.App.Resource.Id.submit_area;
+			global::BluetoothService.Resource.Id.SYM = global::CommunicationHelper.App.Resource.Id.SYM;
+			global::BluetoothService.Resource.Id.tabMode = global::CommunicationHelper.App.Resource.Id.tabMode;
+			global::BluetoothService.Resource.Id.tag_transition_group = global::CommunicationHelper.App.Resource.Id.tag_transition_group;
+			global::BluetoothService.Resource.Id.tag_unhandled_key_event_manager = global::CommunicationHelper.App.Resource.Id.tag_unhandled_key_event_manager;
+			global::BluetoothService.Resource.Id.tag_unhandled_key_listeners = global::CommunicationHelper.App.Resource.Id.tag_unhandled_key_listeners;
+			global::BluetoothService.Resource.Id.text = global::CommunicationHelper.App.Resource.Id.text;
+			global::BluetoothService.Resource.Id.text2 = global::CommunicationHelper.App.Resource.Id.text2;
+			global::BluetoothService.Resource.Id.textSpacerNoButtons = global::CommunicationHelper.App.Resource.Id.textSpacerNoButtons;
+			global::BluetoothService.Resource.Id.textSpacerNoTitle = global::CommunicationHelper.App.Resource.Id.textSpacerNoTitle;
+			global::BluetoothService.Resource.Id.time = global::CommunicationHelper.App.Resource.Id.time;
+			global::BluetoothService.Resource.Id.title = global::CommunicationHelper.App.Resource.Id.title;
+			global::BluetoothService.Resource.Id.titleDividerNoCustom = global::CommunicationHelper.App.Resource.Id.titleDividerNoCustom;
+			global::BluetoothService.Resource.Id.title_template = global::CommunicationHelper.App.Resource.Id.title_template;
+			global::BluetoothService.Resource.Id.top = global::CommunicationHelper.App.Resource.Id.top;
+			global::BluetoothService.Resource.Id.topPanel = global::CommunicationHelper.App.Resource.Id.topPanel;
+			global::BluetoothService.Resource.Id.uniform = global::CommunicationHelper.App.Resource.Id.uniform;
+			global::BluetoothService.Resource.Id.up = global::CommunicationHelper.App.Resource.Id.up;
+			global::BluetoothService.Resource.Id.useLogo = global::CommunicationHelper.App.Resource.Id.useLogo;
+			global::BluetoothService.Resource.Id.withText = global::CommunicationHelper.App.Resource.Id.withText;
+			global::BluetoothService.Resource.Id.wrap_content = global::CommunicationHelper.App.Resource.Id.wrap_content;
+			global::BluetoothService.Resource.Integer.abc_config_activityDefaultDur = global::CommunicationHelper.App.Resource.Integer.abc_config_activityDefaultDur;
+			global::BluetoothService.Resource.Integer.abc_config_activityShortDur = global::CommunicationHelper.App.Resource.Integer.abc_config_activityShortDur;
+			global::BluetoothService.Resource.Integer.cancel_button_image_alpha = global::CommunicationHelper.App.Resource.Integer.cancel_button_image_alpha;
+			global::BluetoothService.Resource.Integer.config_tooltipAnimTime = global::CommunicationHelper.App.Resource.Integer.config_tooltipAnimTime;
+			global::BluetoothService.Resource.Integer.status_bar_notification_info_maxnum = global::CommunicationHelper.App.Resource.Integer.status_bar_notification_info_maxnum;
+			global::BluetoothService.Resource.Layout.abc_action_bar_title_item = global::CommunicationHelper.App.Resource.Layout.abc_action_bar_title_item;
+			global::BluetoothService.Resource.Layout.abc_action_bar_up_container = global::CommunicationHelper.App.Resource.Layout.abc_action_bar_up_container;
+			global::BluetoothService.Resource.Layout.abc_action_menu_item_layout = global::CommunicationHelper.App.Resource.Layout.abc_action_menu_item_layout;
+			global::BluetoothService.Resource.Layout.abc_action_menu_layout = global::CommunicationHelper.App.Resource.Layout.abc_action_menu_layout;
+			global::BluetoothService.Resource.Layout.abc_action_mode_bar = global::CommunicationHelper.App.Resource.Layout.abc_action_mode_bar;
+			global::BluetoothService.Resource.Layout.abc_action_mode_close_item_material = global::CommunicationHelper.App.Resource.Layout.abc_action_mode_close_item_material;
+			global::BluetoothService.Resource.Layout.abc_activity_chooser_view = global::CommunicationHelper.App.Resource.Layout.abc_activity_chooser_view;
+			global::BluetoothService.Resource.Layout.abc_activity_chooser_view_list_item = global::CommunicationHelper.App.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::BluetoothService.Resource.Layout.abc_alert_dialog_button_bar_material = global::CommunicationHelper.App.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::BluetoothService.Resource.Layout.abc_alert_dialog_material = global::CommunicationHelper.App.Resource.Layout.abc_alert_dialog_material;
+			global::BluetoothService.Resource.Layout.abc_alert_dialog_title_material = global::CommunicationHelper.App.Resource.Layout.abc_alert_dialog_title_material;
+			global::BluetoothService.Resource.Layout.abc_cascading_menu_item_layout = global::CommunicationHelper.App.Resource.Layout.abc_cascading_menu_item_layout;
+			global::BluetoothService.Resource.Layout.abc_dialog_title_material = global::CommunicationHelper.App.Resource.Layout.abc_dialog_title_material;
+			global::BluetoothService.Resource.Layout.abc_expanded_menu_layout = global::CommunicationHelper.App.Resource.Layout.abc_expanded_menu_layout;
+			global::BluetoothService.Resource.Layout.abc_list_menu_item_checkbox = global::CommunicationHelper.App.Resource.Layout.abc_list_menu_item_checkbox;
+			global::BluetoothService.Resource.Layout.abc_list_menu_item_icon = global::CommunicationHelper.App.Resource.Layout.abc_list_menu_item_icon;
+			global::BluetoothService.Resource.Layout.abc_list_menu_item_layout = global::CommunicationHelper.App.Resource.Layout.abc_list_menu_item_layout;
+			global::BluetoothService.Resource.Layout.abc_list_menu_item_radio = global::CommunicationHelper.App.Resource.Layout.abc_list_menu_item_radio;
+			global::BluetoothService.Resource.Layout.abc_popup_menu_header_item_layout = global::CommunicationHelper.App.Resource.Layout.abc_popup_menu_header_item_layout;
+			global::BluetoothService.Resource.Layout.abc_popup_menu_item_layout = global::CommunicationHelper.App.Resource.Layout.abc_popup_menu_item_layout;
+			global::BluetoothService.Resource.Layout.abc_screen_content_include = global::CommunicationHelper.App.Resource.Layout.abc_screen_content_include;
+			global::BluetoothService.Resource.Layout.abc_screen_simple = global::CommunicationHelper.App.Resource.Layout.abc_screen_simple;
+			global::BluetoothService.Resource.Layout.abc_screen_simple_overlay_action_mode = global::CommunicationHelper.App.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::BluetoothService.Resource.Layout.abc_screen_toolbar = global::CommunicationHelper.App.Resource.Layout.abc_screen_toolbar;
+			global::BluetoothService.Resource.Layout.abc_search_dropdown_item_icons_2line = global::CommunicationHelper.App.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::BluetoothService.Resource.Layout.abc_search_view = global::CommunicationHelper.App.Resource.Layout.abc_search_view;
+			global::BluetoothService.Resource.Layout.abc_select_dialog_material = global::CommunicationHelper.App.Resource.Layout.abc_select_dialog_material;
+			global::BluetoothService.Resource.Layout.abc_tooltip = global::CommunicationHelper.App.Resource.Layout.abc_tooltip;
+			global::BluetoothService.Resource.Layout.notification_action = global::CommunicationHelper.App.Resource.Layout.notification_action;
+			global::BluetoothService.Resource.Layout.notification_action_tombstone = global::CommunicationHelper.App.Resource.Layout.notification_action_tombstone;
+			global::BluetoothService.Resource.Layout.notification_template_custom_big = global::CommunicationHelper.App.Resource.Layout.notification_template_custom_big;
+			global::BluetoothService.Resource.Layout.notification_template_icon_group = global::CommunicationHelper.App.Resource.Layout.notification_template_icon_group;
+			global::BluetoothService.Resource.Layout.notification_template_part_chronometer = global::CommunicationHelper.App.Resource.Layout.notification_template_part_chronometer;
+			global::BluetoothService.Resource.Layout.notification_template_part_time = global::CommunicationHelper.App.Resource.Layout.notification_template_part_time;
+			global::BluetoothService.Resource.Layout.select_dialog_item_material = global::CommunicationHelper.App.Resource.Layout.select_dialog_item_material;
+			global::BluetoothService.Resource.Layout.select_dialog_multichoice_material = global::CommunicationHelper.App.Resource.Layout.select_dialog_multichoice_material;
+			global::BluetoothService.Resource.Layout.select_dialog_singlechoice_material = global::CommunicationHelper.App.Resource.Layout.select_dialog_singlechoice_material;
+			global::BluetoothService.Resource.Layout.support_simple_spinner_dropdown_item = global::CommunicationHelper.App.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::BluetoothService.Resource.String.abc_action_bar_home_description = global::CommunicationHelper.App.Resource.String.abc_action_bar_home_description;
+			global::BluetoothService.Resource.String.abc_action_bar_up_description = global::CommunicationHelper.App.Resource.String.abc_action_bar_up_description;
+			global::BluetoothService.Resource.String.abc_action_menu_overflow_description = global::CommunicationHelper.App.Resource.String.abc_action_menu_overflow_description;
+			global::BluetoothService.Resource.String.abc_action_mode_done = global::CommunicationHelper.App.Resource.String.abc_action_mode_done;
+			global::BluetoothService.Resource.String.abc_activitychooserview_choose_application = global::CommunicationHelper.App.Resource.String.abc_activitychooserview_choose_application;
+			global::BluetoothService.Resource.String.abc_activity_chooser_view_see_all = global::CommunicationHelper.App.Resource.String.abc_activity_chooser_view_see_all;
+			global::BluetoothService.Resource.String.abc_capital_off = global::CommunicationHelper.App.Resource.String.abc_capital_off;
+			global::BluetoothService.Resource.String.abc_capital_on = global::CommunicationHelper.App.Resource.String.abc_capital_on;
+			global::BluetoothService.Resource.String.abc_font_family_body_1_material = global::CommunicationHelper.App.Resource.String.abc_font_family_body_1_material;
+			global::BluetoothService.Resource.String.abc_font_family_body_2_material = global::CommunicationHelper.App.Resource.String.abc_font_family_body_2_material;
+			global::BluetoothService.Resource.String.abc_font_family_button_material = global::CommunicationHelper.App.Resource.String.abc_font_family_button_material;
+			global::BluetoothService.Resource.String.abc_font_family_caption_material = global::CommunicationHelper.App.Resource.String.abc_font_family_caption_material;
+			global::BluetoothService.Resource.String.abc_font_family_display_1_material = global::CommunicationHelper.App.Resource.String.abc_font_family_display_1_material;
+			global::BluetoothService.Resource.String.abc_font_family_display_2_material = global::CommunicationHelper.App.Resource.String.abc_font_family_display_2_material;
+			global::BluetoothService.Resource.String.abc_font_family_display_3_material = global::CommunicationHelper.App.Resource.String.abc_font_family_display_3_material;
+			global::BluetoothService.Resource.String.abc_font_family_display_4_material = global::CommunicationHelper.App.Resource.String.abc_font_family_display_4_material;
+			global::BluetoothService.Resource.String.abc_font_family_headline_material = global::CommunicationHelper.App.Resource.String.abc_font_family_headline_material;
+			global::BluetoothService.Resource.String.abc_font_family_menu_material = global::CommunicationHelper.App.Resource.String.abc_font_family_menu_material;
+			global::BluetoothService.Resource.String.abc_font_family_subhead_material = global::CommunicationHelper.App.Resource.String.abc_font_family_subhead_material;
+			global::BluetoothService.Resource.String.abc_font_family_title_material = global::CommunicationHelper.App.Resource.String.abc_font_family_title_material;
+			global::BluetoothService.Resource.String.abc_menu_alt_shortcut_label = global::CommunicationHelper.App.Resource.String.abc_menu_alt_shortcut_label;
+			global::BluetoothService.Resource.String.abc_menu_ctrl_shortcut_label = global::CommunicationHelper.App.Resource.String.abc_menu_ctrl_shortcut_label;
+			global::BluetoothService.Resource.String.abc_menu_delete_shortcut_label = global::CommunicationHelper.App.Resource.String.abc_menu_delete_shortcut_label;
+			global::BluetoothService.Resource.String.abc_menu_enter_shortcut_label = global::CommunicationHelper.App.Resource.String.abc_menu_enter_shortcut_label;
+			global::BluetoothService.Resource.String.abc_menu_function_shortcut_label = global::CommunicationHelper.App.Resource.String.abc_menu_function_shortcut_label;
+			global::BluetoothService.Resource.String.abc_menu_meta_shortcut_label = global::CommunicationHelper.App.Resource.String.abc_menu_meta_shortcut_label;
+			global::BluetoothService.Resource.String.abc_menu_shift_shortcut_label = global::CommunicationHelper.App.Resource.String.abc_menu_shift_shortcut_label;
+			global::BluetoothService.Resource.String.abc_menu_space_shortcut_label = global::CommunicationHelper.App.Resource.String.abc_menu_space_shortcut_label;
+			global::BluetoothService.Resource.String.abc_menu_sym_shortcut_label = global::CommunicationHelper.App.Resource.String.abc_menu_sym_shortcut_label;
+			global::BluetoothService.Resource.String.abc_prepend_shortcut_label = global::CommunicationHelper.App.Resource.String.abc_prepend_shortcut_label;
+			global::BluetoothService.Resource.String.abc_searchview_description_clear = global::CommunicationHelper.App.Resource.String.abc_searchview_description_clear;
+			global::BluetoothService.Resource.String.abc_searchview_description_query = global::CommunicationHelper.App.Resource.String.abc_searchview_description_query;
+			global::BluetoothService.Resource.String.abc_searchview_description_search = global::CommunicationHelper.App.Resource.String.abc_searchview_description_search;
+			global::BluetoothService.Resource.String.abc_searchview_description_submit = global::CommunicationHelper.App.Resource.String.abc_searchview_description_submit;
+			global::BluetoothService.Resource.String.abc_searchview_description_voice = global::CommunicationHelper.App.Resource.String.abc_searchview_description_voice;
+			global::BluetoothService.Resource.String.abc_search_hint = global::CommunicationHelper.App.Resource.String.abc_search_hint;
+			global::BluetoothService.Resource.String.abc_shareactionprovider_share_with = global::CommunicationHelper.App.Resource.String.abc_shareactionprovider_share_with;
+			global::BluetoothService.Resource.String.abc_shareactionprovider_share_with_application = global::CommunicationHelper.App.Resource.String.abc_shareactionprovider_share_with_application;
+			global::BluetoothService.Resource.String.abc_toolbar_collapse_description = global::CommunicationHelper.App.Resource.String.abc_toolbar_collapse_description;
+			global::BluetoothService.Resource.String.app_name = global::CommunicationHelper.App.Resource.String.app_name;
+			global::BluetoothService.Resource.String.hello = global::CommunicationHelper.App.Resource.String.hello;
+			global::BluetoothService.Resource.String.search_menu_title = global::CommunicationHelper.App.Resource.String.search_menu_title;
+			global::BluetoothService.Resource.String.status_bar_notification_info_overflow = global::CommunicationHelper.App.Resource.String.status_bar_notification_info_overflow;
+			global::BluetoothService.Resource.Style.AlertDialog_AppCompat = global::CommunicationHelper.App.Resource.Style.AlertDialog_AppCompat;
+			global::BluetoothService.Resource.Style.AlertDialog_AppCompat_Light = global::CommunicationHelper.App.Resource.Style.AlertDialog_AppCompat_Light;
+			global::BluetoothService.Resource.Style.Animation_AppCompat_Dialog = global::CommunicationHelper.App.Resource.Style.Animation_AppCompat_Dialog;
+			global::BluetoothService.Resource.Style.Animation_AppCompat_DropDownUp = global::CommunicationHelper.App.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::BluetoothService.Resource.Style.Animation_AppCompat_Tooltip = global::CommunicationHelper.App.Resource.Style.Animation_AppCompat_Tooltip;
+			global::BluetoothService.Resource.Style.Base_AlertDialog_AppCompat = global::CommunicationHelper.App.Resource.Style.Base_AlertDialog_AppCompat;
+			global::BluetoothService.Resource.Style.Base_AlertDialog_AppCompat_Light = global::CommunicationHelper.App.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::BluetoothService.Resource.Style.Base_Animation_AppCompat_Dialog = global::CommunicationHelper.App.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::BluetoothService.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::CommunicationHelper.App.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::BluetoothService.Resource.Style.Base_Animation_AppCompat_Tooltip = global::CommunicationHelper.App.Resource.Style.Base_Animation_AppCompat_Tooltip;
+			global::BluetoothService.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::CommunicationHelper.App.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::BluetoothService.Resource.Style.Base_DialogWindowTitle_AppCompat = global::CommunicationHelper.App.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::BluetoothService.Resource.Style.Base_TextAppearance_AppCompat = global::CommunicationHelper.App.Resource.Style.Base_TextAppearance_AppCompat;
+			global::BluetoothService.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::CommunicationHelper.App.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::BluetoothService.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::CommunicationHelper.App.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::BluetoothService.Resource.Style.Base_TextAppearance_AppCompat_Button = global::CommunicationHelper.App.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::BluetoothService.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::CommunicationHelper.App.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::BluetoothService.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::CommunicationHelper.App.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::BluetoothService.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::CommunicationHelper.App.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::BluetoothService.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::CommunicationHelper.App.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::BluetoothService.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::CommunicationHelper.App.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::BluetoothService.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::CommunicationHelper.App.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::BluetoothService.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::CommunicationHelper.App.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::BluetoothService.Resource.Style.Base_TextAppearance_AppCompat_Large = global::CommunicationHelper.App.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::BluetoothService.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::CommunicationHelper.App.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::BluetoothService.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::CommunicationHelper.App.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::BluetoothService.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::CommunicationHelper.App.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::BluetoothService.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::CommunicationHelper.App.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::BluetoothService.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::CommunicationHelper.App.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::BluetoothService.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::CommunicationHelper.App.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::BluetoothService.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::CommunicationHelper.App.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::BluetoothService.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::CommunicationHelper.App.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::BluetoothService.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::CommunicationHelper.App.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::BluetoothService.Resource.Style.Base_TextAppearance_AppCompat_Small = global::CommunicationHelper.App.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::BluetoothService.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::CommunicationHelper.App.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::BluetoothService.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::CommunicationHelper.App.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::BluetoothService.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::CommunicationHelper.App.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::BluetoothService.Resource.Style.Base_TextAppearance_AppCompat_Title = global::CommunicationHelper.App.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::BluetoothService.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::CommunicationHelper.App.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::BluetoothService.Resource.Style.Base_TextAppearance_AppCompat_Tooltip = global::CommunicationHelper.App.Resource.Style.Base_TextAppearance_AppCompat_Tooltip;
+			global::BluetoothService.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::CommunicationHelper.App.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::BluetoothService.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::CommunicationHelper.App.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::BluetoothService.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::CommunicationHelper.App.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::BluetoothService.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::CommunicationHelper.App.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::BluetoothService.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::CommunicationHelper.App.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::BluetoothService.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::CommunicationHelper.App.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::BluetoothService.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::CommunicationHelper.App.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::BluetoothService.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::CommunicationHelper.App.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::BluetoothService.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::CommunicationHelper.App.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::BluetoothService.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::CommunicationHelper.App.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
+			global::BluetoothService.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::CommunicationHelper.App.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::BluetoothService.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::CommunicationHelper.App.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::BluetoothService.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::CommunicationHelper.App.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::BluetoothService.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::CommunicationHelper.App.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::BluetoothService.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::CommunicationHelper.App.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::BluetoothService.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::CommunicationHelper.App.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::BluetoothService.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::CommunicationHelper.App.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::BluetoothService.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::CommunicationHelper.App.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::BluetoothService.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::CommunicationHelper.App.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::BluetoothService.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::CommunicationHelper.App.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::BluetoothService.Resource.Style.Base_ThemeOverlay_AppCompat = global::CommunicationHelper.App.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::BluetoothService.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::CommunicationHelper.App.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::BluetoothService.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::CommunicationHelper.App.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::BluetoothService.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::CommunicationHelper.App.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::BluetoothService.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::CommunicationHelper.App.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
+			global::BluetoothService.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::CommunicationHelper.App.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
+			global::BluetoothService.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::CommunicationHelper.App.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::BluetoothService.Resource.Style.Base_Theme_AppCompat = global::CommunicationHelper.App.Resource.Style.Base_Theme_AppCompat;
+			global::BluetoothService.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::CommunicationHelper.App.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::BluetoothService.Resource.Style.Base_Theme_AppCompat_Dialog = global::CommunicationHelper.App.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::BluetoothService.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::CommunicationHelper.App.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::BluetoothService.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::CommunicationHelper.App.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::BluetoothService.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::CommunicationHelper.App.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::BluetoothService.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::CommunicationHelper.App.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::BluetoothService.Resource.Style.Base_Theme_AppCompat_Light = global::CommunicationHelper.App.Resource.Style.Base_Theme_AppCompat_Light;
+			global::BluetoothService.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::CommunicationHelper.App.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::BluetoothService.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::CommunicationHelper.App.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::BluetoothService.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::CommunicationHelper.App.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::BluetoothService.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::CommunicationHelper.App.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::BluetoothService.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::CommunicationHelper.App.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::BluetoothService.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::CommunicationHelper.App.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::BluetoothService.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::CommunicationHelper.App.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
+			global::BluetoothService.Resource.Style.Base_V21_Theme_AppCompat = global::CommunicationHelper.App.Resource.Style.Base_V21_Theme_AppCompat;
+			global::BluetoothService.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::CommunicationHelper.App.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::BluetoothService.Resource.Style.Base_V21_Theme_AppCompat_Light = global::CommunicationHelper.App.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::BluetoothService.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::CommunicationHelper.App.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::BluetoothService.Resource.Style.Base_V22_Theme_AppCompat = global::CommunicationHelper.App.Resource.Style.Base_V22_Theme_AppCompat;
+			global::BluetoothService.Resource.Style.Base_V22_Theme_AppCompat_Light = global::CommunicationHelper.App.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::BluetoothService.Resource.Style.Base_V23_Theme_AppCompat = global::CommunicationHelper.App.Resource.Style.Base_V23_Theme_AppCompat;
+			global::BluetoothService.Resource.Style.Base_V23_Theme_AppCompat_Light = global::CommunicationHelper.App.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::BluetoothService.Resource.Style.Base_V26_Theme_AppCompat = global::CommunicationHelper.App.Resource.Style.Base_V26_Theme_AppCompat;
+			global::BluetoothService.Resource.Style.Base_V26_Theme_AppCompat_Light = global::CommunicationHelper.App.Resource.Style.Base_V26_Theme_AppCompat_Light;
+			global::BluetoothService.Resource.Style.Base_V26_Widget_AppCompat_Toolbar = global::CommunicationHelper.App.Resource.Style.Base_V26_Widget_AppCompat_Toolbar;
+			global::BluetoothService.Resource.Style.Base_V28_Theme_AppCompat = global::CommunicationHelper.App.Resource.Style.Base_V28_Theme_AppCompat;
+			global::BluetoothService.Resource.Style.Base_V28_Theme_AppCompat_Light = global::CommunicationHelper.App.Resource.Style.Base_V28_Theme_AppCompat_Light;
+			global::BluetoothService.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::CommunicationHelper.App.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
+			global::BluetoothService.Resource.Style.Base_V7_Theme_AppCompat = global::CommunicationHelper.App.Resource.Style.Base_V7_Theme_AppCompat;
+			global::BluetoothService.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::CommunicationHelper.App.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::BluetoothService.Resource.Style.Base_V7_Theme_AppCompat_Light = global::CommunicationHelper.App.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::BluetoothService.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::CommunicationHelper.App.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::BluetoothService.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::CommunicationHelper.App.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::BluetoothService.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::CommunicationHelper.App.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::BluetoothService.Resource.Style.Base_V7_Widget_AppCompat_Toolbar = global::CommunicationHelper.App.Resource.Style.Base_V7_Widget_AppCompat_Toolbar;
+			global::BluetoothService.Resource.Style.Base_Widget_AppCompat_ActionBar = global::CommunicationHelper.App.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::BluetoothService.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::CommunicationHelper.App.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::BluetoothService.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::CommunicationHelper.App.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::BluetoothService.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::CommunicationHelper.App.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::BluetoothService.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::CommunicationHelper.App.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::BluetoothService.Resource.Style.Base_Widget_AppCompat_ActionButton = global::CommunicationHelper.App.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::BluetoothService.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::CommunicationHelper.App.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::BluetoothService.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::CommunicationHelper.App.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::BluetoothService.Resource.Style.Base_Widget_AppCompat_ActionMode = global::CommunicationHelper.App.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::BluetoothService.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::CommunicationHelper.App.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::BluetoothService.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::CommunicationHelper.App.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::BluetoothService.Resource.Style.Base_Widget_AppCompat_Button = global::CommunicationHelper.App.Resource.Style.Base_Widget_AppCompat_Button;
+			global::BluetoothService.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::CommunicationHelper.App.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::BluetoothService.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::CommunicationHelper.App.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::BluetoothService.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::CommunicationHelper.App.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::BluetoothService.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::CommunicationHelper.App.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::BluetoothService.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::CommunicationHelper.App.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::BluetoothService.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::CommunicationHelper.App.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::BluetoothService.Resource.Style.Base_Widget_AppCompat_Button_Small = global::CommunicationHelper.App.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::BluetoothService.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::CommunicationHelper.App.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::BluetoothService.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::CommunicationHelper.App.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::BluetoothService.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::CommunicationHelper.App.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::BluetoothService.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::CommunicationHelper.App.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::BluetoothService.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::CommunicationHelper.App.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::BluetoothService.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::CommunicationHelper.App.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::BluetoothService.Resource.Style.Base_Widget_AppCompat_EditText = global::CommunicationHelper.App.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::BluetoothService.Resource.Style.Base_Widget_AppCompat_ImageButton = global::CommunicationHelper.App.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::BluetoothService.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::CommunicationHelper.App.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::BluetoothService.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::CommunicationHelper.App.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::BluetoothService.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::CommunicationHelper.App.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::BluetoothService.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::CommunicationHelper.App.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::BluetoothService.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::CommunicationHelper.App.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::BluetoothService.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::CommunicationHelper.App.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::BluetoothService.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::CommunicationHelper.App.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::BluetoothService.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::CommunicationHelper.App.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::BluetoothService.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::CommunicationHelper.App.Resource.Style.Base_Widget_AppCompat_ListMenuView;
+			global::BluetoothService.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::CommunicationHelper.App.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::BluetoothService.Resource.Style.Base_Widget_AppCompat_ListView = global::CommunicationHelper.App.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::BluetoothService.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::CommunicationHelper.App.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::BluetoothService.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::CommunicationHelper.App.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::BluetoothService.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::CommunicationHelper.App.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::BluetoothService.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::CommunicationHelper.App.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::BluetoothService.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::CommunicationHelper.App.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::BluetoothService.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::CommunicationHelper.App.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::BluetoothService.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::CommunicationHelper.App.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::BluetoothService.Resource.Style.Base_Widget_AppCompat_RatingBar = global::CommunicationHelper.App.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::BluetoothService.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::CommunicationHelper.App.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::BluetoothService.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::CommunicationHelper.App.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::BluetoothService.Resource.Style.Base_Widget_AppCompat_SearchView = global::CommunicationHelper.App.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::BluetoothService.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::CommunicationHelper.App.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::BluetoothService.Resource.Style.Base_Widget_AppCompat_SeekBar = global::CommunicationHelper.App.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::BluetoothService.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::CommunicationHelper.App.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
+			global::BluetoothService.Resource.Style.Base_Widget_AppCompat_Spinner = global::CommunicationHelper.App.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::BluetoothService.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::CommunicationHelper.App.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::BluetoothService.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::CommunicationHelper.App.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::BluetoothService.Resource.Style.Base_Widget_AppCompat_Toolbar = global::CommunicationHelper.App.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::BluetoothService.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::CommunicationHelper.App.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::BluetoothService.Resource.Style.Platform_AppCompat = global::CommunicationHelper.App.Resource.Style.Platform_AppCompat;
+			global::BluetoothService.Resource.Style.Platform_AppCompat_Light = global::CommunicationHelper.App.Resource.Style.Platform_AppCompat_Light;
+			global::BluetoothService.Resource.Style.Platform_ThemeOverlay_AppCompat = global::CommunicationHelper.App.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::BluetoothService.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::CommunicationHelper.App.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::BluetoothService.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::CommunicationHelper.App.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::BluetoothService.Resource.Style.Platform_V21_AppCompat = global::CommunicationHelper.App.Resource.Style.Platform_V21_AppCompat;
+			global::BluetoothService.Resource.Style.Platform_V21_AppCompat_Light = global::CommunicationHelper.App.Resource.Style.Platform_V21_AppCompat_Light;
+			global::BluetoothService.Resource.Style.Platform_V25_AppCompat = global::CommunicationHelper.App.Resource.Style.Platform_V25_AppCompat;
+			global::BluetoothService.Resource.Style.Platform_V25_AppCompat_Light = global::CommunicationHelper.App.Resource.Style.Platform_V25_AppCompat_Light;
+			global::BluetoothService.Resource.Style.Platform_Widget_AppCompat_Spinner = global::CommunicationHelper.App.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::BluetoothService.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::CommunicationHelper.App.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::BluetoothService.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::CommunicationHelper.App.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::BluetoothService.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::CommunicationHelper.App.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::BluetoothService.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::CommunicationHelper.App.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::BluetoothService.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::CommunicationHelper.App.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::BluetoothService.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut = global::CommunicationHelper.App.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut;
+			global::BluetoothService.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow = global::CommunicationHelper.App.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow;
+			global::BluetoothService.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::CommunicationHelper.App.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::BluetoothService.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title = global::CommunicationHelper.App.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title;
+			global::BluetoothService.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::CommunicationHelper.App.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::BluetoothService.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::CommunicationHelper.App.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::BluetoothService.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::CommunicationHelper.App.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::BluetoothService.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::CommunicationHelper.App.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::BluetoothService.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::CommunicationHelper.App.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::BluetoothService.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::CommunicationHelper.App.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::BluetoothService.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::CommunicationHelper.App.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::BluetoothService.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::CommunicationHelper.App.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::BluetoothService.Resource.Style.TextAppearance_AppCompat = global::CommunicationHelper.App.Resource.Style.TextAppearance_AppCompat;
+			global::BluetoothService.Resource.Style.TextAppearance_AppCompat_Body1 = global::CommunicationHelper.App.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::BluetoothService.Resource.Style.TextAppearance_AppCompat_Body2 = global::CommunicationHelper.App.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::BluetoothService.Resource.Style.TextAppearance_AppCompat_Button = global::CommunicationHelper.App.Resource.Style.TextAppearance_AppCompat_Button;
+			global::BluetoothService.Resource.Style.TextAppearance_AppCompat_Caption = global::CommunicationHelper.App.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::BluetoothService.Resource.Style.TextAppearance_AppCompat_Display1 = global::CommunicationHelper.App.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::BluetoothService.Resource.Style.TextAppearance_AppCompat_Display2 = global::CommunicationHelper.App.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::BluetoothService.Resource.Style.TextAppearance_AppCompat_Display3 = global::CommunicationHelper.App.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::BluetoothService.Resource.Style.TextAppearance_AppCompat_Display4 = global::CommunicationHelper.App.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::BluetoothService.Resource.Style.TextAppearance_AppCompat_Headline = global::CommunicationHelper.App.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::BluetoothService.Resource.Style.TextAppearance_AppCompat_Inverse = global::CommunicationHelper.App.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::BluetoothService.Resource.Style.TextAppearance_AppCompat_Large = global::CommunicationHelper.App.Resource.Style.TextAppearance_AppCompat_Large;
+			global::BluetoothService.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::CommunicationHelper.App.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::BluetoothService.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::CommunicationHelper.App.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::BluetoothService.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::CommunicationHelper.App.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::BluetoothService.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::CommunicationHelper.App.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::BluetoothService.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::CommunicationHelper.App.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::BluetoothService.Resource.Style.TextAppearance_AppCompat_Medium = global::CommunicationHelper.App.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::BluetoothService.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::CommunicationHelper.App.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::BluetoothService.Resource.Style.TextAppearance_AppCompat_Menu = global::CommunicationHelper.App.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::BluetoothService.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::CommunicationHelper.App.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::BluetoothService.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::CommunicationHelper.App.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::BluetoothService.Resource.Style.TextAppearance_AppCompat_Small = global::CommunicationHelper.App.Resource.Style.TextAppearance_AppCompat_Small;
+			global::BluetoothService.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::CommunicationHelper.App.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::BluetoothService.Resource.Style.TextAppearance_AppCompat_Subhead = global::CommunicationHelper.App.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::BluetoothService.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::CommunicationHelper.App.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::BluetoothService.Resource.Style.TextAppearance_AppCompat_Title = global::CommunicationHelper.App.Resource.Style.TextAppearance_AppCompat_Title;
+			global::BluetoothService.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::CommunicationHelper.App.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::BluetoothService.Resource.Style.TextAppearance_AppCompat_Tooltip = global::CommunicationHelper.App.Resource.Style.TextAppearance_AppCompat_Tooltip;
+			global::BluetoothService.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::CommunicationHelper.App.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::BluetoothService.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::CommunicationHelper.App.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::BluetoothService.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::CommunicationHelper.App.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::BluetoothService.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::CommunicationHelper.App.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::BluetoothService.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::CommunicationHelper.App.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::BluetoothService.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::CommunicationHelper.App.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::BluetoothService.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::CommunicationHelper.App.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::BluetoothService.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::CommunicationHelper.App.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::BluetoothService.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::CommunicationHelper.App.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::BluetoothService.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::CommunicationHelper.App.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::BluetoothService.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::CommunicationHelper.App.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::BluetoothService.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::CommunicationHelper.App.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
+			global::BluetoothService.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::CommunicationHelper.App.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::BluetoothService.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::CommunicationHelper.App.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::BluetoothService.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::CommunicationHelper.App.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::BluetoothService.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::CommunicationHelper.App.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::BluetoothService.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::CommunicationHelper.App.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::BluetoothService.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::CommunicationHelper.App.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::BluetoothService.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::CommunicationHelper.App.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::BluetoothService.Resource.Style.TextAppearance_Compat_Notification = global::CommunicationHelper.App.Resource.Style.TextAppearance_Compat_Notification;
+			global::BluetoothService.Resource.Style.TextAppearance_Compat_Notification_Info = global::CommunicationHelper.App.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::BluetoothService.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::CommunicationHelper.App.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::BluetoothService.Resource.Style.TextAppearance_Compat_Notification_Time = global::CommunicationHelper.App.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::BluetoothService.Resource.Style.TextAppearance_Compat_Notification_Title = global::CommunicationHelper.App.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::BluetoothService.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::CommunicationHelper.App.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::BluetoothService.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::CommunicationHelper.App.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::BluetoothService.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::CommunicationHelper.App.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::BluetoothService.Resource.Style.ThemeOverlay_AppCompat = global::CommunicationHelper.App.Resource.Style.ThemeOverlay_AppCompat;
+			global::BluetoothService.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::CommunicationHelper.App.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::BluetoothService.Resource.Style.ThemeOverlay_AppCompat_Dark = global::CommunicationHelper.App.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::BluetoothService.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::CommunicationHelper.App.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::BluetoothService.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::CommunicationHelper.App.Resource.Style.ThemeOverlay_AppCompat_Dialog;
+			global::BluetoothService.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::CommunicationHelper.App.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
+			global::BluetoothService.Resource.Style.ThemeOverlay_AppCompat_Light = global::CommunicationHelper.App.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::BluetoothService.Resource.Style.Theme_AppCompat = global::CommunicationHelper.App.Resource.Style.Theme_AppCompat;
+			global::BluetoothService.Resource.Style.Theme_AppCompat_CompactMenu = global::CommunicationHelper.App.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::BluetoothService.Resource.Style.Theme_AppCompat_DayNight = global::CommunicationHelper.App.Resource.Style.Theme_AppCompat_DayNight;
+			global::BluetoothService.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::CommunicationHelper.App.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::BluetoothService.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::CommunicationHelper.App.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::BluetoothService.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::CommunicationHelper.App.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::BluetoothService.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::CommunicationHelper.App.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::BluetoothService.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::CommunicationHelper.App.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::BluetoothService.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::CommunicationHelper.App.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::BluetoothService.Resource.Style.Theme_AppCompat_Dialog = global::CommunicationHelper.App.Resource.Style.Theme_AppCompat_Dialog;
+			global::BluetoothService.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::CommunicationHelper.App.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::BluetoothService.Resource.Style.Theme_AppCompat_Dialog_Alert = global::CommunicationHelper.App.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::BluetoothService.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::CommunicationHelper.App.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::BluetoothService.Resource.Style.Theme_AppCompat_Light = global::CommunicationHelper.App.Resource.Style.Theme_AppCompat_Light;
+			global::BluetoothService.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::CommunicationHelper.App.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::BluetoothService.Resource.Style.Theme_AppCompat_Light_Dialog = global::CommunicationHelper.App.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::BluetoothService.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::CommunicationHelper.App.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::BluetoothService.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::CommunicationHelper.App.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::BluetoothService.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::CommunicationHelper.App.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::BluetoothService.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::CommunicationHelper.App.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::BluetoothService.Resource.Style.Theme_AppCompat_NoActionBar = global::CommunicationHelper.App.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::BluetoothService.Resource.Style.Widget_AppCompat_ActionBar = global::CommunicationHelper.App.Resource.Style.Widget_AppCompat_ActionBar;
+			global::BluetoothService.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::CommunicationHelper.App.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::BluetoothService.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::CommunicationHelper.App.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::BluetoothService.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::CommunicationHelper.App.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::BluetoothService.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::CommunicationHelper.App.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::BluetoothService.Resource.Style.Widget_AppCompat_ActionButton = global::CommunicationHelper.App.Resource.Style.Widget_AppCompat_ActionButton;
+			global::BluetoothService.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::CommunicationHelper.App.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::BluetoothService.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::CommunicationHelper.App.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::BluetoothService.Resource.Style.Widget_AppCompat_ActionMode = global::CommunicationHelper.App.Resource.Style.Widget_AppCompat_ActionMode;
+			global::BluetoothService.Resource.Style.Widget_AppCompat_ActivityChooserView = global::CommunicationHelper.App.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::BluetoothService.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::CommunicationHelper.App.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::BluetoothService.Resource.Style.Widget_AppCompat_Button = global::CommunicationHelper.App.Resource.Style.Widget_AppCompat_Button;
+			global::BluetoothService.Resource.Style.Widget_AppCompat_ButtonBar = global::CommunicationHelper.App.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::BluetoothService.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::CommunicationHelper.App.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::BluetoothService.Resource.Style.Widget_AppCompat_Button_Borderless = global::CommunicationHelper.App.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::BluetoothService.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::CommunicationHelper.App.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::BluetoothService.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::CommunicationHelper.App.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::BluetoothService.Resource.Style.Widget_AppCompat_Button_Colored = global::CommunicationHelper.App.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::BluetoothService.Resource.Style.Widget_AppCompat_Button_Small = global::CommunicationHelper.App.Resource.Style.Widget_AppCompat_Button_Small;
+			global::BluetoothService.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::CommunicationHelper.App.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::BluetoothService.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::CommunicationHelper.App.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::BluetoothService.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::CommunicationHelper.App.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::BluetoothService.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::CommunicationHelper.App.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::BluetoothService.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::CommunicationHelper.App.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::BluetoothService.Resource.Style.Widget_AppCompat_EditText = global::CommunicationHelper.App.Resource.Style.Widget_AppCompat_EditText;
+			global::BluetoothService.Resource.Style.Widget_AppCompat_ImageButton = global::CommunicationHelper.App.Resource.Style.Widget_AppCompat_ImageButton;
+			global::BluetoothService.Resource.Style.Widget_AppCompat_Light_ActionBar = global::CommunicationHelper.App.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::BluetoothService.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::CommunicationHelper.App.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::BluetoothService.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::CommunicationHelper.App.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::BluetoothService.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::CommunicationHelper.App.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::BluetoothService.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::CommunicationHelper.App.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::BluetoothService.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::CommunicationHelper.App.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::BluetoothService.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::CommunicationHelper.App.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::BluetoothService.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::CommunicationHelper.App.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::BluetoothService.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::CommunicationHelper.App.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::BluetoothService.Resource.Style.Widget_AppCompat_Light_ActionButton = global::CommunicationHelper.App.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::BluetoothService.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::CommunicationHelper.App.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::BluetoothService.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::CommunicationHelper.App.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::BluetoothService.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::CommunicationHelper.App.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::BluetoothService.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::CommunicationHelper.App.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::BluetoothService.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::CommunicationHelper.App.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::BluetoothService.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::CommunicationHelper.App.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::BluetoothService.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::CommunicationHelper.App.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::BluetoothService.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::CommunicationHelper.App.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::BluetoothService.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::CommunicationHelper.App.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::BluetoothService.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::CommunicationHelper.App.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::BluetoothService.Resource.Style.Widget_AppCompat_Light_SearchView = global::CommunicationHelper.App.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::BluetoothService.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::CommunicationHelper.App.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::BluetoothService.Resource.Style.Widget_AppCompat_ListMenuView = global::CommunicationHelper.App.Resource.Style.Widget_AppCompat_ListMenuView;
+			global::BluetoothService.Resource.Style.Widget_AppCompat_ListPopupWindow = global::CommunicationHelper.App.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::BluetoothService.Resource.Style.Widget_AppCompat_ListView = global::CommunicationHelper.App.Resource.Style.Widget_AppCompat_ListView;
+			global::BluetoothService.Resource.Style.Widget_AppCompat_ListView_DropDown = global::CommunicationHelper.App.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::BluetoothService.Resource.Style.Widget_AppCompat_ListView_Menu = global::CommunicationHelper.App.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::BluetoothService.Resource.Style.Widget_AppCompat_PopupMenu = global::CommunicationHelper.App.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::BluetoothService.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::CommunicationHelper.App.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::BluetoothService.Resource.Style.Widget_AppCompat_PopupWindow = global::CommunicationHelper.App.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::BluetoothService.Resource.Style.Widget_AppCompat_ProgressBar = global::CommunicationHelper.App.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::BluetoothService.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::CommunicationHelper.App.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::BluetoothService.Resource.Style.Widget_AppCompat_RatingBar = global::CommunicationHelper.App.Resource.Style.Widget_AppCompat_RatingBar;
+			global::BluetoothService.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::CommunicationHelper.App.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::BluetoothService.Resource.Style.Widget_AppCompat_RatingBar_Small = global::CommunicationHelper.App.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::BluetoothService.Resource.Style.Widget_AppCompat_SearchView = global::CommunicationHelper.App.Resource.Style.Widget_AppCompat_SearchView;
+			global::BluetoothService.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::CommunicationHelper.App.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::BluetoothService.Resource.Style.Widget_AppCompat_SeekBar = global::CommunicationHelper.App.Resource.Style.Widget_AppCompat_SeekBar;
+			global::BluetoothService.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::CommunicationHelper.App.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
+			global::BluetoothService.Resource.Style.Widget_AppCompat_Spinner = global::CommunicationHelper.App.Resource.Style.Widget_AppCompat_Spinner;
+			global::BluetoothService.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::CommunicationHelper.App.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::BluetoothService.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::CommunicationHelper.App.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::BluetoothService.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::CommunicationHelper.App.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::BluetoothService.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::CommunicationHelper.App.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::BluetoothService.Resource.Style.Widget_AppCompat_Toolbar = global::CommunicationHelper.App.Resource.Style.Widget_AppCompat_Toolbar;
+			global::BluetoothService.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::CommunicationHelper.App.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::BluetoothService.Resource.Style.Widget_Compat_NotificationActionContainer = global::CommunicationHelper.App.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::BluetoothService.Resource.Style.Widget_Compat_NotificationActionText = global::CommunicationHelper.App.Resource.Style.Widget_Compat_NotificationActionText;
+			global::BluetoothService.Resource.Style.Widget_Support_CoordinatorLayout = global::CommunicationHelper.App.Resource.Style.Widget_Support_CoordinatorLayout;
+			global::BluetoothService.Resource.Styleable.ActionBar = global::CommunicationHelper.App.Resource.Styleable.ActionBar;
+			global::BluetoothService.Resource.Styleable.ActionBarLayout = global::CommunicationHelper.App.Resource.Styleable.ActionBarLayout;
+			global::BluetoothService.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::CommunicationHelper.App.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::BluetoothService.Resource.Styleable.ActionBar_background = global::CommunicationHelper.App.Resource.Styleable.ActionBar_background;
+			global::BluetoothService.Resource.Styleable.ActionBar_backgroundSplit = global::CommunicationHelper.App.Resource.Styleable.ActionBar_backgroundSplit;
+			global::BluetoothService.Resource.Styleable.ActionBar_backgroundStacked = global::CommunicationHelper.App.Resource.Styleable.ActionBar_backgroundStacked;
+			global::BluetoothService.Resource.Styleable.ActionBar_contentInsetEnd = global::CommunicationHelper.App.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::BluetoothService.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::CommunicationHelper.App.Resource.Styleable.ActionBar_contentInsetEndWithActions;
+			global::BluetoothService.Resource.Styleable.ActionBar_contentInsetLeft = global::CommunicationHelper.App.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::BluetoothService.Resource.Styleable.ActionBar_contentInsetRight = global::CommunicationHelper.App.Resource.Styleable.ActionBar_contentInsetRight;
+			global::BluetoothService.Resource.Styleable.ActionBar_contentInsetStart = global::CommunicationHelper.App.Resource.Styleable.ActionBar_contentInsetStart;
+			global::BluetoothService.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::CommunicationHelper.App.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
+			global::BluetoothService.Resource.Styleable.ActionBar_customNavigationLayout = global::CommunicationHelper.App.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::BluetoothService.Resource.Styleable.ActionBar_displayOptions = global::CommunicationHelper.App.Resource.Styleable.ActionBar_displayOptions;
+			global::BluetoothService.Resource.Styleable.ActionBar_divider = global::CommunicationHelper.App.Resource.Styleable.ActionBar_divider;
+			global::BluetoothService.Resource.Styleable.ActionBar_elevation = global::CommunicationHelper.App.Resource.Styleable.ActionBar_elevation;
+			global::BluetoothService.Resource.Styleable.ActionBar_height = global::CommunicationHelper.App.Resource.Styleable.ActionBar_height;
+			global::BluetoothService.Resource.Styleable.ActionBar_hideOnContentScroll = global::CommunicationHelper.App.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::BluetoothService.Resource.Styleable.ActionBar_homeAsUpIndicator = global::CommunicationHelper.App.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::BluetoothService.Resource.Styleable.ActionBar_homeLayout = global::CommunicationHelper.App.Resource.Styleable.ActionBar_homeLayout;
+			global::BluetoothService.Resource.Styleable.ActionBar_icon = global::CommunicationHelper.App.Resource.Styleable.ActionBar_icon;
+			global::BluetoothService.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::CommunicationHelper.App.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::BluetoothService.Resource.Styleable.ActionBar_itemPadding = global::CommunicationHelper.App.Resource.Styleable.ActionBar_itemPadding;
+			global::BluetoothService.Resource.Styleable.ActionBar_logo = global::CommunicationHelper.App.Resource.Styleable.ActionBar_logo;
+			global::BluetoothService.Resource.Styleable.ActionBar_navigationMode = global::CommunicationHelper.App.Resource.Styleable.ActionBar_navigationMode;
+			global::BluetoothService.Resource.Styleable.ActionBar_popupTheme = global::CommunicationHelper.App.Resource.Styleable.ActionBar_popupTheme;
+			global::BluetoothService.Resource.Styleable.ActionBar_progressBarPadding = global::CommunicationHelper.App.Resource.Styleable.ActionBar_progressBarPadding;
+			global::BluetoothService.Resource.Styleable.ActionBar_progressBarStyle = global::CommunicationHelper.App.Resource.Styleable.ActionBar_progressBarStyle;
+			global::BluetoothService.Resource.Styleable.ActionBar_subtitle = global::CommunicationHelper.App.Resource.Styleable.ActionBar_subtitle;
+			global::BluetoothService.Resource.Styleable.ActionBar_subtitleTextStyle = global::CommunicationHelper.App.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::BluetoothService.Resource.Styleable.ActionBar_title = global::CommunicationHelper.App.Resource.Styleable.ActionBar_title;
+			global::BluetoothService.Resource.Styleable.ActionBar_titleTextStyle = global::CommunicationHelper.App.Resource.Styleable.ActionBar_titleTextStyle;
+			global::BluetoothService.Resource.Styleable.ActionMenuItemView = global::CommunicationHelper.App.Resource.Styleable.ActionMenuItemView;
+			global::BluetoothService.Resource.Styleable.ActionMenuItemView_android_minWidth = global::CommunicationHelper.App.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::BluetoothService.Resource.Styleable.ActionMenuView = global::CommunicationHelper.App.Resource.Styleable.ActionMenuView;
+			global::BluetoothService.Resource.Styleable.ActionMode = global::CommunicationHelper.App.Resource.Styleable.ActionMode;
+			global::BluetoothService.Resource.Styleable.ActionMode_background = global::CommunicationHelper.App.Resource.Styleable.ActionMode_background;
+			global::BluetoothService.Resource.Styleable.ActionMode_backgroundSplit = global::CommunicationHelper.App.Resource.Styleable.ActionMode_backgroundSplit;
+			global::BluetoothService.Resource.Styleable.ActionMode_closeItemLayout = global::CommunicationHelper.App.Resource.Styleable.ActionMode_closeItemLayout;
+			global::BluetoothService.Resource.Styleable.ActionMode_height = global::CommunicationHelper.App.Resource.Styleable.ActionMode_height;
+			global::BluetoothService.Resource.Styleable.ActionMode_subtitleTextStyle = global::CommunicationHelper.App.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::BluetoothService.Resource.Styleable.ActionMode_titleTextStyle = global::CommunicationHelper.App.Resource.Styleable.ActionMode_titleTextStyle;
+			global::BluetoothService.Resource.Styleable.ActivityChooserView = global::CommunicationHelper.App.Resource.Styleable.ActivityChooserView;
+			global::BluetoothService.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::CommunicationHelper.App.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::BluetoothService.Resource.Styleable.ActivityChooserView_initialActivityCount = global::CommunicationHelper.App.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::BluetoothService.Resource.Styleable.AlertDialog = global::CommunicationHelper.App.Resource.Styleable.AlertDialog;
+			global::BluetoothService.Resource.Styleable.AlertDialog_android_layout = global::CommunicationHelper.App.Resource.Styleable.AlertDialog_android_layout;
+			global::BluetoothService.Resource.Styleable.AlertDialog_buttonIconDimen = global::CommunicationHelper.App.Resource.Styleable.AlertDialog_buttonIconDimen;
+			global::BluetoothService.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::CommunicationHelper.App.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::BluetoothService.Resource.Styleable.AlertDialog_listItemLayout = global::CommunicationHelper.App.Resource.Styleable.AlertDialog_listItemLayout;
+			global::BluetoothService.Resource.Styleable.AlertDialog_listLayout = global::CommunicationHelper.App.Resource.Styleable.AlertDialog_listLayout;
+			global::BluetoothService.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::CommunicationHelper.App.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::BluetoothService.Resource.Styleable.AlertDialog_showTitle = global::CommunicationHelper.App.Resource.Styleable.AlertDialog_showTitle;
+			global::BluetoothService.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::CommunicationHelper.App.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::BluetoothService.Resource.Styleable.AnimatedStateListDrawableCompat = global::CommunicationHelper.App.Resource.Styleable.AnimatedStateListDrawableCompat;
+			global::BluetoothService.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize = global::CommunicationHelper.App.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize;
+			global::BluetoothService.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither = global::CommunicationHelper.App.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither;
+			global::BluetoothService.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration = global::CommunicationHelper.App.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration;
+			global::BluetoothService.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration = global::CommunicationHelper.App.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration;
+			global::BluetoothService.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding = global::CommunicationHelper.App.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding;
+			global::BluetoothService.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible = global::CommunicationHelper.App.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible;
+			global::BluetoothService.Resource.Styleable.AnimatedStateListDrawableItem = global::CommunicationHelper.App.Resource.Styleable.AnimatedStateListDrawableItem;
+			global::BluetoothService.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable = global::CommunicationHelper.App.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable;
+			global::BluetoothService.Resource.Styleable.AnimatedStateListDrawableItem_android_id = global::CommunicationHelper.App.Resource.Styleable.AnimatedStateListDrawableItem_android_id;
+			global::BluetoothService.Resource.Styleable.AnimatedStateListDrawableTransition = global::CommunicationHelper.App.Resource.Styleable.AnimatedStateListDrawableTransition;
+			global::BluetoothService.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable = global::CommunicationHelper.App.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable;
+			global::BluetoothService.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId = global::CommunicationHelper.App.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId;
+			global::BluetoothService.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible = global::CommunicationHelper.App.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible;
+			global::BluetoothService.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId = global::CommunicationHelper.App.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId;
+			global::BluetoothService.Resource.Styleable.AppCompatImageView = global::CommunicationHelper.App.Resource.Styleable.AppCompatImageView;
+			global::BluetoothService.Resource.Styleable.AppCompatImageView_android_src = global::CommunicationHelper.App.Resource.Styleable.AppCompatImageView_android_src;
+			global::BluetoothService.Resource.Styleable.AppCompatImageView_srcCompat = global::CommunicationHelper.App.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::BluetoothService.Resource.Styleable.AppCompatImageView_tint = global::CommunicationHelper.App.Resource.Styleable.AppCompatImageView_tint;
+			global::BluetoothService.Resource.Styleable.AppCompatImageView_tintMode = global::CommunicationHelper.App.Resource.Styleable.AppCompatImageView_tintMode;
+			global::BluetoothService.Resource.Styleable.AppCompatSeekBar = global::CommunicationHelper.App.Resource.Styleable.AppCompatSeekBar;
+			global::BluetoothService.Resource.Styleable.AppCompatSeekBar_android_thumb = global::CommunicationHelper.App.Resource.Styleable.AppCompatSeekBar_android_thumb;
+			global::BluetoothService.Resource.Styleable.AppCompatSeekBar_tickMark = global::CommunicationHelper.App.Resource.Styleable.AppCompatSeekBar_tickMark;
+			global::BluetoothService.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::CommunicationHelper.App.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
+			global::BluetoothService.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::CommunicationHelper.App.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
+			global::BluetoothService.Resource.Styleable.AppCompatTextHelper = global::CommunicationHelper.App.Resource.Styleable.AppCompatTextHelper;
+			global::BluetoothService.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::CommunicationHelper.App.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
+			global::BluetoothService.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::CommunicationHelper.App.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
+			global::BluetoothService.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::CommunicationHelper.App.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
+			global::BluetoothService.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::CommunicationHelper.App.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
+			global::BluetoothService.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::CommunicationHelper.App.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
+			global::BluetoothService.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::CommunicationHelper.App.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
+			global::BluetoothService.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::CommunicationHelper.App.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
+			global::BluetoothService.Resource.Styleable.AppCompatTextView = global::CommunicationHelper.App.Resource.Styleable.AppCompatTextView;
+			global::BluetoothService.Resource.Styleable.AppCompatTextView_android_textAppearance = global::CommunicationHelper.App.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::BluetoothService.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize = global::CommunicationHelper.App.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize;
+			global::BluetoothService.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize = global::CommunicationHelper.App.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize;
+			global::BluetoothService.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::CommunicationHelper.App.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
+			global::BluetoothService.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::CommunicationHelper.App.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
+			global::BluetoothService.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::CommunicationHelper.App.Resource.Styleable.AppCompatTextView_autoSizeTextType;
+			global::BluetoothService.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight = global::CommunicationHelper.App.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight;
+			global::BluetoothService.Resource.Styleable.AppCompatTextView_fontFamily = global::CommunicationHelper.App.Resource.Styleable.AppCompatTextView_fontFamily;
+			global::BluetoothService.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight = global::CommunicationHelper.App.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight;
+			global::BluetoothService.Resource.Styleable.AppCompatTextView_lineHeight = global::CommunicationHelper.App.Resource.Styleable.AppCompatTextView_lineHeight;
+			global::BluetoothService.Resource.Styleable.AppCompatTextView_textAllCaps = global::CommunicationHelper.App.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_actionBarDivider = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_actionBarSize = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_actionBarStyle = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_actionBarTheme = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_actionModeBackground = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_actionModeStyle = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_buttonStyle = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_checkboxStyle = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_colorAccent = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_colorControlActivated = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_colorControlNormal = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_colorError = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_colorError;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_colorPrimary = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_controlBackground = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_dialogCornerRadius = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_dialogCornerRadius;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_dialogTheme = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_dividerVertical = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_editTextBackground = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_editTextColor = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_editTextStyle = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_panelBackground = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_searchViewStyle = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_seekBarStyle = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_spinnerStyle = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_switchStyle = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_toolbarStyle = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_tooltipForegroundColor = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_tooltipForegroundColor;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_tooltipFrameBackground = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_tooltipFrameBackground;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_viewInflaterClass = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_viewInflaterClass;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_windowActionBar = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::BluetoothService.Resource.Styleable.AppCompatTheme_windowNoTitle = global::CommunicationHelper.App.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::BluetoothService.Resource.Styleable.ButtonBarLayout = global::CommunicationHelper.App.Resource.Styleable.ButtonBarLayout;
+			global::BluetoothService.Resource.Styleable.ButtonBarLayout_allowStacking = global::CommunicationHelper.App.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::BluetoothService.Resource.Styleable.ColorStateListItem = global::CommunicationHelper.App.Resource.Styleable.ColorStateListItem;
+			global::BluetoothService.Resource.Styleable.ColorStateListItem_alpha = global::CommunicationHelper.App.Resource.Styleable.ColorStateListItem_alpha;
+			global::BluetoothService.Resource.Styleable.ColorStateListItem_android_alpha = global::CommunicationHelper.App.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::BluetoothService.Resource.Styleable.ColorStateListItem_android_color = global::CommunicationHelper.App.Resource.Styleable.ColorStateListItem_android_color;
+			global::BluetoothService.Resource.Styleable.CompoundButton = global::CommunicationHelper.App.Resource.Styleable.CompoundButton;
+			global::BluetoothService.Resource.Styleable.CompoundButton_android_button = global::CommunicationHelper.App.Resource.Styleable.CompoundButton_android_button;
+			global::BluetoothService.Resource.Styleable.CompoundButton_buttonTint = global::CommunicationHelper.App.Resource.Styleable.CompoundButton_buttonTint;
+			global::BluetoothService.Resource.Styleable.CompoundButton_buttonTintMode = global::CommunicationHelper.App.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::BluetoothService.Resource.Styleable.CoordinatorLayout = global::CommunicationHelper.App.Resource.Styleable.CoordinatorLayout;
+			global::BluetoothService.Resource.Styleable.CoordinatorLayout_keylines = global::CommunicationHelper.App.Resource.Styleable.CoordinatorLayout_keylines;
+			global::BluetoothService.Resource.Styleable.CoordinatorLayout_Layout = global::CommunicationHelper.App.Resource.Styleable.CoordinatorLayout_Layout;
+			global::BluetoothService.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::CommunicationHelper.App.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::BluetoothService.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::CommunicationHelper.App.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::BluetoothService.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::CommunicationHelper.App.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::BluetoothService.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::CommunicationHelper.App.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::BluetoothService.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::CommunicationHelper.App.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::BluetoothService.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::CommunicationHelper.App.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::BluetoothService.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::CommunicationHelper.App.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::BluetoothService.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::CommunicationHelper.App.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::BluetoothService.Resource.Styleable.DrawerArrowToggle = global::CommunicationHelper.App.Resource.Styleable.DrawerArrowToggle;
+			global::BluetoothService.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::CommunicationHelper.App.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::BluetoothService.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::CommunicationHelper.App.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::BluetoothService.Resource.Styleable.DrawerArrowToggle_barLength = global::CommunicationHelper.App.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::BluetoothService.Resource.Styleable.DrawerArrowToggle_color = global::CommunicationHelper.App.Resource.Styleable.DrawerArrowToggle_color;
+			global::BluetoothService.Resource.Styleable.DrawerArrowToggle_drawableSize = global::CommunicationHelper.App.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::BluetoothService.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::CommunicationHelper.App.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::BluetoothService.Resource.Styleable.DrawerArrowToggle_spinBars = global::CommunicationHelper.App.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::BluetoothService.Resource.Styleable.DrawerArrowToggle_thickness = global::CommunicationHelper.App.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::BluetoothService.Resource.Styleable.FontFamily = global::CommunicationHelper.App.Resource.Styleable.FontFamily;
+			global::BluetoothService.Resource.Styleable.FontFamilyFont = global::CommunicationHelper.App.Resource.Styleable.FontFamilyFont;
+			global::BluetoothService.Resource.Styleable.FontFamilyFont_android_font = global::CommunicationHelper.App.Resource.Styleable.FontFamilyFont_android_font;
+			global::BluetoothService.Resource.Styleable.FontFamilyFont_android_fontStyle = global::CommunicationHelper.App.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::BluetoothService.Resource.Styleable.FontFamilyFont_android_fontVariationSettings = global::CommunicationHelper.App.Resource.Styleable.FontFamilyFont_android_fontVariationSettings;
+			global::BluetoothService.Resource.Styleable.FontFamilyFont_android_fontWeight = global::CommunicationHelper.App.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::BluetoothService.Resource.Styleable.FontFamilyFont_android_ttcIndex = global::CommunicationHelper.App.Resource.Styleable.FontFamilyFont_android_ttcIndex;
+			global::BluetoothService.Resource.Styleable.FontFamilyFont_font = global::CommunicationHelper.App.Resource.Styleable.FontFamilyFont_font;
+			global::BluetoothService.Resource.Styleable.FontFamilyFont_fontStyle = global::CommunicationHelper.App.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::BluetoothService.Resource.Styleable.FontFamilyFont_fontVariationSettings = global::CommunicationHelper.App.Resource.Styleable.FontFamilyFont_fontVariationSettings;
+			global::BluetoothService.Resource.Styleable.FontFamilyFont_fontWeight = global::CommunicationHelper.App.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::BluetoothService.Resource.Styleable.FontFamilyFont_ttcIndex = global::CommunicationHelper.App.Resource.Styleable.FontFamilyFont_ttcIndex;
+			global::BluetoothService.Resource.Styleable.FontFamily_fontProviderAuthority = global::CommunicationHelper.App.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::BluetoothService.Resource.Styleable.FontFamily_fontProviderCerts = global::CommunicationHelper.App.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::BluetoothService.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::CommunicationHelper.App.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::BluetoothService.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::CommunicationHelper.App.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::BluetoothService.Resource.Styleable.FontFamily_fontProviderPackage = global::CommunicationHelper.App.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::BluetoothService.Resource.Styleable.FontFamily_fontProviderQuery = global::CommunicationHelper.App.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::BluetoothService.Resource.Styleable.GradientColor = global::CommunicationHelper.App.Resource.Styleable.GradientColor;
+			global::BluetoothService.Resource.Styleable.GradientColorItem = global::CommunicationHelper.App.Resource.Styleable.GradientColorItem;
+			global::BluetoothService.Resource.Styleable.GradientColorItem_android_color = global::CommunicationHelper.App.Resource.Styleable.GradientColorItem_android_color;
+			global::BluetoothService.Resource.Styleable.GradientColorItem_android_offset = global::CommunicationHelper.App.Resource.Styleable.GradientColorItem_android_offset;
+			global::BluetoothService.Resource.Styleable.GradientColor_android_centerColor = global::CommunicationHelper.App.Resource.Styleable.GradientColor_android_centerColor;
+			global::BluetoothService.Resource.Styleable.GradientColor_android_centerX = global::CommunicationHelper.App.Resource.Styleable.GradientColor_android_centerX;
+			global::BluetoothService.Resource.Styleable.GradientColor_android_centerY = global::CommunicationHelper.App.Resource.Styleable.GradientColor_android_centerY;
+			global::BluetoothService.Resource.Styleable.GradientColor_android_endColor = global::CommunicationHelper.App.Resource.Styleable.GradientColor_android_endColor;
+			global::BluetoothService.Resource.Styleable.GradientColor_android_endX = global::CommunicationHelper.App.Resource.Styleable.GradientColor_android_endX;
+			global::BluetoothService.Resource.Styleable.GradientColor_android_endY = global::CommunicationHelper.App.Resource.Styleable.GradientColor_android_endY;
+			global::BluetoothService.Resource.Styleable.GradientColor_android_gradientRadius = global::CommunicationHelper.App.Resource.Styleable.GradientColor_android_gradientRadius;
+			global::BluetoothService.Resource.Styleable.GradientColor_android_startColor = global::CommunicationHelper.App.Resource.Styleable.GradientColor_android_startColor;
+			global::BluetoothService.Resource.Styleable.GradientColor_android_startX = global::CommunicationHelper.App.Resource.Styleable.GradientColor_android_startX;
+			global::BluetoothService.Resource.Styleable.GradientColor_android_startY = global::CommunicationHelper.App.Resource.Styleable.GradientColor_android_startY;
+			global::BluetoothService.Resource.Styleable.GradientColor_android_tileMode = global::CommunicationHelper.App.Resource.Styleable.GradientColor_android_tileMode;
+			global::BluetoothService.Resource.Styleable.GradientColor_android_type = global::CommunicationHelper.App.Resource.Styleable.GradientColor_android_type;
+			global::BluetoothService.Resource.Styleable.LinearLayoutCompat = global::CommunicationHelper.App.Resource.Styleable.LinearLayoutCompat;
+			global::BluetoothService.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::CommunicationHelper.App.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::BluetoothService.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::CommunicationHelper.App.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::BluetoothService.Resource.Styleable.LinearLayoutCompat_android_gravity = global::CommunicationHelper.App.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::BluetoothService.Resource.Styleable.LinearLayoutCompat_android_orientation = global::CommunicationHelper.App.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::BluetoothService.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::CommunicationHelper.App.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::BluetoothService.Resource.Styleable.LinearLayoutCompat_divider = global::CommunicationHelper.App.Resource.Styleable.LinearLayoutCompat_divider;
+			global::BluetoothService.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::CommunicationHelper.App.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::BluetoothService.Resource.Styleable.LinearLayoutCompat_Layout = global::CommunicationHelper.App.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::BluetoothService.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::CommunicationHelper.App.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::BluetoothService.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::CommunicationHelper.App.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::BluetoothService.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::CommunicationHelper.App.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::BluetoothService.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::CommunicationHelper.App.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::BluetoothService.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::CommunicationHelper.App.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::BluetoothService.Resource.Styleable.LinearLayoutCompat_showDividers = global::CommunicationHelper.App.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::BluetoothService.Resource.Styleable.ListPopupWindow = global::CommunicationHelper.App.Resource.Styleable.ListPopupWindow;
+			global::BluetoothService.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::CommunicationHelper.App.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::BluetoothService.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::CommunicationHelper.App.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::BluetoothService.Resource.Styleable.MenuGroup = global::CommunicationHelper.App.Resource.Styleable.MenuGroup;
+			global::BluetoothService.Resource.Styleable.MenuGroup_android_checkableBehavior = global::CommunicationHelper.App.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::BluetoothService.Resource.Styleable.MenuGroup_android_enabled = global::CommunicationHelper.App.Resource.Styleable.MenuGroup_android_enabled;
+			global::BluetoothService.Resource.Styleable.MenuGroup_android_id = global::CommunicationHelper.App.Resource.Styleable.MenuGroup_android_id;
+			global::BluetoothService.Resource.Styleable.MenuGroup_android_menuCategory = global::CommunicationHelper.App.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::BluetoothService.Resource.Styleable.MenuGroup_android_orderInCategory = global::CommunicationHelper.App.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::BluetoothService.Resource.Styleable.MenuGroup_android_visible = global::CommunicationHelper.App.Resource.Styleable.MenuGroup_android_visible;
+			global::BluetoothService.Resource.Styleable.MenuItem = global::CommunicationHelper.App.Resource.Styleable.MenuItem;
+			global::BluetoothService.Resource.Styleable.MenuItem_actionLayout = global::CommunicationHelper.App.Resource.Styleable.MenuItem_actionLayout;
+			global::BluetoothService.Resource.Styleable.MenuItem_actionProviderClass = global::CommunicationHelper.App.Resource.Styleable.MenuItem_actionProviderClass;
+			global::BluetoothService.Resource.Styleable.MenuItem_actionViewClass = global::CommunicationHelper.App.Resource.Styleable.MenuItem_actionViewClass;
+			global::BluetoothService.Resource.Styleable.MenuItem_alphabeticModifiers = global::CommunicationHelper.App.Resource.Styleable.MenuItem_alphabeticModifiers;
+			global::BluetoothService.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::CommunicationHelper.App.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::BluetoothService.Resource.Styleable.MenuItem_android_checkable = global::CommunicationHelper.App.Resource.Styleable.MenuItem_android_checkable;
+			global::BluetoothService.Resource.Styleable.MenuItem_android_checked = global::CommunicationHelper.App.Resource.Styleable.MenuItem_android_checked;
+			global::BluetoothService.Resource.Styleable.MenuItem_android_enabled = global::CommunicationHelper.App.Resource.Styleable.MenuItem_android_enabled;
+			global::BluetoothService.Resource.Styleable.MenuItem_android_icon = global::CommunicationHelper.App.Resource.Styleable.MenuItem_android_icon;
+			global::BluetoothService.Resource.Styleable.MenuItem_android_id = global::CommunicationHelper.App.Resource.Styleable.MenuItem_android_id;
+			global::BluetoothService.Resource.Styleable.MenuItem_android_menuCategory = global::CommunicationHelper.App.Resource.Styleable.MenuItem_android_menuCategory;
+			global::BluetoothService.Resource.Styleable.MenuItem_android_numericShortcut = global::CommunicationHelper.App.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::BluetoothService.Resource.Styleable.MenuItem_android_onClick = global::CommunicationHelper.App.Resource.Styleable.MenuItem_android_onClick;
+			global::BluetoothService.Resource.Styleable.MenuItem_android_orderInCategory = global::CommunicationHelper.App.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::BluetoothService.Resource.Styleable.MenuItem_android_title = global::CommunicationHelper.App.Resource.Styleable.MenuItem_android_title;
+			global::BluetoothService.Resource.Styleable.MenuItem_android_titleCondensed = global::CommunicationHelper.App.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::BluetoothService.Resource.Styleable.MenuItem_android_visible = global::CommunicationHelper.App.Resource.Styleable.MenuItem_android_visible;
+			global::BluetoothService.Resource.Styleable.MenuItem_contentDescription = global::CommunicationHelper.App.Resource.Styleable.MenuItem_contentDescription;
+			global::BluetoothService.Resource.Styleable.MenuItem_iconTint = global::CommunicationHelper.App.Resource.Styleable.MenuItem_iconTint;
+			global::BluetoothService.Resource.Styleable.MenuItem_iconTintMode = global::CommunicationHelper.App.Resource.Styleable.MenuItem_iconTintMode;
+			global::BluetoothService.Resource.Styleable.MenuItem_numericModifiers = global::CommunicationHelper.App.Resource.Styleable.MenuItem_numericModifiers;
+			global::BluetoothService.Resource.Styleable.MenuItem_showAsAction = global::CommunicationHelper.App.Resource.Styleable.MenuItem_showAsAction;
+			global::BluetoothService.Resource.Styleable.MenuItem_tooltipText = global::CommunicationHelper.App.Resource.Styleable.MenuItem_tooltipText;
+			global::BluetoothService.Resource.Styleable.MenuView = global::CommunicationHelper.App.Resource.Styleable.MenuView;
+			global::BluetoothService.Resource.Styleable.MenuView_android_headerBackground = global::CommunicationHelper.App.Resource.Styleable.MenuView_android_headerBackground;
+			global::BluetoothService.Resource.Styleable.MenuView_android_horizontalDivider = global::CommunicationHelper.App.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::BluetoothService.Resource.Styleable.MenuView_android_itemBackground = global::CommunicationHelper.App.Resource.Styleable.MenuView_android_itemBackground;
+			global::BluetoothService.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::CommunicationHelper.App.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::BluetoothService.Resource.Styleable.MenuView_android_itemTextAppearance = global::CommunicationHelper.App.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::BluetoothService.Resource.Styleable.MenuView_android_verticalDivider = global::CommunicationHelper.App.Resource.Styleable.MenuView_android_verticalDivider;
+			global::BluetoothService.Resource.Styleable.MenuView_android_windowAnimationStyle = global::CommunicationHelper.App.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::BluetoothService.Resource.Styleable.MenuView_preserveIconSpacing = global::CommunicationHelper.App.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::BluetoothService.Resource.Styleable.MenuView_subMenuArrow = global::CommunicationHelper.App.Resource.Styleable.MenuView_subMenuArrow;
+			global::BluetoothService.Resource.Styleable.PopupWindow = global::CommunicationHelper.App.Resource.Styleable.PopupWindow;
+			global::BluetoothService.Resource.Styleable.PopupWindowBackgroundState = global::CommunicationHelper.App.Resource.Styleable.PopupWindowBackgroundState;
+			global::BluetoothService.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::CommunicationHelper.App.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::BluetoothService.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::CommunicationHelper.App.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
+			global::BluetoothService.Resource.Styleable.PopupWindow_android_popupBackground = global::CommunicationHelper.App.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::BluetoothService.Resource.Styleable.PopupWindow_overlapAnchor = global::CommunicationHelper.App.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::BluetoothService.Resource.Styleable.RecycleListView = global::CommunicationHelper.App.Resource.Styleable.RecycleListView;
+			global::BluetoothService.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::CommunicationHelper.App.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
+			global::BluetoothService.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::CommunicationHelper.App.Resource.Styleable.RecycleListView_paddingTopNoTitle;
+			global::BluetoothService.Resource.Styleable.SearchView = global::CommunicationHelper.App.Resource.Styleable.SearchView;
+			global::BluetoothService.Resource.Styleable.SearchView_android_focusable = global::CommunicationHelper.App.Resource.Styleable.SearchView_android_focusable;
+			global::BluetoothService.Resource.Styleable.SearchView_android_imeOptions = global::CommunicationHelper.App.Resource.Styleable.SearchView_android_imeOptions;
+			global::BluetoothService.Resource.Styleable.SearchView_android_inputType = global::CommunicationHelper.App.Resource.Styleable.SearchView_android_inputType;
+			global::BluetoothService.Resource.Styleable.SearchView_android_maxWidth = global::CommunicationHelper.App.Resource.Styleable.SearchView_android_maxWidth;
+			global::BluetoothService.Resource.Styleable.SearchView_closeIcon = global::CommunicationHelper.App.Resource.Styleable.SearchView_closeIcon;
+			global::BluetoothService.Resource.Styleable.SearchView_commitIcon = global::CommunicationHelper.App.Resource.Styleable.SearchView_commitIcon;
+			global::BluetoothService.Resource.Styleable.SearchView_defaultQueryHint = global::CommunicationHelper.App.Resource.Styleable.SearchView_defaultQueryHint;
+			global::BluetoothService.Resource.Styleable.SearchView_goIcon = global::CommunicationHelper.App.Resource.Styleable.SearchView_goIcon;
+			global::BluetoothService.Resource.Styleable.SearchView_iconifiedByDefault = global::CommunicationHelper.App.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::BluetoothService.Resource.Styleable.SearchView_layout = global::CommunicationHelper.App.Resource.Styleable.SearchView_layout;
+			global::BluetoothService.Resource.Styleable.SearchView_queryBackground = global::CommunicationHelper.App.Resource.Styleable.SearchView_queryBackground;
+			global::BluetoothService.Resource.Styleable.SearchView_queryHint = global::CommunicationHelper.App.Resource.Styleable.SearchView_queryHint;
+			global::BluetoothService.Resource.Styleable.SearchView_searchHintIcon = global::CommunicationHelper.App.Resource.Styleable.SearchView_searchHintIcon;
+			global::BluetoothService.Resource.Styleable.SearchView_searchIcon = global::CommunicationHelper.App.Resource.Styleable.SearchView_searchIcon;
+			global::BluetoothService.Resource.Styleable.SearchView_submitBackground = global::CommunicationHelper.App.Resource.Styleable.SearchView_submitBackground;
+			global::BluetoothService.Resource.Styleable.SearchView_suggestionRowLayout = global::CommunicationHelper.App.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::BluetoothService.Resource.Styleable.SearchView_voiceIcon = global::CommunicationHelper.App.Resource.Styleable.SearchView_voiceIcon;
+			global::BluetoothService.Resource.Styleable.Spinner = global::CommunicationHelper.App.Resource.Styleable.Spinner;
+			global::BluetoothService.Resource.Styleable.Spinner_android_dropDownWidth = global::CommunicationHelper.App.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::BluetoothService.Resource.Styleable.Spinner_android_entries = global::CommunicationHelper.App.Resource.Styleable.Spinner_android_entries;
+			global::BluetoothService.Resource.Styleable.Spinner_android_popupBackground = global::CommunicationHelper.App.Resource.Styleable.Spinner_android_popupBackground;
+			global::BluetoothService.Resource.Styleable.Spinner_android_prompt = global::CommunicationHelper.App.Resource.Styleable.Spinner_android_prompt;
+			global::BluetoothService.Resource.Styleable.Spinner_popupTheme = global::CommunicationHelper.App.Resource.Styleable.Spinner_popupTheme;
+			global::BluetoothService.Resource.Styleable.StateListDrawable = global::CommunicationHelper.App.Resource.Styleable.StateListDrawable;
+			global::BluetoothService.Resource.Styleable.StateListDrawableItem = global::CommunicationHelper.App.Resource.Styleable.StateListDrawableItem;
+			global::BluetoothService.Resource.Styleable.StateListDrawableItem_android_drawable = global::CommunicationHelper.App.Resource.Styleable.StateListDrawableItem_android_drawable;
+			global::BluetoothService.Resource.Styleable.StateListDrawable_android_constantSize = global::CommunicationHelper.App.Resource.Styleable.StateListDrawable_android_constantSize;
+			global::BluetoothService.Resource.Styleable.StateListDrawable_android_dither = global::CommunicationHelper.App.Resource.Styleable.StateListDrawable_android_dither;
+			global::BluetoothService.Resource.Styleable.StateListDrawable_android_enterFadeDuration = global::CommunicationHelper.App.Resource.Styleable.StateListDrawable_android_enterFadeDuration;
+			global::BluetoothService.Resource.Styleable.StateListDrawable_android_exitFadeDuration = global::CommunicationHelper.App.Resource.Styleable.StateListDrawable_android_exitFadeDuration;
+			global::BluetoothService.Resource.Styleable.StateListDrawable_android_variablePadding = global::CommunicationHelper.App.Resource.Styleable.StateListDrawable_android_variablePadding;
+			global::BluetoothService.Resource.Styleable.StateListDrawable_android_visible = global::CommunicationHelper.App.Resource.Styleable.StateListDrawable_android_visible;
+			global::BluetoothService.Resource.Styleable.SwitchCompat = global::CommunicationHelper.App.Resource.Styleable.SwitchCompat;
+			global::BluetoothService.Resource.Styleable.SwitchCompat_android_textOff = global::CommunicationHelper.App.Resource.Styleable.SwitchCompat_android_textOff;
+			global::BluetoothService.Resource.Styleable.SwitchCompat_android_textOn = global::CommunicationHelper.App.Resource.Styleable.SwitchCompat_android_textOn;
+			global::BluetoothService.Resource.Styleable.SwitchCompat_android_thumb = global::CommunicationHelper.App.Resource.Styleable.SwitchCompat_android_thumb;
+			global::BluetoothService.Resource.Styleable.SwitchCompat_showText = global::CommunicationHelper.App.Resource.Styleable.SwitchCompat_showText;
+			global::BluetoothService.Resource.Styleable.SwitchCompat_splitTrack = global::CommunicationHelper.App.Resource.Styleable.SwitchCompat_splitTrack;
+			global::BluetoothService.Resource.Styleable.SwitchCompat_switchMinWidth = global::CommunicationHelper.App.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::BluetoothService.Resource.Styleable.SwitchCompat_switchPadding = global::CommunicationHelper.App.Resource.Styleable.SwitchCompat_switchPadding;
+			global::BluetoothService.Resource.Styleable.SwitchCompat_switchTextAppearance = global::CommunicationHelper.App.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::BluetoothService.Resource.Styleable.SwitchCompat_thumbTextPadding = global::CommunicationHelper.App.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::BluetoothService.Resource.Styleable.SwitchCompat_thumbTint = global::CommunicationHelper.App.Resource.Styleable.SwitchCompat_thumbTint;
+			global::BluetoothService.Resource.Styleable.SwitchCompat_thumbTintMode = global::CommunicationHelper.App.Resource.Styleable.SwitchCompat_thumbTintMode;
+			global::BluetoothService.Resource.Styleable.SwitchCompat_track = global::CommunicationHelper.App.Resource.Styleable.SwitchCompat_track;
+			global::BluetoothService.Resource.Styleable.SwitchCompat_trackTint = global::CommunicationHelper.App.Resource.Styleable.SwitchCompat_trackTint;
+			global::BluetoothService.Resource.Styleable.SwitchCompat_trackTintMode = global::CommunicationHelper.App.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::BluetoothService.Resource.Styleable.TextAppearance = global::CommunicationHelper.App.Resource.Styleable.TextAppearance;
+			global::BluetoothService.Resource.Styleable.TextAppearance_android_fontFamily = global::CommunicationHelper.App.Resource.Styleable.TextAppearance_android_fontFamily;
+			global::BluetoothService.Resource.Styleable.TextAppearance_android_shadowColor = global::CommunicationHelper.App.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::BluetoothService.Resource.Styleable.TextAppearance_android_shadowDx = global::CommunicationHelper.App.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::BluetoothService.Resource.Styleable.TextAppearance_android_shadowDy = global::CommunicationHelper.App.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::BluetoothService.Resource.Styleable.TextAppearance_android_shadowRadius = global::CommunicationHelper.App.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::BluetoothService.Resource.Styleable.TextAppearance_android_textColor = global::CommunicationHelper.App.Resource.Styleable.TextAppearance_android_textColor;
+			global::BluetoothService.Resource.Styleable.TextAppearance_android_textColorHint = global::CommunicationHelper.App.Resource.Styleable.TextAppearance_android_textColorHint;
+			global::BluetoothService.Resource.Styleable.TextAppearance_android_textColorLink = global::CommunicationHelper.App.Resource.Styleable.TextAppearance_android_textColorLink;
+			global::BluetoothService.Resource.Styleable.TextAppearance_android_textSize = global::CommunicationHelper.App.Resource.Styleable.TextAppearance_android_textSize;
+			global::BluetoothService.Resource.Styleable.TextAppearance_android_textStyle = global::CommunicationHelper.App.Resource.Styleable.TextAppearance_android_textStyle;
+			global::BluetoothService.Resource.Styleable.TextAppearance_android_typeface = global::CommunicationHelper.App.Resource.Styleable.TextAppearance_android_typeface;
+			global::BluetoothService.Resource.Styleable.TextAppearance_fontFamily = global::CommunicationHelper.App.Resource.Styleable.TextAppearance_fontFamily;
+			global::BluetoothService.Resource.Styleable.TextAppearance_textAllCaps = global::CommunicationHelper.App.Resource.Styleable.TextAppearance_textAllCaps;
+			global::BluetoothService.Resource.Styleable.Toolbar = global::CommunicationHelper.App.Resource.Styleable.Toolbar;
+			global::BluetoothService.Resource.Styleable.Toolbar_android_gravity = global::CommunicationHelper.App.Resource.Styleable.Toolbar_android_gravity;
+			global::BluetoothService.Resource.Styleable.Toolbar_android_minHeight = global::CommunicationHelper.App.Resource.Styleable.Toolbar_android_minHeight;
+			global::BluetoothService.Resource.Styleable.Toolbar_buttonGravity = global::CommunicationHelper.App.Resource.Styleable.Toolbar_buttonGravity;
+			global::BluetoothService.Resource.Styleable.Toolbar_collapseContentDescription = global::CommunicationHelper.App.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::BluetoothService.Resource.Styleable.Toolbar_collapseIcon = global::CommunicationHelper.App.Resource.Styleable.Toolbar_collapseIcon;
+			global::BluetoothService.Resource.Styleable.Toolbar_contentInsetEnd = global::CommunicationHelper.App.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::BluetoothService.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::CommunicationHelper.App.Resource.Styleable.Toolbar_contentInsetEndWithActions;
+			global::BluetoothService.Resource.Styleable.Toolbar_contentInsetLeft = global::CommunicationHelper.App.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::BluetoothService.Resource.Styleable.Toolbar_contentInsetRight = global::CommunicationHelper.App.Resource.Styleable.Toolbar_contentInsetRight;
+			global::BluetoothService.Resource.Styleable.Toolbar_contentInsetStart = global::CommunicationHelper.App.Resource.Styleable.Toolbar_contentInsetStart;
+			global::BluetoothService.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::CommunicationHelper.App.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
+			global::BluetoothService.Resource.Styleable.Toolbar_logo = global::CommunicationHelper.App.Resource.Styleable.Toolbar_logo;
+			global::BluetoothService.Resource.Styleable.Toolbar_logoDescription = global::CommunicationHelper.App.Resource.Styleable.Toolbar_logoDescription;
+			global::BluetoothService.Resource.Styleable.Toolbar_maxButtonHeight = global::CommunicationHelper.App.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::BluetoothService.Resource.Styleable.Toolbar_navigationContentDescription = global::CommunicationHelper.App.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::BluetoothService.Resource.Styleable.Toolbar_navigationIcon = global::CommunicationHelper.App.Resource.Styleable.Toolbar_navigationIcon;
+			global::BluetoothService.Resource.Styleable.Toolbar_popupTheme = global::CommunicationHelper.App.Resource.Styleable.Toolbar_popupTheme;
+			global::BluetoothService.Resource.Styleable.Toolbar_subtitle = global::CommunicationHelper.App.Resource.Styleable.Toolbar_subtitle;
+			global::BluetoothService.Resource.Styleable.Toolbar_subtitleTextAppearance = global::CommunicationHelper.App.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::BluetoothService.Resource.Styleable.Toolbar_subtitleTextColor = global::CommunicationHelper.App.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::BluetoothService.Resource.Styleable.Toolbar_title = global::CommunicationHelper.App.Resource.Styleable.Toolbar_title;
+			global::BluetoothService.Resource.Styleable.Toolbar_titleMargin = global::CommunicationHelper.App.Resource.Styleable.Toolbar_titleMargin;
+			global::BluetoothService.Resource.Styleable.Toolbar_titleMarginBottom = global::CommunicationHelper.App.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::BluetoothService.Resource.Styleable.Toolbar_titleMarginEnd = global::CommunicationHelper.App.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::BluetoothService.Resource.Styleable.Toolbar_titleMargins = global::CommunicationHelper.App.Resource.Styleable.Toolbar_titleMargins;
+			global::BluetoothService.Resource.Styleable.Toolbar_titleMarginStart = global::CommunicationHelper.App.Resource.Styleable.Toolbar_titleMarginStart;
+			global::BluetoothService.Resource.Styleable.Toolbar_titleMarginTop = global::CommunicationHelper.App.Resource.Styleable.Toolbar_titleMarginTop;
+			global::BluetoothService.Resource.Styleable.Toolbar_titleTextAppearance = global::CommunicationHelper.App.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::BluetoothService.Resource.Styleable.Toolbar_titleTextColor = global::CommunicationHelper.App.Resource.Styleable.Toolbar_titleTextColor;
+			global::BluetoothService.Resource.Styleable.View = global::CommunicationHelper.App.Resource.Styleable.View;
+			global::BluetoothService.Resource.Styleable.ViewBackgroundHelper = global::CommunicationHelper.App.Resource.Styleable.ViewBackgroundHelper;
+			global::BluetoothService.Resource.Styleable.ViewBackgroundHelper_android_background = global::CommunicationHelper.App.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::BluetoothService.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::CommunicationHelper.App.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::BluetoothService.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::CommunicationHelper.App.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::BluetoothService.Resource.Styleable.ViewStubCompat = global::CommunicationHelper.App.Resource.Styleable.ViewStubCompat;
+			global::BluetoothService.Resource.Styleable.ViewStubCompat_android_id = global::CommunicationHelper.App.Resource.Styleable.ViewStubCompat_android_id;
+			global::BluetoothService.Resource.Styleable.ViewStubCompat_android_inflatedId = global::CommunicationHelper.App.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::BluetoothService.Resource.Styleable.ViewStubCompat_android_layout = global::CommunicationHelper.App.Resource.Styleable.ViewStubCompat_android_layout;
+			global::BluetoothService.Resource.Styleable.View_android_focusable = global::CommunicationHelper.App.Resource.Styleable.View_android_focusable;
+			global::BluetoothService.Resource.Styleable.View_android_theme = global::CommunicationHelper.App.Resource.Styleable.View_android_theme;
+			global::BluetoothService.Resource.Styleable.View_paddingEnd = global::CommunicationHelper.App.Resource.Styleable.View_paddingEnd;
+			global::BluetoothService.Resource.Styleable.View_paddingStart = global::CommunicationHelper.App.Resource.Styleable.View_paddingStart;
+			global::BluetoothService.Resource.Styleable.View_theme = global::CommunicationHelper.App.Resource.Styleable.View_theme;
 			global::CommunicationHelper.Core.Resource.Animation.abc_fade_in = global::CommunicationHelper.App.Resource.Animation.abc_fade_in;
 			global::CommunicationHelper.Core.Resource.Animation.abc_fade_out = global::CommunicationHelper.App.Resource.Animation.abc_fade_out;
 			global::CommunicationHelper.Core.Resource.Animation.abc_grow_fade_in_from_bottom = global::CommunicationHelper.App.Resource.Animation.abc_grow_fade_in_from_bottom;
@@ -4918,508 +6525,544 @@ namespace CommunicationHelper.App
 			public const int blocking = 2131230753;
 			
 			// aapt resource value: 0x7F080022
-			public const int bottom = 2131230754;
+			public const int bluetooth_chat_button = 2131230754;
 			
 			// aapt resource value: 0x7F080023
-			public const int browser_actions_header_text = 2131230755;
-			
-			// aapt resource value: 0x7F080026
-			public const int browser_actions_menu_items = 2131230758;
+			public const int bottom = 2131230755;
 			
 			// aapt resource value: 0x7F080024
-			public const int browser_actions_menu_item_icon = 2131230756;
-			
-			// aapt resource value: 0x7F080025
-			public const int browser_actions_menu_item_text = 2131230757;
+			public const int browser_actions_header_text = 2131230756;
 			
 			// aapt resource value: 0x7F080027
-			public const int browser_actions_menu_view = 2131230759;
+			public const int browser_actions_menu_items = 2131230759;
+			
+			// aapt resource value: 0x7F080025
+			public const int browser_actions_menu_item_icon = 2131230757;
+			
+			// aapt resource value: 0x7F080026
+			public const int browser_actions_menu_item_text = 2131230758;
 			
 			// aapt resource value: 0x7F080028
-			public const int buttonPanel = 2131230760;
+			public const int browser_actions_menu_view = 2131230760;
 			
 			// aapt resource value: 0x7F080029
-			public const int center = 2131230761;
+			public const int buttonPanel = 2131230761;
 			
 			// aapt resource value: 0x7F08002A
-			public const int center_horizontal = 2131230762;
+			public const int button_record = 2131230762;
 			
 			// aapt resource value: 0x7F08002B
-			public const int center_vertical = 2131230763;
+			public const int button_scan = 2131230763;
 			
 			// aapt resource value: 0x7F08002C
-			public const int checkbox = 2131230764;
+			public const int button_send = 2131230764;
 			
 			// aapt resource value: 0x7F08002D
-			public const int chronometer = 2131230765;
+			public const int center = 2131230765;
 			
 			// aapt resource value: 0x7F08002E
-			public const int clip_horizontal = 2131230766;
+			public const int center_horizontal = 2131230766;
 			
 			// aapt resource value: 0x7F08002F
-			public const int clip_vertical = 2131230767;
+			public const int center_vertical = 2131230767;
 			
 			// aapt resource value: 0x7F080030
-			public const int collapseActionView = 2131230768;
+			public const int checkbox = 2131230768;
 			
 			// aapt resource value: 0x7F080031
-			public const int container = 2131230769;
+			public const int chronometer = 2131230769;
 			
 			// aapt resource value: 0x7F080032
-			public const int content = 2131230770;
+			public const int clip_horizontal = 2131230770;
 			
 			// aapt resource value: 0x7F080033
-			public const int contentPanel = 2131230771;
+			public const int clip_vertical = 2131230771;
 			
 			// aapt resource value: 0x7F080034
-			public const int coordinator = 2131230772;
+			public const int collapseActionView = 2131230772;
+			
+			// aapt resource value: 0x7F080035
+			public const int container = 2131230773;
+			
+			// aapt resource value: 0x7F080036
+			public const int content = 2131230774;
+			
+			// aapt resource value: 0x7F080037
+			public const int contentPanel = 2131230775;
+			
+			// aapt resource value: 0x7F080038
+			public const int coordinator = 2131230776;
 			
 			// aapt resource value: 0x7F080001
 			public const int CTRL = 2131230721;
 			
-			// aapt resource value: 0x7F080035
-			public const int custom = 2131230773;
-			
-			// aapt resource value: 0x7F080036
-			public const int customPanel = 2131230774;
-			
-			// aapt resource value: 0x7F080037
-			public const int decor_content_parent = 2131230775;
-			
-			// aapt resource value: 0x7F080038
-			public const int default_activity_button = 2131230776;
-			
 			// aapt resource value: 0x7F080039
-			public const int design_bottom_sheet = 2131230777;
+			public const int custom = 2131230777;
 			
 			// aapt resource value: 0x7F08003A
-			public const int design_menu_item_action_area = 2131230778;
+			public const int customPanel = 2131230778;
 			
 			// aapt resource value: 0x7F08003B
-			public const int design_menu_item_action_area_stub = 2131230779;
+			public const int decor_content_parent = 2131230779;
 			
 			// aapt resource value: 0x7F08003C
-			public const int design_menu_item_text = 2131230780;
+			public const int default_activity_button = 2131230780;
 			
 			// aapt resource value: 0x7F08003D
-			public const int design_navigation_view = 2131230781;
+			public const int design_bottom_sheet = 2131230781;
 			
 			// aapt resource value: 0x7F08003E
-			public const int disableHome = 2131230782;
+			public const int design_menu_item_action_area = 2131230782;
 			
 			// aapt resource value: 0x7F08003F
-			public const int edit_query = 2131230783;
+			public const int design_menu_item_action_area_stub = 2131230783;
 			
 			// aapt resource value: 0x7F080040
-			public const int end = 2131230784;
+			public const int design_menu_item_text = 2131230784;
 			
 			// aapt resource value: 0x7F080041
-			public const int enterAlways = 2131230785;
+			public const int design_navigation_view = 2131230785;
 			
 			// aapt resource value: 0x7F080042
-			public const int enterAlwaysCollapsed = 2131230786;
+			public const int disableHome = 2131230786;
 			
 			// aapt resource value: 0x7F080043
-			public const int exitUntilCollapsed = 2131230787;
-			
-			// aapt resource value: 0x7F080045
-			public const int expanded_menu = 2131230789;
+			public const int discoverable = 2131230787;
 			
 			// aapt resource value: 0x7F080044
-			public const int expand_activities_button = 2131230788;
+			public const int edit_query = 2131230788;
+			
+			// aapt resource value: 0x7F080045
+			public const int edit_text_out = 2131230789;
 			
 			// aapt resource value: 0x7F080046
-			public const int fab = 2131230790;
+			public const int end = 2131230790;
 			
 			// aapt resource value: 0x7F080047
-			public const int fill = 2131230791;
-			
-			// aapt resource value: 0x7F08004A
-			public const int filled = 2131230794;
+			public const int enterAlways = 2131230791;
 			
 			// aapt resource value: 0x7F080048
-			public const int fill_horizontal = 2131230792;
+			public const int enterAlwaysCollapsed = 2131230792;
 			
 			// aapt resource value: 0x7F080049
-			public const int fill_vertical = 2131230793;
+			public const int exitUntilCollapsed = 2131230793;
 			
 			// aapt resource value: 0x7F08004B
-			public const int @fixed = 2131230795;
+			public const int expanded_menu = 2131230795;
+			
+			// aapt resource value: 0x7F08004A
+			public const int expand_activities_button = 2131230794;
 			
 			// aapt resource value: 0x7F08004C
-			public const int forever = 2131230796;
+			public const int fill = 2131230796;
+			
+			// aapt resource value: 0x7F08004F
+			public const int filled = 2131230799;
+			
+			// aapt resource value: 0x7F08004D
+			public const int fill_horizontal = 2131230797;
+			
+			// aapt resource value: 0x7F08004E
+			public const int fill_vertical = 2131230798;
+			
+			// aapt resource value: 0x7F080050
+			public const int @fixed = 2131230800;
+			
+			// aapt resource value: 0x7F080051
+			public const int forever = 2131230801;
 			
 			// aapt resource value: 0x7F080002
 			public const int FUNCTION = 2131230722;
 			
-			// aapt resource value: 0x7F08004D
-			public const int ghost_view = 2131230797;
-			
-			// aapt resource value: 0x7F08004E
-			public const int group_divider = 2131230798;
-			
-			// aapt resource value: 0x7F08004F
-			public const int home = 2131230799;
-			
-			// aapt resource value: 0x7F080050
-			public const int homeAsUp = 2131230800;
-			
-			// aapt resource value: 0x7F080051
-			public const int icon = 2131230801;
-			
 			// aapt resource value: 0x7F080052
-			public const int icon_group = 2131230802;
+			public const int ghost_view = 2131230802;
 			
 			// aapt resource value: 0x7F080053
-			public const int ifRoom = 2131230803;
+			public const int group_divider = 2131230803;
 			
 			// aapt resource value: 0x7F080054
-			public const int image = 2131230804;
+			public const int home = 2131230804;
 			
 			// aapt resource value: 0x7F080055
-			public const int info = 2131230805;
+			public const int homeAsUp = 2131230805;
 			
 			// aapt resource value: 0x7F080056
-			public const int italic = 2131230806;
+			public const int icon = 2131230806;
 			
 			// aapt resource value: 0x7F080057
-			public const int item_touch_helper_previous_elevation = 2131230807;
+			public const int icon_group = 2131230807;
 			
 			// aapt resource value: 0x7F080058
-			public const int labeled = 2131230808;
+			public const int ifRoom = 2131230808;
 			
 			// aapt resource value: 0x7F080059
-			public const int language_selector = 2131230809;
+			public const int image = 2131230809;
 			
 			// aapt resource value: 0x7F08005A
-			public const int language_selector_container = 2131230810;
+			public const int @in = 2131230810;
 			
 			// aapt resource value: 0x7F08005B
-			public const int largeLabel = 2131230811;
+			public const int info = 2131230811;
 			
 			// aapt resource value: 0x7F08005C
-			public const int left = 2131230812;
+			public const int insecure_connect_scan = 2131230812;
 			
 			// aapt resource value: 0x7F08005D
-			public const int line1 = 2131230813;
+			public const int italic = 2131230813;
 			
 			// aapt resource value: 0x7F08005E
-			public const int line3 = 2131230814;
+			public const int item_touch_helper_previous_elevation = 2131230814;
 			
 			// aapt resource value: 0x7F08005F
-			public const int listMode = 2131230815;
+			public const int labeled = 2131230815;
 			
 			// aapt resource value: 0x7F080060
-			public const int list_item = 2131230816;
+			public const int language_selector_container = 2131230816;
 			
 			// aapt resource value: 0x7F080061
-			public const int masked = 2131230817;
+			public const int largeLabel = 2131230817;
 			
 			// aapt resource value: 0x7F080062
-			public const int message = 2131230818;
+			public const int left = 2131230818;
+			
+			// aapt resource value: 0x7F080063
+			public const int line1 = 2131230819;
+			
+			// aapt resource value: 0x7F080064
+			public const int line3 = 2131230820;
+			
+			// aapt resource value: 0x7F080065
+			public const int listMode = 2131230821;
+			
+			// aapt resource value: 0x7F080066
+			public const int list_item = 2131230822;
+			
+			// aapt resource value: 0x7F080067
+			public const int masked = 2131230823;
+			
+			// aapt resource value: 0x7F080068
+			public const int message = 2131230824;
 			
 			// aapt resource value: 0x7F080003
 			public const int META = 2131230723;
 			
-			// aapt resource value: 0x7F080063
-			public const int middle = 2131230819;
-			
-			// aapt resource value: 0x7F080064
-			public const int mini = 2131230820;
-			
-			// aapt resource value: 0x7F080065
-			public const int mtrl_child_content_container = 2131230821;
-			
-			// aapt resource value: 0x7F080066
-			public const int mtrl_internal_children_alpha_tag = 2131230822;
-			
-			// aapt resource value: 0x7F080067
-			public const int multiply = 2131230823;
-			
-			// aapt resource value: 0x7F080068
-			public const int navigation_header_container = 2131230824;
-			
 			// aapt resource value: 0x7F080069
-			public const int never = 2131230825;
+			public const int middle = 2131230825;
 			
 			// aapt resource value: 0x7F08006A
-			public const int none = 2131230826;
+			public const int mini = 2131230826;
 			
 			// aapt resource value: 0x7F08006B
-			public const int normal = 2131230827;
+			public const int mtrl_child_content_container = 2131230827;
 			
 			// aapt resource value: 0x7F08006C
-			public const int notification_background = 2131230828;
+			public const int mtrl_internal_children_alpha_tag = 2131230828;
 			
 			// aapt resource value: 0x7F08006D
-			public const int notification_main_column = 2131230829;
+			public const int multiply = 2131230829;
 			
 			// aapt resource value: 0x7F08006E
-			public const int notification_main_column_container = 2131230830;
+			public const int navigation_header_container = 2131230830;
 			
 			// aapt resource value: 0x7F08006F
-			public const int outline = 2131230831;
+			public const int never = 2131230831;
 			
 			// aapt resource value: 0x7F080070
-			public const int parallax = 2131230832;
+			public const int new_devices = 2131230832;
 			
 			// aapt resource value: 0x7F080071
-			public const int parentPanel = 2131230833;
+			public const int none = 2131230833;
 			
 			// aapt resource value: 0x7F080072
-			public const int parent_matrix = 2131230834;
+			public const int normal = 2131230834;
 			
 			// aapt resource value: 0x7F080073
-			public const int pin = 2131230835;
+			public const int notification_background = 2131230835;
 			
 			// aapt resource value: 0x7F080074
-			public const int progress_circular = 2131230836;
+			public const int notification_main_column = 2131230836;
 			
 			// aapt resource value: 0x7F080075
-			public const int progress_horizontal = 2131230837;
+			public const int notification_main_column_container = 2131230837;
 			
 			// aapt resource value: 0x7F080076
-			public const int radio = 2131230838;
+			public const int outline = 2131230838;
 			
 			// aapt resource value: 0x7F080077
-			public const int right = 2131230839;
+			public const int paired_devices = 2131230839;
 			
 			// aapt resource value: 0x7F080078
-			public const int right_icon = 2131230840;
+			public const int parallax = 2131230840;
 			
 			// aapt resource value: 0x7F080079
-			public const int right_side = 2131230841;
+			public const int parentPanel = 2131230841;
 			
 			// aapt resource value: 0x7F08007A
-			public const int save_image_matrix = 2131230842;
+			public const int parent_matrix = 2131230842;
 			
 			// aapt resource value: 0x7F08007B
-			public const int save_non_transition_alpha = 2131230843;
+			public const int pin = 2131230843;
 			
 			// aapt resource value: 0x7F08007C
-			public const int save_scale_type = 2131230844;
+			public const int progress_circular = 2131230844;
 			
 			// aapt resource value: 0x7F08007D
-			public const int screen = 2131230845;
+			public const int progress_horizontal = 2131230845;
 			
 			// aapt resource value: 0x7F08007E
-			public const int scroll = 2131230846;
-			
-			// aapt resource value: 0x7F080082
-			public const int scrollable = 2131230850;
+			public const int radio = 2131230846;
 			
 			// aapt resource value: 0x7F08007F
-			public const int scrollIndicatorDown = 2131230847;
+			public const int right = 2131230847;
 			
 			// aapt resource value: 0x7F080080
-			public const int scrollIndicatorUp = 2131230848;
+			public const int right_icon = 2131230848;
 			
 			// aapt resource value: 0x7F080081
-			public const int scrollView = 2131230849;
+			public const int right_side = 2131230849;
+			
+			// aapt resource value: 0x7F080082
+			public const int sample_content_fragment = 2131230850;
 			
 			// aapt resource value: 0x7F080083
-			public const int search_badge = 2131230851;
+			public const int save_image_matrix = 2131230851;
 			
 			// aapt resource value: 0x7F080084
-			public const int search_bar = 2131230852;
+			public const int save_non_transition_alpha = 2131230852;
 			
 			// aapt resource value: 0x7F080085
-			public const int search_button = 2131230853;
+			public const int save_scale_type = 2131230853;
 			
 			// aapt resource value: 0x7F080086
-			public const int search_close_btn = 2131230854;
+			public const int screen = 2131230854;
 			
 			// aapt resource value: 0x7F080087
-			public const int search_edit_frame = 2131230855;
-			
-			// aapt resource value: 0x7F080088
-			public const int search_go_btn = 2131230856;
-			
-			// aapt resource value: 0x7F080089
-			public const int search_mag_icon = 2131230857;
-			
-			// aapt resource value: 0x7F08008A
-			public const int search_plate = 2131230858;
+			public const int scroll = 2131230855;
 			
 			// aapt resource value: 0x7F08008B
-			public const int search_src_text = 2131230859;
+			public const int scrollable = 2131230859;
+			
+			// aapt resource value: 0x7F080088
+			public const int scrollIndicatorDown = 2131230856;
+			
+			// aapt resource value: 0x7F080089
+			public const int scrollIndicatorUp = 2131230857;
+			
+			// aapt resource value: 0x7F08008A
+			public const int scrollView = 2131230858;
 			
 			// aapt resource value: 0x7F08008C
-			public const int search_voice_btn = 2131230860;
-			
-			// aapt resource value: 0x7F08008E
-			public const int selected = 2131230862;
+			public const int search_badge = 2131230860;
 			
 			// aapt resource value: 0x7F08008D
-			public const int select_dialog_listview = 2131230861;
+			public const int search_bar = 2131230861;
+			
+			// aapt resource value: 0x7F08008E
+			public const int search_button = 2131230862;
+			
+			// aapt resource value: 0x7F08008F
+			public const int search_close_btn = 2131230863;
+			
+			// aapt resource value: 0x7F080090
+			public const int search_edit_frame = 2131230864;
+			
+			// aapt resource value: 0x7F080091
+			public const int search_go_btn = 2131230865;
+			
+			// aapt resource value: 0x7F080092
+			public const int search_mag_icon = 2131230866;
+			
+			// aapt resource value: 0x7F080093
+			public const int search_plate = 2131230867;
+			
+			// aapt resource value: 0x7F080094
+			public const int search_src_text = 2131230868;
+			
+			// aapt resource value: 0x7F080095
+			public const int search_voice_btn = 2131230869;
+			
+			// aapt resource value: 0x7F080096
+			public const int secure_connect_scan = 2131230870;
+			
+			// aapt resource value: 0x7F080098
+			public const int selected = 2131230872;
+			
+			// aapt resource value: 0x7F080097
+			public const int select_dialog_listview = 2131230871;
 			
 			// aapt resource value: 0x7F080004
 			public const int SHIFT = 2131230724;
 			
-			// aapt resource value: 0x7F08008F
-			public const int shortcut = 2131230863;
-			
-			// aapt resource value: 0x7F080090
-			public const int showCustom = 2131230864;
-			
-			// aapt resource value: 0x7F080091
-			public const int showHome = 2131230865;
-			
-			// aapt resource value: 0x7F080092
-			public const int showTitle = 2131230866;
-			
-			// aapt resource value: 0x7F080093
-			public const int smallLabel = 2131230867;
-			
-			// aapt resource value: 0x7F080094
-			public const int snackbar_action = 2131230868;
-			
-			// aapt resource value: 0x7F080095
-			public const int snackbar_text = 2131230869;
-			
-			// aapt resource value: 0x7F080096
-			public const int snap = 2131230870;
-			
-			// aapt resource value: 0x7F080097
-			public const int snapMargins = 2131230871;
-			
-			// aapt resource value: 0x7F080098
-			public const int spacer = 2131230872;
-			
 			// aapt resource value: 0x7F080099
-			public const int spinner1 = 2131230873;
+			public const int shortcut = 2131230873;
 			
 			// aapt resource value: 0x7F08009A
-			public const int split_action_bar = 2131230874;
+			public const int showCustom = 2131230874;
 			
 			// aapt resource value: 0x7F08009B
-			public const int src_atop = 2131230875;
+			public const int showHome = 2131230875;
 			
 			// aapt resource value: 0x7F08009C
-			public const int src_in = 2131230876;
+			public const int showTitle = 2131230876;
 			
 			// aapt resource value: 0x7F08009D
-			public const int src_over = 2131230877;
+			public const int smallLabel = 2131230877;
 			
 			// aapt resource value: 0x7F08009E
-			public const int start = 2131230878;
+			public const int snackbar_action = 2131230878;
 			
 			// aapt resource value: 0x7F08009F
-			public const int stretch = 2131230879;
+			public const int snackbar_text = 2131230879;
 			
 			// aapt resource value: 0x7F0800A0
-			public const int submenuarrow = 2131230880;
+			public const int snap = 2131230880;
 			
 			// aapt resource value: 0x7F0800A1
-			public const int submit_area = 2131230881;
+			public const int snapMargins = 2131230881;
+			
+			// aapt resource value: 0x7F0800A2
+			public const int spacer = 2131230882;
+			
+			// aapt resource value: 0x7F0800A3
+			public const int split_action_bar = 2131230883;
+			
+			// aapt resource value: 0x7F0800A4
+			public const int src_atop = 2131230884;
+			
+			// aapt resource value: 0x7F0800A5
+			public const int src_in = 2131230885;
+			
+			// aapt resource value: 0x7F0800A6
+			public const int src_over = 2131230886;
+			
+			// aapt resource value: 0x7F0800A7
+			public const int start = 2131230887;
+			
+			// aapt resource value: 0x7F0800A8
+			public const int stretch = 2131230888;
+			
+			// aapt resource value: 0x7F0800A9
+			public const int submenuarrow = 2131230889;
+			
+			// aapt resource value: 0x7F0800AA
+			public const int submit_area = 2131230890;
 			
 			// aapt resource value: 0x7F080005
 			public const int SYM = 2131230725;
 			
-			// aapt resource value: 0x7F0800A2
-			public const int tabMode = 2131230882;
-			
-			// aapt resource value: 0x7F0800A3
-			public const int tag_transition_group = 2131230883;
-			
-			// aapt resource value: 0x7F0800A4
-			public const int tag_unhandled_key_event_manager = 2131230884;
-			
-			// aapt resource value: 0x7F0800A5
-			public const int tag_unhandled_key_listeners = 2131230885;
-			
-			// aapt resource value: 0x7F0800A6
-			public const int text = 2131230886;
-			
-			// aapt resource value: 0x7F0800A7
-			public const int text2 = 2131230887;
-			
-			// aapt resource value: 0x7F0800AD
-			public const int textinput_counter = 2131230893;
-			
-			// aapt resource value: 0x7F0800AE
-			public const int textinput_error = 2131230894;
-			
-			// aapt resource value: 0x7F0800AF
-			public const int textinput_helper_text = 2131230895;
-			
-			// aapt resource value: 0x7F0800A8
-			public const int textSpacerNoButtons = 2131230888;
-			
-			// aapt resource value: 0x7F0800A9
-			public const int textSpacerNoTitle = 2131230889;
-			
-			// aapt resource value: 0x7F0800AA
-			public const int textStart = 2131230890;
-			
 			// aapt resource value: 0x7F0800AB
-			public const int textView1 = 2131230891;
+			public const int tabMode = 2131230891;
 			
 			// aapt resource value: 0x7F0800AC
-			public const int text_input_password_toggle = 2131230892;
+			public const int tag_transition_group = 2131230892;
+			
+			// aapt resource value: 0x7F0800AD
+			public const int tag_unhandled_key_event_manager = 2131230893;
+			
+			// aapt resource value: 0x7F0800AE
+			public const int tag_unhandled_key_listeners = 2131230894;
+			
+			// aapt resource value: 0x7F0800AF
+			public const int text = 2131230895;
 			
 			// aapt resource value: 0x7F0800B0
-			public const int time = 2131230896;
-			
-			// aapt resource value: 0x7F0800B1
-			public const int title = 2131230897;
-			
-			// aapt resource value: 0x7F0800B2
-			public const int titleDividerNoCustom = 2131230898;
-			
-			// aapt resource value: 0x7F0800B3
-			public const int title_template = 2131230899;
-			
-			// aapt resource value: 0x7F0800B4
-			public const int toolbar = 2131230900;
-			
-			// aapt resource value: 0x7F0800B5
-			public const int top = 2131230901;
+			public const int text2 = 2131230896;
 			
 			// aapt resource value: 0x7F0800B6
-			public const int topPanel = 2131230902;
+			public const int textinput_counter = 2131230902;
 			
 			// aapt resource value: 0x7F0800B7
-			public const int touch_outside = 2131230903;
+			public const int textinput_error = 2131230903;
 			
 			// aapt resource value: 0x7F0800B8
-			public const int transition_current_scene = 2131230904;
+			public const int textinput_helper_text = 2131230904;
+			
+			// aapt resource value: 0x7F0800B1
+			public const int textSpacerNoButtons = 2131230897;
+			
+			// aapt resource value: 0x7F0800B2
+			public const int textSpacerNoTitle = 2131230898;
+			
+			// aapt resource value: 0x7F0800B3
+			public const int textStart = 2131230899;
+			
+			// aapt resource value: 0x7F0800B4
+			public const int textView1 = 2131230900;
+			
+			// aapt resource value: 0x7F0800B5
+			public const int text_input_password_toggle = 2131230901;
 			
 			// aapt resource value: 0x7F0800B9
-			public const int transition_layout_save = 2131230905;
+			public const int time = 2131230905;
 			
 			// aapt resource value: 0x7F0800BA
-			public const int transition_position = 2131230906;
+			public const int title = 2131230906;
 			
 			// aapt resource value: 0x7F0800BB
-			public const int transition_scene_layoutid_cache = 2131230907;
+			public const int titleDividerNoCustom = 2131230907;
 			
 			// aapt resource value: 0x7F0800BC
-			public const int transition_transform = 2131230908;
+			public const int title_new_devices = 2131230908;
 			
 			// aapt resource value: 0x7F0800BD
-			public const int uniform = 2131230909;
+			public const int title_paired_devices = 2131230909;
 			
 			// aapt resource value: 0x7F0800BE
-			public const int unlabeled = 2131230910;
+			public const int title_template = 2131230910;
 			
 			// aapt resource value: 0x7F0800BF
-			public const int up = 2131230911;
+			public const int toolbar = 2131230911;
 			
 			// aapt resource value: 0x7F0800C0
-			public const int useLogo = 2131230912;
+			public const int top = 2131230912;
 			
 			// aapt resource value: 0x7F0800C1
-			public const int view_offset_helper = 2131230913;
+			public const int topPanel = 2131230913;
 			
 			// aapt resource value: 0x7F0800C2
-			public const int visible = 2131230914;
+			public const int touch_outside = 2131230914;
 			
 			// aapt resource value: 0x7F0800C3
-			public const int withText = 2131230915;
+			public const int transition_current_scene = 2131230915;
 			
 			// aapt resource value: 0x7F0800C4
-			public const int wrap_content = 2131230916;
+			public const int transition_layout_save = 2131230916;
+			
+			// aapt resource value: 0x7F0800C5
+			public const int transition_position = 2131230917;
+			
+			// aapt resource value: 0x7F0800C6
+			public const int transition_scene_layoutid_cache = 2131230918;
+			
+			// aapt resource value: 0x7F0800C7
+			public const int transition_transform = 2131230919;
+			
+			// aapt resource value: 0x7F0800C8
+			public const int translator_button = 2131230920;
+			
+			// aapt resource value: 0x7F0800C9
+			public const int uniform = 2131230921;
+			
+			// aapt resource value: 0x7F0800CA
+			public const int unlabeled = 2131230922;
+			
+			// aapt resource value: 0x7F0800CB
+			public const int up = 2131230923;
+			
+			// aapt resource value: 0x7F0800CC
+			public const int useLogo = 2131230924;
+			
+			// aapt resource value: 0x7F0800CD
+			public const int view_offset_helper = 2131230925;
+			
+			// aapt resource value: 0x7F0800CE
+			public const int visible = 2131230926;
+			
+			// aapt resource value: 0x7F0800CF
+			public const int withText = 2131230927;
+			
+			// aapt resource value: 0x7F0800D0
+			public const int wrap_content = 2131230928;
 			
 			static Id()
 			{
@@ -5605,94 +7248,103 @@ namespace CommunicationHelper.App
 			public const int activity_main = 2131427356;
 			
 			// aapt resource value: 0x7F0B001D
-			public const int browser_actions_context_menu_page = 2131427357;
+			public const int bluetooth_chat_fragment = 2131427357;
 			
 			// aapt resource value: 0x7F0B001E
-			public const int browser_actions_context_menu_row = 2131427358;
+			public const int bluetooth_device_list_activity = 2131427358;
 			
 			// aapt resource value: 0x7F0B001F
-			public const int content_main = 2131427359;
+			public const int browser_actions_context_menu_page = 2131427359;
 			
 			// aapt resource value: 0x7F0B0020
-			public const int design_bottom_navigation_item = 2131427360;
+			public const int browser_actions_context_menu_row = 2131427360;
 			
 			// aapt resource value: 0x7F0B0021
-			public const int design_bottom_sheet_dialog = 2131427361;
+			public const int content_main = 2131427361;
 			
 			// aapt resource value: 0x7F0B0022
-			public const int design_layout_snackbar = 2131427362;
+			public const int design_bottom_navigation_item = 2131427362;
 			
 			// aapt resource value: 0x7F0B0023
-			public const int design_layout_snackbar_include = 2131427363;
+			public const int design_bottom_sheet_dialog = 2131427363;
 			
 			// aapt resource value: 0x7F0B0024
-			public const int design_layout_tab_icon = 2131427364;
+			public const int design_layout_snackbar = 2131427364;
 			
 			// aapt resource value: 0x7F0B0025
-			public const int design_layout_tab_text = 2131427365;
+			public const int design_layout_snackbar_include = 2131427365;
 			
 			// aapt resource value: 0x7F0B0026
-			public const int design_menu_item_action_area = 2131427366;
+			public const int design_layout_tab_icon = 2131427366;
 			
 			// aapt resource value: 0x7F0B0027
-			public const int design_navigation_item = 2131427367;
+			public const int design_layout_tab_text = 2131427367;
 			
 			// aapt resource value: 0x7F0B0028
-			public const int design_navigation_item_header = 2131427368;
+			public const int design_menu_item_action_area = 2131427368;
 			
 			// aapt resource value: 0x7F0B0029
-			public const int design_navigation_item_separator = 2131427369;
+			public const int design_navigation_item = 2131427369;
 			
 			// aapt resource value: 0x7F0B002A
-			public const int design_navigation_item_subheader = 2131427370;
+			public const int design_navigation_item_header = 2131427370;
 			
 			// aapt resource value: 0x7F0B002B
-			public const int design_navigation_menu = 2131427371;
+			public const int design_navigation_item_separator = 2131427371;
 			
 			// aapt resource value: 0x7F0B002C
-			public const int design_navigation_menu_item = 2131427372;
+			public const int design_navigation_item_subheader = 2131427372;
 			
 			// aapt resource value: 0x7F0B002D
-			public const int design_text_input_password_icon = 2131427373;
+			public const int design_navigation_menu = 2131427373;
 			
 			// aapt resource value: 0x7F0B002E
-			public const int language_selector_fragment = 2131427374;
+			public const int design_navigation_menu_item = 2131427374;
 			
 			// aapt resource value: 0x7F0B002F
-			public const int mtrl_layout_snackbar = 2131427375;
+			public const int design_text_input_password_icon = 2131427375;
 			
 			// aapt resource value: 0x7F0B0030
-			public const int mtrl_layout_snackbar_include = 2131427376;
+			public const int device_name = 2131427376;
 			
 			// aapt resource value: 0x7F0B0031
-			public const int notification_action = 2131427377;
+			public const int message = 2131427377;
 			
 			// aapt resource value: 0x7F0B0032
-			public const int notification_action_tombstone = 2131427378;
+			public const int mtrl_layout_snackbar = 2131427378;
 			
 			// aapt resource value: 0x7F0B0033
-			public const int notification_template_custom_big = 2131427379;
+			public const int mtrl_layout_snackbar_include = 2131427379;
 			
 			// aapt resource value: 0x7F0B0034
-			public const int notification_template_icon_group = 2131427380;
+			public const int notification_action = 2131427380;
 			
 			// aapt resource value: 0x7F0B0035
-			public const int notification_template_part_chronometer = 2131427381;
+			public const int notification_action_tombstone = 2131427381;
 			
 			// aapt resource value: 0x7F0B0036
-			public const int notification_template_part_time = 2131427382;
+			public const int notification_template_custom_big = 2131427382;
 			
 			// aapt resource value: 0x7F0B0037
-			public const int select_dialog_item_material = 2131427383;
+			public const int notification_template_icon_group = 2131427383;
 			
 			// aapt resource value: 0x7F0B0038
-			public const int select_dialog_multichoice_material = 2131427384;
+			public const int notification_template_part_chronometer = 2131427384;
 			
 			// aapt resource value: 0x7F0B0039
-			public const int select_dialog_singlechoice_material = 2131427385;
+			public const int notification_template_part_time = 2131427385;
 			
 			// aapt resource value: 0x7F0B003A
-			public const int support_simple_spinner_dropdown_item = 2131427386;
+			public const int select_dialog_item_material = 2131427386;
+			
+			// aapt resource value: 0x7F0B003B
+			public const int select_dialog_multichoice_material = 2131427387;
+			
+			// aapt resource value: 0x7F0B003C
+			public const int select_dialog_singlechoice_material = 2131427388;
+			
+			// aapt resource value: 0x7F0B003D
+			public const int support_simple_spinner_dropdown_item = 2131427389;
 			
 			static Layout()
 			{
@@ -5708,7 +7360,10 @@ namespace CommunicationHelper.App
 		{
 			
 			// aapt resource value: 0x7F0C0000
-			public const int menu_main = 2131492864;
+			public const int bluetooth_menu = 2131492864;
+			
+			// aapt resource value: 0x7F0C0001
+			public const int menu_main = 2131492865;
 			
 			static Menu()
 			{
@@ -5962,16 +7617,19 @@ namespace CommunicationHelper.App
 			public const int status_bar_notification_info_overflow = 2131624007;
 			
 			// aapt resource value: 0x7F0E0048
-			public const int title_connecting = 2131624008;
+			public const int title_connected_to = 2131624008;
 			
 			// aapt resource value: 0x7F0E0049
-			public const int title_not_connected = 2131624009;
+			public const int title_connecting = 2131624009;
 			
 			// aapt resource value: 0x7F0E004A
-			public const int title_other_devices = 2131624010;
+			public const int title_not_connected = 2131624010;
 			
 			// aapt resource value: 0x7F0E004B
-			public const int title_paired_devices = 2131624011;
+			public const int title_other_devices = 2131624011;
+			
+			// aapt resource value: 0x7F0E004C
+			public const int title_paired_devices = 2131624012;
 			
 			static String()
 			{

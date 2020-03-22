@@ -41,10 +41,12 @@ namespace CommunicationHelper.App
 
             var linearLayout = new LinearLayout(Activity) { Orientation = Orientation.Vertical };
             var textView = new TextView(Activity) { TextSize = 24, Text = "Choose the language" };
-            textView.SetPadding(0, 10, 0, 0);
+            ;
+            textView.SetTextColor(Android.Graphics.Color.Black);
+            textView.SetPadding(10, 10, 0, 0);
             linearLayout.AddView(textView);
-            _spinner = new Spinner(Activity) { ScrollBarSize = 25 };
-            _spinner.SetPadding(0, 10, 0, 0);
+            _spinner = new Spinner(Activity) { ScrollBarSize = 55 };
+            _spinner.SetPadding(10, 10, 0, 0);
             linearLayout.AddView(_spinner);
 
             return linearLayout;

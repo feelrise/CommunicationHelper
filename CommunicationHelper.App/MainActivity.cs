@@ -41,36 +41,48 @@ namespace CommunicationHelper.App
             base.OnCreate(savedInstanceState);
             Platform.Init(this, savedInstanceState);
             SetContentView(Resource.Layout.activity_main);
-
             var toolbar = FindViewById<Toolbar>(Resource.Id.toolbar);
             SetSupportActionBar(toolbar);
 
-            _textContainer = FindViewById<TextView>(Resource.Id.textView1);
 
-            InitializeFragments();
-            InitializeRecordButton();
+            var bluetoothChatButton = FindViewById<Button>(Resource.Id.bluetooth_chat_button);
+
+            bluetoothChatButton.Click += (s, e) =>
+            {
+                var activity = new Intent(this, typeof(BluetoothChatActivity));
+                StartActivity(activity);
+            };
+
+            //InitializeFragments();
+            //InitializeRecordButton();
         }
+
 
         private void InitializeFragments()
         {
+            var chatFrag = new BluetoothChatFragment();
+
             var languageFrag = new LanguageSelectorFragment();
-            SupportFragmentManager.BeginTransaction().Add(Resource.Id.language_selector_container, languageFrag).Commit();
+            SupportFragmentManager.BeginTransaction()
+                .Add(Resource.Id.language_selector_container, languageFrag)
+                .Add(Resource.Id.sample_content_fragment, chatFrag)
+                .Commit();
         }
 
-        private void InitializeRecordButton()
-        {
-            _recordButton = FindViewById<FloatingActionButton>(Resource.Id.fab);
-            _recordButton.Click += FabOnClick;
+        //private void InitializeRecordButton()
+        //{
+        //    _recordButton = FindViewById<FloatingActionButton>(Resource.Id.fab);
+        //    _recordButton.Click += FabOnClick;
 
-            if (MicrophoneIsPresent())
-            {
-                _recordButton.Click += SpeechRecognition;
-            }
-            else
-            {
-                AlertNoMicrophone();
-            }
-        }
+        //    if (MicrophoneIsPresent())
+        //    {
+        //        _recordButton.Click += SpeechRecognition;
+        //    }
+        //    else
+        //    {
+        //        AlertNoMicrophone();
+        //    }
+        //}
 
         private void AlertNoMicrophone()
         {
