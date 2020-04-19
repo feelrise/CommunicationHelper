@@ -2,6 +2,7 @@
 using System.Linq;
 using Android;
 using Android.Content;
+using Android.Content.PM;
 using Android.Support.Design.Widget;
 using Android.Support.V4.App;
 using Android.Support.V4.Content;
@@ -13,52 +14,41 @@ namespace CommunicationHelper.App
     public static class PermissionUtils
     {
         public const Int32 RC_LOCATION_PERMISSIONS = 1000;
-            
+
         public static readonly String[] LocationPermissions =
             {Manifest.Permission.AccessCoarseLocation, Manifest.Permission.AccessFineLocation};
 
-        public static void RequestPermissionsForApp(this AppCompatActivity fragment)
+        public static void RequestPermissionsForApp(this AppCompatActivity activity)
         {
             var showRequestRationale =
-                ActivityCompat.ShouldShowRequestPermissionRationale(fragment,
+                ActivityCompat.ShouldShowRequestPermissionRationale(activity,
                     Manifest.Permission.AccessFineLocation) ||
-                ActivityCompat.ShouldShowRequestPermissionRationale(fragment,
+                ActivityCompat.ShouldShowRequestPermissionRationale(activity,
                     Manifest.Permission.AccessCoarseLocation);
 
             if (showRequestRationale)
             {
-                var rootView = fragment.FindViewById(AndroidResource.Id.Content);
+                var rootView = activity.FindViewById(AndroidResource.Id.Content);
                 Snackbar.Make(rootView, Resource.String.request_location_permissions, Snackbar.LengthIndefinite)
                     .SetAction(Resource.String.ok,
-                        v => { fragment.RequestPermissions(LocationPermissions, RC_LOCATION_PERMISSIONS); })
+                        v => { activity.RequestPermissions(LocationPermissions, RC_LOCATION_PERMISSIONS); })
                     .Show();
             }
             else
             {
-                fragment.RequestPermissions(LocationPermissions, RC_LOCATION_PERMISSIONS);
+                activity.RequestPermissions(LocationPermissions, RC_LOCATION_PERMISSIONS);
             }
         }
 
-        public static bool AllPermissionsGranted(this Android.Content.PM.Permission[] grantResults)
+        public static Boolean AllPermissionsGranted(this Permission[] grantResults)
         {
-            if (grantResults.Length < 1)
-            {
-                return false;
-            }
-
-            return !grantResults.Any(result => result == Android.Content.PM.Permission.Denied);
+            return grantResults.Length >= 1 && grantResults.All(result => result != Permission.Denied);
         }
 
-        public static bool HasLocationPermissions(this Context context)
+        public static Boolean HasLocationPermissions(this Context context)
         {
-            foreach (var perm in LocationPermissions)
-            {
-                if (ContextCompat.CheckSelfPermission(context, perm) != Android.Content.PM.Permission.Granted)
-                {
-                    return false;
-                }
-            }
-            return true;
+            return LocationPermissions.All(perm =>
+                ContextCompat.CheckSelfPermission(context, perm) == Permission.Granted);
         }
     }
 }

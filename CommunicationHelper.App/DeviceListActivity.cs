@@ -40,7 +40,7 @@ namespace CommunicationHelper.App
             scanButton.Click += (sender, e) =>
             {
                 DoDiscovery();
-                (sender as View).Visibility = ViewStates.Gone;
+                ((View) sender).Visibility = ViewStates.Gone;
             };
 
             // Initialize array adapters. One for already paired devices and
@@ -94,10 +94,7 @@ namespace CommunicationHelper.App
             base.OnDestroy();
 
             // Make sure we're not doing discovery anymore
-            if (btAdapter != null)
-            {
-                btAdapter.CancelDiscovery();
-            }
+            btAdapter?.CancelDiscovery();
 
             // Unregister broadcast listeners
             UnregisterReceiver(receiver);

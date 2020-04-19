@@ -46,8 +46,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BluetoothService.AcceptThread.cs" />
+    <Compile Include="BluetoothService.ConnectedThread.cs" />
+    <Compile Include="BluetoothService.cs" />
     <Compile Include="BluetoothDiscoveryModeArgs.cs" />
+    <Compile Include="BluetoothService.ConnectThread.cs" />
+    <Compile Include="Constants.cs" />
     <Compile Include="DiscoverableModeReceiver.cs" />
+    <Compile Include="HandlerResult.cs" />
+    <Compile Include="HandlerResultEventArgs.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

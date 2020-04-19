@@ -2,22 +2,24 @@
 using Android.Views;
 using Android.Views.InputMethods;
 using Android.Widget;
+using Java.Lang;
+using Boolean = System.Boolean;
 
 namespace CommunicationHelper.App
 {
-    class WriteListener : Java.Lang.Object, TextView.IOnEditorActionListener
+    internal class WriteListener : Object, TextView.IOnEditorActionListener
     {
-        BluetoothChatFragment host;
-        public WriteListener(BluetoothChatFragment frag)
+        private readonly BluetoothChatActivity _host;
+
+        public WriteListener(BluetoothChatActivity host)
         {
-            host = frag;
+            _host = host;
         }
-        public bool OnEditorAction(TextView v, [GeneratedEnum] ImeAction actionId, KeyEvent e)
+
+        public Boolean OnEditorAction(TextView v, [GeneratedEnum] ImeAction actionId, KeyEvent e)
         {
             if (actionId == ImeAction.ImeNull && e.Action == KeyEventActions.Up)
-            {
-                host.SendMessage(v.Text);
-            }
+                _host.SendMessage(new MessageEventArgs { Message = v.Text });
             return true;
         }
     }

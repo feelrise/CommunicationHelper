@@ -4,10 +4,6 @@ using Android.Content;
 
 namespace BluetoothService
 {
-    /// <summary>
-    ///     Listen for when the device goes in and out of Bluetooth discoverability
-    ///     mode, and will raise an Event.
-    /// </summary>
     public class DiscoverableModeReceiver : BroadcastReceiver
     {
         public event EventHandler<BluetoothDiscoveryModeArgs> BluetoothDiscoveryModeChanged;

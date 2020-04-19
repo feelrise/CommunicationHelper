@@ -18,7 +18,6 @@ namespace CommunicationHelper.App
         public void SetUpVoiceIntent(Locale selectedLocale)
         {
             _intent.SetAction(RecognizerIntent.ActionRecognizeSpeech);
-            _intent.PutExtra(RecognizerIntent.ExtraLanguageModel, RecognizerIntent.LanguageModelFreeForm);
             // put a message on the modal dialog
             _intent.PutExtra(RecognizerIntent.ExtraPrompt, "Speak now");
             // if there is more then 1.5s of silence, consider the speech over
@@ -41,7 +40,6 @@ namespace CommunicationHelper.App
             if (textInput.Length > 500)
                 textInput = textInput.Substring(0, 500);
             return textInput;
-
         }
     }
 }

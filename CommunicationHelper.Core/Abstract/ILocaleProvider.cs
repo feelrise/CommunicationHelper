@@ -1,10 +1,10 @@
 ﻿using System;
-using Java.Util;
+using TranslationService;
 
 namespace CommunicationHelper.Core.Abstract
 {
     public interface ILocaleProvider :  ILanguageProvider
     {
-        Locale GetLocaleByLanguage(String language);
+        LanguageInfo GetLanguageByName(String language);
     }
-}
+}   

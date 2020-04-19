@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BluetoothService", "Bluetoo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommunicationHelper.Core", "CommunicationHelper.Core\CommunicationHelper.Core.csproj", "{DDFC70D9-A25F-4CD7-AAC8-2BBDD1080524}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TranslationService", "TranslationService\TranslationService.csproj", "{3E3BAAEC-A2D6-4D5F-A4CF-F364B4AB72CB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +31,10 @@ Global
 		{DDFC70D9-A25F-4CD7-AAC8-2BBDD1080524}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DDFC70D9-A25F-4CD7-AAC8-2BBDD1080524}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DDFC70D9-A25F-4CD7-AAC8-2BBDD1080524}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E3BAAEC-A2D6-4D5F-A4CF-F364B4AB72CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E3BAAEC-A2D6-4D5F-A4CF-F364B4AB72CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E3BAAEC-A2D6-4D5F-A4CF-F364B4AB72CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E3BAAEC-A2D6-4D5F-A4CF-F364B4AB72CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

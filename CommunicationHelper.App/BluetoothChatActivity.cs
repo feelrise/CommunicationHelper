@@ -1,169 +1,65 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-
 using Android.App;
 using Android.Bluetooth;
 using Android.Content;
+using Android.Content.PM;
 using Android.OS;
-using Android.Runtime;
-using Android.Support.V4.App;
 using Android.Support.V7.App;
 using Android.Views;
 using Android.Widget;
 using BluetoothService;
-using Toolbar = Android.Support.V7.Widget.Toolbar;
 
 namespace CommunicationHelper.App
 {
     [Activity(Label = "Bluetooth chat")]
     public class BluetoothChatActivity : AppCompatActivity
     {
-        const int REQUEST_CONNECT_DEVICE_SECURE = 1;
-        const int REQUEST_CONNECT_DEVICE_INSECURE = 2;
-        const int REQUEST_ENABLE_BT = 3;
+        private readonly DiscoverableModeReceiver _receiver;
+        private BluetoothAdapter _bluetoothAdapter;
+        private BluetoothService.BluetoothService _service;
+        private Boolean _requestingPermissionsSecure, _requestingPermissionsInsecure;
+        private BluetoothMessageHandler _handler;
+        private WriteListener _writeListener;
+        private ChatFragment _chatFrag;
 
-        ListView conversationView;
-        EditText outEditText;
-        Button sendButton;
-
-        String connectedDeviceName = "";
-        ArrayAdapter<String> conversationArrayAdapter;
-        StringBuilder outStringBuffer;
-        BluetoothAdapter bluetoothAdapter = null;
-        BluetoothChatService chatService = null;
-
-        bool requestingPermissionsSecure, requestingPermissionsInsecure;
-
-        DiscoverableModeReceiver receiver;
-        BluetoothChatFragment.ChatHandler handler;
-        WriteListener writeListener;
-
-        protected override void OnCreate(Bundle savedInstanceState)
+        public BluetoothChatActivity()
         {
-            base.OnCreate(savedInstanceState);
-            bluetoothAdapter = BluetoothAdapter.DefaultAdapter;
-            SetContentView(Resource.Layout.content_main);
-
-            if (bluetoothAdapter == null)
-            {
-                Toast.MakeText(this, "Bluetooth is not available.", ToastLength.Long).Show();
-                this.FinishAndRemoveTask();
-            }
-
-
-            receiver = new DiscoverableModeReceiver();
-            receiver.BluetoothDiscoveryModeChanged += (sender, e) =>
-            {
-                this.InvalidateOptionsMenu();
-            };
-
-            InitializeFragments();
+            _receiver = new DiscoverableModeReceiver();
         }
 
-        protected override void OnStart()
+        public void SendMessage(MessageEventArgs message)
         {
-            base.OnStart();
-            if (!bluetoothAdapter.IsEnabled)
+            if (_service.GetState() != Constants.STATE_CONNECTED)
             {
-                var enableIntent = new Intent(BluetoothAdapter.ActionRequestEnable);
-                StartActivityForResult(enableIntent, REQUEST_ENABLE_BT);
+                Toast.MakeText(this, Resource.String.not_connected, ToastLength.Long).Show();
+                return;
             }
 
-            // Register for when the scan mode changes
-            var filter = new IntentFilter(BluetoothAdapter.ActionScanModeChanged);
-            this.RegisterReceiver(receiver, filter);
-        }
-
-        protected override void OnResume()
-        {
-            base.OnResume();
-            if (chatService != null)
+            if (message.Message.Length > 0)
             {
-                if (chatService.GetState() == BluetoothChatService.STATE_NONE)
-                {
-                    chatService.Start();
-                }
+                var bytes = Encoding.ASCII.GetBytes(message.Message);
+                _service.Write(bytes);
             }
         }
 
-        protected override void OnDestroy()
+        public override void OnRequestPermissionsResult(Int32 requestCode, String[] permissions,
+                                                        Permission[] grantResults)
         {
-            base.OnDestroy();
-            this.UnregisterReceiver(receiver);
-            if (chatService != null)
-            {
-                chatService.Stop();
-            }
-        }
-
-        protected override void OnActivityResult(int requestCode, Result result, Intent data)
-        {
-            switch (requestCode)
-            {
-                case REQUEST_CONNECT_DEVICE_SECURE:
-                    if (Result.Ok == result)
-                    {
-                        ConnectDevice(data, true);
-                    }
-                    break;
-                case REQUEST_CONNECT_DEVICE_INSECURE:
-                    if (Result.Ok == result)
-                    {
-                        ConnectDevice(data, true);
-                    }
-                    break;
-                case REQUEST_ENABLE_BT:
-                    if (Result.Ok == result)
-                    {
-                        Toast.MakeText(this, Resource.String.bt_not_enabled_leaving, ToastLength.Short).Show();
-                        this.FinishAndRemoveTask();
-                    }
-                    break;
-            }
-        }
-
-        void ConnectDevice(Intent data, bool secure)
-        {
-            var address = data.Extras.GetString(DeviceListActivity.EXTRA_DEVICE_ADDRESS);
-            var device = bluetoothAdapter.GetRemoteDevice(address);
-            chatService.Connect(device, secure);
-        }
-
-
-        public override void OnRequestPermissionsResult(int requestCode, string[] permissions, Android.Content.PM.Permission[] grantResults)
-        {
-            var allGranted = grantResults.AllPermissionsGranted();
             if (requestCode == PermissionUtils.RC_LOCATION_PERMISSIONS)
             {
-                if (requestingPermissionsSecure)
+                if (_requestingPermissionsSecure)
                 {
                     PairWithBlueToothDevice(true);
                 }
-                if (requestingPermissionsInsecure)
+                if (_requestingPermissionsInsecure)
                 {
                     PairWithBlueToothDevice(false);
                 }
 
-                requestingPermissionsSecure = false;
-                requestingPermissionsInsecure = false;
+                _requestingPermissionsSecure = false;
+                _requestingPermissionsInsecure = false;
             }
-        }
-
-        private void InitializeFragments()
-        {
-            var chatFrag = new BluetoothChatFragment();
-
-            var languageFrag = new LanguageSelectorFragment();
-            SupportFragmentManager.BeginTransaction()
-                .Add(Resource.Id.language_selector_container, languageFrag)
-                .Add(Resource.Id.sample_content_fragment, chatFrag)
-                .Commit();
-
-            handler = new BluetoothChatFragment.ChatHandler(chatFrag);
-            chatService = new BluetoothChatService(handler);
-            chatFrag.chatService = chatService;
         }
 
         public override Boolean OnCreateOptionsMenu(IMenu menu)
@@ -175,16 +71,12 @@ namespace CommunicationHelper.App
         public override Boolean OnPrepareOptionsMenu(IMenu menu)
         {
             var menuItem = menu.FindItem(Resource.Id.discoverable);
-            if (menuItem != null)
-            {
-                menuItem.SetEnabled(bluetoothAdapter.ScanMode == ScanMode.ConnectableDiscoverable);
-            }
+            menuItem?.SetEnabled(_bluetoothAdapter.ScanMode == ScanMode.ConnectableDiscoverable);
 
             return true;
-
         }
 
-        public override bool OnOptionsItemSelected(IMenuItem item)
+        public override Boolean OnOptionsItemSelected(IMenuItem item)
         {
             switch (item.ItemId)
             {
@@ -198,43 +90,148 @@ namespace CommunicationHelper.App
                     EnsureDiscoverable();
                     return true;
             }
+
             return false;
         }
 
-        void PairWithBlueToothDevice(bool secure)
+        protected override void OnCreate(Bundle savedInstanceState)
         {
-            requestingPermissionsSecure = false;
-            requestingPermissionsInsecure = false;
+            base.OnCreate(savedInstanceState);
+            _bluetoothAdapter = BluetoothAdapter.DefaultAdapter;
+            SetContentView(Resource.Layout.content_main);
+
+            _writeListener = new WriteListener(this);
+
+            if (_bluetoothAdapter == null)
+            {
+                Toast.MakeText(this, "Bluetooth is not available.", ToastLength.Long).Show();
+                FinishAndRemoveTask();
+            }
+
+            _receiver.BluetoothDiscoveryModeChanged += (sender, e) => { InvalidateOptionsMenu(); };
+
+            InitializeFragments();
+        }
+
+        protected override void OnStart()
+        {
+            base.OnStart();
+            if (!_bluetoothAdapter.IsEnabled)
+            {
+                var enableIntent = new Intent(BluetoothAdapter.ActionRequestEnable);
+                StartActivityForResult(enableIntent, Constants.REQUEST_ENABLE_BT);
+            }
+
+            // Register for when the scan mode changes
+            var filter = new IntentFilter(BluetoothAdapter.ActionScanModeChanged);
+            RegisterReceiver(_receiver, filter);
+        }
+
+        protected override void OnResume()
+        {
+            base.OnResume();
+            if (_service == null)
+            {
+                return;
+            }
+
+            if (_service.GetState() == Constants.STATE_NONE)
+            {
+                _service.Start();
+            }
+        }
+
+        protected override void OnDestroy()
+        {
+            base.OnDestroy();
+            UnregisterReceiver(_receiver);
+            _service?.Stop();
+        }
+
+        protected override void OnActivityResult(Int32 requestCode, Result result, Intent data)
+        {
+            base.OnActivityResult(requestCode, result, data);
+
+            switch (requestCode)
+            {
+                case Constants.REQUEST_CONNECT_DEVICE_SECURE:
+                    if (Result.Ok == result)
+                    {
+                        ConnectDevice(data, true);
+                    }
+                    break;
+                case Constants.REQUEST_CONNECT_DEVICE_INSECURE:
+                    if (Result.Ok == result)
+                    {
+                        ConnectDevice(data, true);
+                    }
+                    break;
+                case Constants.REQUEST_ENABLE_BT:
+                    if (Result.Ok == result)
+                    {
+                        Toast.MakeText(this, Resource.String.bt_not_enabled_leaving, ToastLength.Short).Show();
+                        FinishAndRemoveTask();
+                    }
+                    break;
+            }
+        }
+
+        private void OnSendHandler(Object sender, MessageEventArgs message)
+        {
+            SendMessage(message);
+        }
+
+        private void ConnectDevice(Intent data, Boolean secure)
+        {
+            var address = data.Extras.GetString(DeviceListActivity.EXTRA_DEVICE_ADDRESS);
+            var device = _bluetoothAdapter.GetRemoteDevice(address);
+            _service.Connect(device, secure);
+            _chatFrag.OnSend -= OnSendHandler;
+        }
+
+        private void InitializeFragments()
+        {
+            _chatFrag = new ChatFragment(_writeListener);
+
+            var languageFrag = new LanguageSelectorFragment();
+            SupportFragmentManager.BeginTransaction()
+                .Add(Resource.Id.language_selector_container, languageFrag)
+                .Add(Resource.Id.sample_content_fragment, _chatFrag)
+                .Commit();
+
+            _handler = new BluetoothMessageHandler(_chatFrag);
+            _service = new BluetoothService.BluetoothService(_handler);
+
+            _chatFrag.OnSend += OnSendHandler;
+        }
+
+        private void PairWithBlueToothDevice(Boolean secure)
+        {
+            _requestingPermissionsSecure = false;
+            _requestingPermissionsInsecure = false;
 
             if (!this.HasLocationPermissions())
             {
-                requestingPermissionsSecure = secure;
-                requestingPermissionsInsecure = !secure;
+                _requestingPermissionsSecure = secure;
+                _requestingPermissionsInsecure = !secure;
                 this.RequestPermissionsForApp();
                 return;
             }
 
             var intent = new Intent(this, typeof(DeviceListActivity));
-            if (secure)
-            {
-                StartActivityForResult(intent, REQUEST_CONNECT_DEVICE_SECURE);
-            }
-            else
-            {
-                StartActivityForResult(intent, REQUEST_CONNECT_DEVICE_INSECURE);
-            }
+            StartActivityForResult(intent,
+                secure ? Constants.REQUEST_CONNECT_DEVICE_SECURE : Constants.REQUEST_CONNECT_DEVICE_INSECURE);
         }
 
-        void EnsureDiscoverable()
+        private void EnsureDiscoverable()
         {
-            if (bluetoothAdapter.ScanMode != ScanMode.ConnectableDiscoverable)
+            if (_bluetoothAdapter.ScanMode == ScanMode.ConnectableDiscoverable)
             {
-                var discoverableIntent = new Intent(BluetoothAdapter.ActionRequestDiscoverable);
-                discoverableIntent.PutExtra(BluetoothAdapter.ExtraDiscoverableDuration, 300);
-                StartActivity(discoverableIntent);
+                return;
             }
+            var discoverableIntent = new Intent(BluetoothAdapter.ActionRequestDiscoverable);
+            discoverableIntent.PutExtra(BluetoothAdapter.ExtraDiscoverableDuration, 300);
+            StartActivity(discoverableIntent);
         }
-
-
     }
 }
