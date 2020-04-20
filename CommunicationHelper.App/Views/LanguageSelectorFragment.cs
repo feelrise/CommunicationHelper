@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Linq;
 using System.Threading.Tasks;
-using Android.App;
 using Android.OS;
 using Android.Views;
 using Android.Widget;
@@ -9,7 +8,7 @@ using CommunicationHelper.Core;
 using CommunicationHelper.Core.Abstract;
 using Fragment = Android.Support.V4.App.Fragment;
 
-namespace CommunicationHelper.App
+namespace CommunicationHelper.App.Views
 {
     public class LanguageSelectorFragment : Fragment
     {
@@ -17,12 +16,10 @@ namespace CommunicationHelper.App
         private readonly ISharedPreferencesManager _preferencesManager;
         private Spinner _spinner;
 
-        public LanguageSelectorFragment()
+        public LanguageSelectorFragment(ISharedPreferencesManager sharedPreferences)
         {
             _localeProvider = LanguageProvider.GetInstance;
-            var context = Application.Context;
-            _preferencesManager = new SharedPreferencesManager(context);
-
+            _preferencesManager = sharedPreferences;
         }
 
         private async Task InitializeSpinner(Spinner spinner)

@@ -10,7 +10,7 @@ using Android.Widget;
 using Xamarin.Essentials;
 using Toolbar = Android.Support.V7.Widget.Toolbar;
 
-namespace CommunicationHelper.App
+namespace CommunicationHelper.App.Views
 {
     [Activity(Label = "@string/app_name", Theme = "@style/AppTheme.NoActionBar", MainLauncher = true)]
     public class MainActivity : AppCompatActivity
@@ -42,7 +42,6 @@ namespace CommunicationHelper.App
             SetContentView(Resource.Layout.activity_main);
             var toolbar = FindViewById<Toolbar>(Resource.Id.toolbar);
             SetSupportActionBar(toolbar);
-
 
             var bluetoothChatButton = FindViewById<Button>(Resource.Id.bluetooth_chat_button);
 

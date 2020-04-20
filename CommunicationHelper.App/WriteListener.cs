@@ -2,6 +2,7 @@
 using Android.Views;
 using Android.Views.InputMethods;
 using Android.Widget;
+using CommunicationHelper.App.Views;
 using Java.Lang;
 using Boolean = System.Boolean;
 

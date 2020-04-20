@@ -11,7 +11,7 @@ using Java.Util;
 using AlertDialog = Android.Support.V7.App.AlertDialog;
 using Fragment = Android.Support.V7.App.AppCompatDialogFragment;
 
-namespace CommunicationHelper.App
+namespace CommunicationHelper.App.Views
 {
     public class ChatFragment : Fragment
     {
@@ -26,12 +26,11 @@ namespace CommunicationHelper.App
         private ImageButton _recordButton;
         private String _selectedLocale;
 
-        public ChatFragment(TextView.IOnEditorActionListener listener)
+        public ChatFragment(TextView.IOnEditorActionListener listener, ISharedPreferencesManager preferences)
         {
             _listener = listener;
 
-            var context = Application.Context;
-            _preferencesManager = new SharedPreferencesManager(context);
+            _preferencesManager = preferences;
             _localeProvider = LanguageProvider.GetInstance;
             _recognitionIntent = new Intent();
             _speechRecognizer = new SpeechRecognizer(_recognitionIntent);

@@ -14,10 +14,17 @@ namespace CommunicationHelper.Core
         private readonly ISharedPreferences _sharedPreferences;
         private readonly ISharedPreferencesEditor _preferencesEditor;
 
-        public SharedPreferencesManager(Context context)
+        private SharedPreferencesManager(Context context)
         {
             _sharedPreferences = PreferenceManager.GetDefaultSharedPreferences(context);
             _preferencesEditor = _sharedPreferences.Edit();
+        }
+
+        private static SharedPreferencesManager _instance;
+
+        public static SharedPreferencesManager GetInstance(Context context)
+        {
+            return _instance??=new SharedPreferencesManager(context);
         }
 
         public void PutValue<T>(String key, T input)

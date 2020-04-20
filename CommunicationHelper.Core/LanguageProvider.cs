@@ -4,14 +4,13 @@ using System.Linq;
 using System.Threading.Tasks;
 using CommunicationHelper.Core.Abstract;
 using TranslationService;
-using ITranslator = TranslationService.ITranslator;
 
 namespace CommunicationHelper.Core
 {
     public class LanguageProvider : ILocaleProvider
     {
         private readonly Dictionary<String, LanguageInfo> _allLocales = new Dictionary<String, LanguageInfo>();
-        private readonly ITranslator _translator;
+        private readonly ITranslatorApiService _translatorApiService;
 
         private static LanguageProvider _instance;
 
@@ -20,10 +19,9 @@ namespace CommunicationHelper.Core
             get { return _instance ??= new LanguageProvider(); }
         }
 
-
         private LanguageProvider()
         {
-            _translator = new Translator();
+            _translatorApiService = new TranslatorApiService();
         }
 
         public LanguageInfo GetLanguageByName(String language)
@@ -39,7 +37,7 @@ namespace CommunicationHelper.Core
 
         private async Task InitLocales()
         {
-            var languages = await _translator.GetAvailableLanguages();
+            var languages = await _translatorApiService.GetAvailableLanguages();
             foreach (var availableLocale in languages)
             {
                 if (!_allLocales.ContainsKey(availableLocale.Name))

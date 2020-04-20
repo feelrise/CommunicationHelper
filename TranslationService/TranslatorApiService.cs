@@ -8,11 +8,11 @@ using Newtonsoft.Json.Linq;
 
 namespace TranslationService
 {
-    public class Translator : ITranslator
+    public class TranslatorApiService : ITranslatorApiService
     {
         private const String SubscriptionKey = "0cfee141326a464d83fe75d4eb4c4540";
         private const String Endpoint = "https://api.cognitive.microsofttranslator.com";
-
+            
         public async Task<TranslateResult> Translate(String original, String initialLanguage, String targetLanguage)
         {
             return await GetTranslationAsync(original, $"/translate?api-version=3.0&from={initialLanguage}&to={targetLanguage}");
@@ -55,7 +55,7 @@ namespace TranslationService
             var cultures = json.SelectToken("translation");
 
             var language = new List<LanguageInfo>();
-
+            
             foreach (var culture in cultures.Children<JProperty>())
             {
                 var info = culture.Value.ToObject<LanguageInfo>();

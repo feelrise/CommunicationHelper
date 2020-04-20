@@ -73,12 +73,12 @@
     <Reference Include="System.Numerics.Vectors" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BluetoothChatActivity.cs" />
-    <Compile Include="ChatFragment.cs" />
+    <Compile Include="Views\BluetoothChatActivity.cs" />
+    <Compile Include="Views\ChatFragment.cs" />
     <Compile Include="BluetoothMessageHandler.cs" />
-    <Compile Include="DeviceListActivity.cs" />
-    <Compile Include="LanguageSelectorFragment.cs" />
-    <Compile Include="MainActivity.cs" />
+    <Compile Include="Views\DeviceListActivity.cs" />
+    <Compile Include="Views\LanguageSelectorFragment.cs" />
+    <Compile Include="Views\MainActivity.cs" />
     <Compile Include="MessageEventArgs.cs" />
     <Compile Include="PermissionUtils.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
@@ -200,6 +200,7 @@
   <ItemGroup>
     <AndroidResource Include="Resources\layout\message.xml" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
     Other similar extension points exist, see Microsoft.Common.targets.

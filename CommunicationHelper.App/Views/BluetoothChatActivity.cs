@@ -9,8 +9,10 @@ using Android.Support.V7.App;
 using Android.Views;
 using Android.Widget;
 using BluetoothService;
+using CommunicationHelper.Core;
+using CommunicationHelper.Core.Abstract;
 
-namespace CommunicationHelper.App
+namespace CommunicationHelper.App.Views
 {
     [Activity(Label = "Bluetooth chat")]
     public class BluetoothChatActivity : AppCompatActivity
@@ -22,9 +24,13 @@ namespace CommunicationHelper.App
         private BluetoothMessageHandler _handler;
         private WriteListener _writeListener;
         private ChatFragment _chatFrag;
+        private readonly ISharedPreferencesManager _shared;
 
         public BluetoothChatActivity()
         {
+            var context = Application.Context;
+            _shared = SharedPreferencesManager.GetInstance(context);
+
             _receiver = new DiscoverableModeReceiver();
         }
 
@@ -183,7 +189,7 @@ namespace CommunicationHelper.App
 
         private void ConnectDevice(Intent data, Boolean secure)
         {
-            var address = data.Extras.GetString(DeviceListActivity.EXTRA_DEVICE_ADDRESS);
+            var address = data.Extras.GetString(Constants.EXTRA_DEVICE_ADDRESS);
             var device = _bluetoothAdapter.GetRemoteDevice(address);
             _service.Connect(device, secure);
             _chatFrag.OnSend -= OnSendHandler;
@@ -191,18 +197,43 @@ namespace CommunicationHelper.App
 
         private void InitializeFragments()
         {
-            _chatFrag = new ChatFragment(_writeListener);
+            _chatFrag = new ChatFragment(_writeListener, _shared);
 
-            var languageFrag = new LanguageSelectorFragment();
+            var languageFrag = new LanguageSelectorFragment(_shared);
             SupportFragmentManager.BeginTransaction()
                 .Add(Resource.Id.language_selector_container, languageFrag)
                 .Add(Resource.Id.sample_content_fragment, _chatFrag)
                 .Commit();
 
-            _handler = new BluetoothMessageHandler(_chatFrag);
+            _handler = new BluetoothMessageHandler();
+            _handler.OnHandled += OnHandled;
             _service = new BluetoothService.BluetoothService(_handler);
 
             _chatFrag.OnSend += OnSendHandler;
+        }
+
+        public void OnHandled(object sender, HandlerResultEventArgs args)
+        {
+            if (args.HandlerResult.IsStatusUpdated())
+            {
+                _chatFrag.SetStatus(args.Status);
+            }
+
+            if (args.HandlerResult.IsMessageAppeared())
+            {
+                _chatFrag.ConversationArrayAdapter.Add(args.Message);
+            }
+
+            if (args.HandlerResult.IsAlertRaised())
+            {
+                Toast.MakeText(_chatFrag.Activity, args.Alert,
+                    ToastLength.Short).Show();
+            }
+
+            if (args.HandlerResult.ClearChat())
+            {
+                _chatFrag.ConversationArrayAdapter.Clear();
+            }
         }
 
         private void PairWithBlueToothDevice(Boolean secure)

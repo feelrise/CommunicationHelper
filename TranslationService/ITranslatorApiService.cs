@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 
 namespace TranslationService
 {
-    public interface ITranslator
+    public interface ITranslatorApiService
     {
         Task<TranslateResult> Translate(String original, String initialLanguage, String targetLanguage);
 

@@ -1,19 +1,13 @@
 ﻿using System;
 using System.Text;
 using Android.OS;
-using Android.Widget;
 using BluetoothService;
 
 namespace CommunicationHelper.App
 {
     public class BluetoothMessageHandler : Handler
-    {   
-        private readonly ChatFragment _chatFragment;
-
-        public BluetoothMessageHandler(ChatFragment fragment)
-        {
-            _chatFragment = fragment;
-        }
+    {
+        public event EventHandler<HandlerResultEventArgs> OnHandled;
 
         public override void HandleMessage(Message msg)
         {
@@ -23,45 +17,68 @@ namespace CommunicationHelper.App
                     switch (msg.What)
                     {
                         case Constants.STATE_CONNECTED:
-                            _chatFragment.SetStatus(_chatFragment.GetString(Resource.String.title_connected_to,
-                                msg.Data.GetString(Constants.DEVICE_NAME)));
-                            _chatFragment.ConversationArrayAdapter.Clear();
+                            RaiseOnHandled(new HandlerResultEventArgs()
+                            {
+                                Status = $"{Resource.String.title_connected_to}{msg.Data.GetString(Constants.DEVICE_NAME)}",
+                                HandlerResult = HandlerResultEnum.ClearChat & HandlerResultEnum.ClearChat
+                            });
                             break;
                         case Constants.STATE_CONNECTING:
-                            _chatFragment.SetStatus(Resource.String.title_connecting);
+                            RaiseOnHandled(new HandlerResultEventArgs()
+                            {
+                                Status = Resource.String.title_connecting.ToString(),
+                                HandlerResult = HandlerResultEnum.StatusUpdated
+                            });
                             break;
                         case Constants.STATE_LISTEN:
-                            _chatFragment.SetStatus(Resource.String.not_connected);
+                            RaiseOnHandled(new HandlerResultEventArgs()
+                            {
+                                Status = Resource.String.not_connected.ToString(),
+                                HandlerResult = HandlerResultEnum.StatusUpdated
+                            });
                             break;
                         case Constants.STATE_NONE:
-                            _chatFragment.SetStatus(Resource.String.not_connected);
+                            RaiseOnHandled(new HandlerResultEventArgs()
+                            {
+                                Status = Resource.String.not_connected.ToString(),
+                                HandlerResult = HandlerResultEnum.StatusUpdated
+                            });
                             break;
                         default:
                             break;
                     }
                     break;
                 case Constants.MESSAGE_WRITE:
-                    var writeBuffer = (Byte[]) msg.Obj;
+                    var writeBuffer = (Byte[])msg.Obj;
                     var writeMessage = Encoding.UTF8.GetString(writeBuffer);
-                    _chatFragment.ConversationArrayAdapter.Add($"Me:  {writeMessage}");
+                    RaiseOnHandled(new HandlerResultEventArgs() { Message = $"Me:  {writeMessage}", HandlerResult = HandlerResultEnum.MessageAppeared });
                     break;
                 case Constants.MESSAGE_READ:
-                    var readBuffer = (Byte[]) msg.Obj;
+                    var readBuffer = (Byte[])msg.Obj;
                     var readMessage = Encoding.UTF8.GetString(readBuffer);
-                    _chatFragment.ConversationArrayAdapter.Add($"{msg.Data.GetString(Constants.DEVICE_NAME)}: {readMessage}");
+                    RaiseOnHandled(new HandlerResultEventArgs()
+                    {
+                        Message = $"{msg.Data.GetString(Constants.DEVICE_NAME)}: {readMessage}",
+                        HandlerResult = HandlerResultEnum.MessageAppeared
+                    });
                     break;
                 case Constants.MESSAGE_DEVICE_NAME:
-                    if (_chatFragment.Activity != null)
+                    RaiseOnHandled(new HandlerResultEventArgs()
                     {
-                        Toast.MakeText(_chatFragment.Activity, $"Connected to {msg.Data.GetString(Constants.DEVICE_NAME)}.",
-                            ToastLength.Short).Show();
-                    }
+                        Alert = $"Connected to {msg.Data.GetString(Constants.DEVICE_NAME)}",
+                        HandlerResult = HandlerResultEnum.AlertRaised
+                    });
                     break;
                 case Constants.MESSAGE_TOAST:
                     break;
                 default:
                     break;
             }
+        }
+
+        protected virtual void RaiseOnHandled(HandlerResultEventArgs e)
+        {
+            OnHandled?.Invoke(this, e);
         }
     }
 }

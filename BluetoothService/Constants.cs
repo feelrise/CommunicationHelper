@@ -13,6 +13,7 @@ namespace BluetoothService
 
         public const String DEVICE_NAME = "device_name";
         public const String TOAST = "toast";
+        public const string EXTRA_DEVICE_ADDRESS = "device_address";
 
         public const Int32 REQUEST_CONNECT_DEVICE_SECURE = 1;
         public const Int32 REQUEST_CONNECT_DEVICE_INSECURE = 2;
