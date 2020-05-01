@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using CommunicationHelper.Core.Abstract;
+using Java.Util;
 using TranslationService;
 
 namespace CommunicationHelper.Core
@@ -27,6 +28,11 @@ namespace CommunicationHelper.Core
         public LanguageInfo GetLanguageByName(String language)
         {
             return _allLocales[language];
+        }
+
+        public Locale GetLocaleByName(String language)
+        {
+            return new Locale(GetLanguageByName(language).Key);
         }
 
         public async Task<IEnumerable<String>> GetAllLanguages()

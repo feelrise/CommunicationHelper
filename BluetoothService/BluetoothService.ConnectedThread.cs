@@ -16,11 +16,13 @@ namespace BluetoothService
             private readonly Stream _inStream;
             private readonly Stream _outStream;
             private readonly BluetoothService _service;
+            private readonly BluetoothDevice _bluetoothDevice;
 
-            public ConnectedThread(BluetoothSocket socket, BluetoothService service, String socketType)
+            public ConnectedThread(BluetoothSocket socket, BluetoothService service, BluetoothDevice device, String socketType)
             {
                 Log.Debug(Constants.TAG, $"create ConnectedThread: {socketType}");
                 _socket = socket;
+                _bluetoothDevice = device;
                 _service = service;
                 Stream tmpIn = null;
                 Stream tmpOut = null;

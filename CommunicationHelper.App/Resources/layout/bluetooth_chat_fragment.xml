@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -12,16 +12,6 @@
     android:background="#ffffffff"
     >
 
-    
-    <TextView
-        android:text="13"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:id="@+id/textView1"
-        android:textSize="60px"
-        android:textStyle="bold"
-        android:layout_weight="3"
-        android:padding= "10dip"/>
     <ListView
         android:id="@+id/in"
         android:layout_width="match_parent"

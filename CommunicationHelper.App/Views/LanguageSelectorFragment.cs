@@ -25,7 +25,8 @@ namespace CommunicationHelper.App.Views
         private async Task InitializeSpinner(Spinner spinner)
         {
             var languages = await _localeProvider.GetAllLanguages();
-            var adapter = new ArrayAdapter<String>(Activity, Android.Resource.Layout.SimpleSpinnerItem, languages.ToArray());
+            var adapter = new ArrayAdapter<String>(Activity, Android.Resource.Layout.SimpleSpinnerItem, 
+                languages.ToArray());
             spinner.Adapter = adapter;
         }
 

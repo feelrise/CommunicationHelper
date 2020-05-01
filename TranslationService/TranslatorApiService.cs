@@ -27,7 +27,7 @@ namespace TranslationService
         {
             Object[] body = {new {Text = original}};
             var requestBody = JsonConvert.SerializeObject(body);
-            TranslationResult deserializedOutput;
+            TranslationResult[] deserializedOutput;
 
             using (var client = new HttpClient())
             {
@@ -43,10 +43,10 @@ namespace TranslationService
                 var response = await client.SendAsync(request).ConfigureAwait(false);
                 var result = await response.Content.ReadAsStringAsync();
 
-                deserializedOutput = JsonConvert.DeserializeObject<TranslationResult>(result);
+                deserializedOutput = JsonConvert.DeserializeObject<TranslationResult[]>(result);
             }
 
-            return new TranslateResult {Translated = deserializedOutput.Translations[0].Text};
+            return new TranslateResult {Translated = deserializedOutput[0].Translations[0].Text};
         }
 
         public async Task<IEnumerable<LanguageInfo>> GetAvailableLanguages()

@@ -1,5 +1,7 @@
 ﻿using System;
+using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 using Android.App;
 using Android.Bluetooth;
 using Android.Content;
@@ -11,6 +13,8 @@ using Android.Widget;
 using BluetoothService;
 using CommunicationHelper.Core;
 using CommunicationHelper.Core.Abstract;
+using TranslationService;
+using Xamarin.Essentials;
 
 namespace CommunicationHelper.App.Views
 {
@@ -20,17 +24,20 @@ namespace CommunicationHelper.App.Views
         private readonly DiscoverableModeReceiver _receiver;
         private BluetoothAdapter _bluetoothAdapter;
         private BluetoothService.BluetoothService _service;
-        private Boolean _requestingPermissionsSecure, _requestingPermissionsInsecure;
+        private Boolean _isSecurePermissionsRequested;
         private BluetoothMessageHandler _handler;
         private WriteListener _writeListener;
         private ChatFragment _chatFrag;
+        private readonly ILocaleProvider _localeProvider;
         private readonly ISharedPreferencesManager _shared;
+        private readonly ITranslatorApiService _translator;
 
         public BluetoothChatActivity()
         {
             var context = Application.Context;
             _shared = SharedPreferencesManager.GetInstance(context);
-
+            _localeProvider = LanguageProvider.GetInstance;
+            _translator = new TranslatorApiService();
             _receiver = new DiscoverableModeReceiver();
         }
 
@@ -44,7 +51,7 @@ namespace CommunicationHelper.App.Views
 
             if (message.Message.Length > 0)
             {
-                var bytes = Encoding.ASCII.GetBytes(message.Message);
+                var bytes = Encoding.UTF8.GetBytes(message.Message);
                 _service.Write(bytes);
             }
         }
@@ -54,17 +61,9 @@ namespace CommunicationHelper.App.Views
         {
             if (requestCode == PermissionUtils.RC_LOCATION_PERMISSIONS)
             {
-                if (_requestingPermissionsSecure)
-                {
-                    PairWithBlueToothDevice(true);
-                }
-                if (_requestingPermissionsInsecure)
-                {
-                    PairWithBlueToothDevice(false);
-                }
+                PairWithBlueToothDevice(_isSecurePermissionsRequested);
 
-                _requestingPermissionsSecure = false;
-                _requestingPermissionsInsecure = false;
+                _isSecurePermissionsRequested = false;
             }
         }
 
@@ -187,17 +186,26 @@ namespace CommunicationHelper.App.Views
             SendMessage(message);
         }
 
+        private async void OnClickHandler(Object sender, String message)
+        {
+            var locale = _localeProvider.GetLanguageByName(_shared.GetValue<String>("selected_culture"));
+
+
+            await Speaker.SpeakAsync(message, locale);
+        }
+
+
+
         private void ConnectDevice(Intent data, Boolean secure)
         {
             var address = data.Extras.GetString(Constants.EXTRA_DEVICE_ADDRESS);
             var device = _bluetoothAdapter.GetRemoteDevice(address);
             _service.Connect(device, secure);
-            _chatFrag.OnSend -= OnSendHandler;
         }
 
         private void InitializeFragments()
         {
-            _chatFrag = new ChatFragment(_writeListener, _shared);
+            _chatFrag = new ChatFragment(_writeListener, _shared, _localeProvider);
 
             var languageFrag = new LanguageSelectorFragment(_shared);
             SupportFragmentManager.BeginTransaction()
@@ -210,9 +218,10 @@ namespace CommunicationHelper.App.Views
             _service = new BluetoothService.BluetoothService(_handler);
 
             _chatFrag.OnSend += OnSendHandler;
+            _chatFrag.OnMessageClick += OnClickHandler;
         }
 
-        public void OnHandled(object sender, HandlerResultEventArgs args)
+        public async void OnHandled(Object sender, HandlerResultEventArgs args)
         {
             if (args.HandlerResult.IsStatusUpdated())
             {
@@ -221,13 +230,28 @@ namespace CommunicationHelper.App.Views
 
             if (args.HandlerResult.IsMessageAppeared())
             {
-                _chatFrag.ConversationArrayAdapter.Add(args.Message);
+                var selected = _shared.GetValue<String>("selected_culture");
+                var lang = LanguageProvider.GetInstance.GetLanguageByName(selected);
+
+                if (args.IsInput)
+                {
+                    var result = await _translator.Translate(args.Message, lang.Key);
+                    args.Message = result.Translated;
+                }
+
+                _chatFrag.ConversationArrayAdapter.Add(new BluetoothMessage
+                    { Message = args.Message, Sender = _shared.GetValue<String>("connected_device") });
             }
 
             if (args.HandlerResult.IsAlertRaised())
             {
                 Toast.MakeText(_chatFrag.Activity, args.Alert,
                     ToastLength.Short).Show();
+            }
+
+            if (args.HandlerResult.NewDeviceConnected())
+            {
+                _shared.PutValue("connected_device", args.ConnectedDeviceName);
             }
 
             if (args.HandlerResult.ClearChat())
@@ -238,13 +262,11 @@ namespace CommunicationHelper.App.Views
 
         private void PairWithBlueToothDevice(Boolean secure)
         {
-            _requestingPermissionsSecure = false;
-            _requestingPermissionsInsecure = false;
+            _isSecurePermissionsRequested = false;
 
             if (!this.HasLocationPermissions())
             {
-                _requestingPermissionsSecure = secure;
-                _requestingPermissionsInsecure = !secure;
+                _isSecurePermissionsRequested = secure;
                 this.RequestPermissionsForApp();
                 return;
             }

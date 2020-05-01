@@ -125,7 +125,7 @@ namespace BluetoothService
             }
 
             // Start the thread to manage the connection and perform transmissions
-            _connectedThread = new ConnectedThread(socket, this, socketType);
+            _connectedThread = new ConnectedThread(socket, this, device, socketType);
             _connectedThread.Start();
 
             // Send the name of the connected device back to the UI Activity

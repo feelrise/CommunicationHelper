@@ -73,7 +73,9 @@
     <Reference Include="System.Numerics.Vectors" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Speaker.cs" />
     <Compile Include="Views\BluetoothChatActivity.cs" />
+    <Compile Include="BluetoothMessage.cs" />
     <Compile Include="Views\ChatFragment.cs" />
     <Compile Include="BluetoothMessageHandler.cs" />
     <Compile Include="Views\DeviceListActivity.cs" />
